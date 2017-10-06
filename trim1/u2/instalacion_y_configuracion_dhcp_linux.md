@@ -72,17 +72,21 @@ ___
 
 # **6. Otras Opciones.**
 
-Configuramos algunas opciones de servidor además de las habituales. Por ejemplo, el tiempo por defecto que tendran las direcciones IP y el máximo tiempo que tendra las direcciones IP.
+Ahora ponemos otras opciones al ámbito. Para ello lo creamos dentro de donde tenemos el ámbito.
 
 ![imagen12](./images/instalacion_y_configuracion_dhcp_linux/12.png)
 
+Configuramos algunas opciones de servidor además de las habituales, por ejemplo, el tiempo por defecto que tendran las direcciones IP y el máximo tiempo que tendra las direcciones IP.
+
 ![imagen13](./images/instalacion_y_configuracion_dhcp_linux/13.png)
+
+![imagen14](./images/instalacion_y_configuracion_dhcp_linux/14.png)
 ___
 
 # **7. Comprobar Funcionamiento DHCP.**
 
 Comprobamos el funcionamiento DHCP configurando adecuadamente la máquina Cliente. Para ello ponemos el comando ifconfig.
 
-![imagen14](./images/instalacion_y_configuracion_dhcp_linux/14.png)
+![imagen15](./images/instalacion_y_configuracion_dhcp_linux/15.png)
 
 ---
