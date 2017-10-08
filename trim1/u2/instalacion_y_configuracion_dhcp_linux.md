@@ -6,7 +6,7 @@ ___
 
 # **1. Introducción.**
 
-Vamos a crear un manual de instalación y configuración de un servidor DHCP en una máquina con Linux, en esta instalación utilizare Ubuntu (Server). También utilizaremos otra máquina con Linux, otro Ubuntu (Cliente), para hacer que utilice el servidor DHCP.
+Vamos a crear un manual de instalación y configuración de un servidor DHCP en una máquina con Linux, en esta instalación utilizaremos Ubuntu (Server). También utilizaremos otra máquina con Linux, otro Ubuntu (Cliente), para hacer que utilice el servidor DHCP.
 
 Durante esta instalación y configuración hay que tener en cuenta que el servidor no debe estar abierto a la red, es decir, hay que configurar el adaptador en red interna para no provocar conflictos de direcciones.
 
@@ -26,7 +26,7 @@ Configuramos el servicio DHCP, para ello tenemos que modificar el archivo /etc/d
 
 ![imagen02](./images/instalacion_y_configuracion_dhcp_linux/02.png)
 
-Dentro de este archivo creamos un ámbito nuevo para el servicio DHCP. Ponemos una subred con su dirección y su máscara, las cuales he considerado convenientes. Configuro la puerta de enlace y los servidores DNS a suministrar a los clientes. También configuramos un rango de direcciones IP para suministrar a los clientes.
+Dentro de este archivo creamos un ámbito nuevo para el servicio DHCP. Ponemos una subred con su dirección y su máscara, las cuales he considerado convenientes. Configuramos la puerta de enlace y los servidores DNS a suministrar a los clientes. También configuramos un rango de direcciones IP para suministrar a los clientes.
 
 ![imagen03](./images/instalacion_y_configuracion_dhcp_linux/03.png)
 
@@ -52,7 +52,7 @@ Creamos una reserva de una dirección asociada a un equipo específico (MAC). Pa
 
 ![imagen07](./images/instalacion_y_configuracion_dhcp_linux/07.png)
 
-Dentro de este archivo creamos una reserva para nuestro cliente. Para ello ponemos la dirección MAC de mi cliente, una dirección IP que considero conveniente para este equipo y configuro la puerta de enlace.
+Dentro de este archivo creamos una reserva para nuestro cliente. Para ello ponemos la dirección MAC de mi cliente, una dirección IP que considero conveniente para este equipo y configuramos la puerta de enlace.
 
 ![imagen08](./images/instalacion_y_configuracion_dhcp_linux/08.png)
 
