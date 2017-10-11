@@ -208,9 +208,23 @@ ___
 
 Esta página web se debe redirigir cualquier petición de este dominio a http://target.alu5904.me.
 
-Lo primero que hacemos es añadir el fichero de configuración de Nginx que tratará las peticiones que se hagan al nombre de dominio imw.alu5904.me. Para ello vamos a la ruta /etc/nginx/sites-available/ y creamos el fichero imw.
+Lo primero que hacemos es añadir el fichero de configuración de Nginx que tratará las peticiones que se hagan al nombre de dominio imw.alu5904.me. Para ello vamos a la ruta /etc/nginx/sites-available/ y creamos el fichero target.
 
 ![imagen](./img/.png)
+
+Ahora tenemos que ir a la moodle de IMW y descargarnos la imagen del Diagrama de unidades de trabajo.
+
+![imagen05](./img/05.png)
+
+![imagen06](./img/06.png)
+
+Ahora el archivo .zip que hemos descargado en la máquina de desarrollo la copiamos a la máquina de producción.
+
+![imagen](./img/.png)
+
+Comprobamos que tenemos el archivo .zip en la máquina de producción y lo descomprimimos.
+
+![imagen08](./img/08.png)
 
 Ahora añadimos el contenido a imw.
 
