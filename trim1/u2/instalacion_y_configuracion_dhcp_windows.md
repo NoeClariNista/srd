@@ -1,6 +1,7 @@
 ___
 
 # **Instalación Y Configuración DHCP Windows.**
+
 ___
 
 # **1. Introducción.**
@@ -13,11 +14,11 @@ Durante esta instalación y configuración hay que tener en cuenta que el servid
 
 # **2. Instalación Del Servicio DHCP En Windows 2012 Server.**
 
-Lo primer que tenemos que hacer es ir a Administrador del Servidor.
+Lo primero que tenemos que hacer es ir a Administrador del Servidor.
 
 ![imagen01](./images/instalacion_y_configuracion_dhcp_windows/01.png)
 
-Luego tenemos que ir a Administrar y vamos a agregar roles y características.
+Luego tenemos que ir a Administrar y vamos a Agregar roles y características.
 
 ![imagen02](./images/instalacion_y_configuracion_dhcp_windows/02.png)
 
@@ -41,7 +42,7 @@ El resto de pasos los realizamos como se pueden ver en las imágenes.
 
 ![imagen11](./images/instalacion_y_configuracion_dhcp_windows/11.png)
 
-Ahora pinchamos en completar configuración de DHCP.
+Ahora pinchamos en Completar configuración de DHCP.
 
 ![imagen12](./images/instalacion_y_configuracion_dhcp_windows/12.png)
 
@@ -51,19 +52,19 @@ Ahora pinchamos en completar configuración de DHCP.
 
 ![imagen15](./images/instalacion_y_configuracion_dhcp_windows/15.png)
 
-Finalmente terminamos la instalación del Servicio DHCP.
+Finalmente terminamos la instalación del Servicio DHCP en Windows 2012 Server.
 
 ![imagen16](./images/instalacion_y_configuracion_dhcp_windows/16.png)
 
 # **3. Configuración Del Servicio DHCP Del Primer Ámbito.**
 
-Ahora debo ir a herramientas y luego a DHCP para poder crear un ámbito nuevo asociado a un dominio con un intervalo de direcciones que considero conveniente.
+Ahora debo ir a Herramientas y luego a DHCP para poder crear un ámbito nuevo con un intervalo de direcciones que considero convenientes.
 
 ![imagen17](./images/instalacion_y_configuracion_dhcp_windows/17.png)
 
 ![imagen18](./images/instalacion_y_configuracion_dhcp_windows/18.png)
 
-Ahora dentro de aquí creo el ámbito.
+Ahora dentro de aquí creo el ámbito nuevo.
 
 ![imagen19](./images/instalacion_y_configuracion_dhcp_windows/19.png)
 
@@ -75,7 +76,7 @@ Agrego el nombre que le quiero dar al ámbito y también una pequeña descripci�
 
 ![imagen22](./images/instalacion_y_configuracion_dhcp_windows/22.png)
 
-Añado una dirección IP con máscara de clase B.
+Ahora añado unas direcciones IPs inicial y final del intervalo con máscara de clase B.
 
 ![imagen23](./images/instalacion_y_configuracion_dhcp_windows/23.png)
 
@@ -101,7 +102,7 @@ También configuro los servidores DNS.
 
 ![imagen31](./images/instalacion_y_configuracion_dhcp_windows/31.png)
 
-Finalmente hemos creado nuestro ámbito con las configuraciones que hemos considerado convenientes.
+Finalmente hemos creado un ámbito con las configuraciones que hemos considerado convenientes.
 
 ![imagen32](./images/instalacion_y_configuracion_dhcp_windows/32.png)
 
@@ -115,9 +116,9 @@ Para comprobar que funciona el DHCP tenemos que ir a nuestra máquina virtual de
 
 # **5. Configuración Del Servicio DHCP Del Segundo Ámbito.**
 
-Denuevo creamos otro nuevo ámbito con otros parámetros que considere oprtunos y que puedan estar ambos ámbitos a la vez.
+Ahora volvemos a crear otro ámbito nuevo con otros parámetros que considere oportunos y que puedan estar ambos ámbitos a la vez.
 
-Ahora dentro de aquí creo el nuevo ámbito.
+Ahora dentro de aquí creo el ámbito nuevo.
 
 ![imagen35](./images/instalacion_y_configuracion_dhcp_windows/35.png)
 
@@ -129,7 +130,7 @@ Agrego el nombre que le quiero dar al ámbito y también una pequeña descripci�
 
 ![imagen38](./images/instalacion_y_configuracion_dhcp_windows/38.png)
 
-Añado una dirección IP con máscara de clase C.
+Ahora añado unas direcciones IPs inicial y final del intervalo con máscara de clase C.
 
 ![imagen39](./images/instalacion_y_configuracion_dhcp_windows/39.png)
 
@@ -161,7 +162,7 @@ Finalmente hemos creado nuestro ámbito con las configuraciones que hemos consid
 
 # **6. Comprobar Funcionamiento DHCP Del Segundo Ámbito.**
 
-Ahora tenemos que inactivar el ámbito dominio y poner activo el segundo ámbito.
+Ahora tenemos que poner inactivo el primer ámbito y poner activo el segundo ámbito.
 
 ![imagen49](./images/instalacion_y_configuracion_dhcp_windows/49.png)
 
@@ -197,7 +198,7 @@ Finalmente el superámbito esta creado.
 
 ![imagen60](./images/instalacion_y_configuracion_dhcp_windows/60.png)
 
-Tenemos que borrar una dirección IP de cliente que se guarda durante el tiempo que le marque en la configuración.
+Tenemos que borrar una dirección IP de cliente que se guarda durante el tiempo que le marque en la configuración, en concreto esta en Concesiones de direcciones en el primer ámbito que creé.
 
 ![imagen61](./images/instalacion_y_configuracion_dhcp_windows/61.png)
 
