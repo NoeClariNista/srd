@@ -1,6 +1,6 @@
 >Trabajo Realizado por:
 >
->[Noelia Hernández Domínguez]()
+>[Noelia Hernández Domínguez](https://github.com/NoeClariNista/srd/blob/master/trim1/u2/dhcp_failover_en_windows_2012_server.md)
 >
 >[Roberto Hernández Sanabria](https://github.com/xxkiroxx/servicios-red-internet/blob/master/trim1/u1/a3-dhcp-failover-windows/README.md)
 >
