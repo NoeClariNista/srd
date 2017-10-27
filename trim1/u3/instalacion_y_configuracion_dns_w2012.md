@@ -2,7 +2,7 @@ ___
 
 # **Instalación Y Configuración DNS Windows.**
 
-Realizamos la Instalación y Configuración de un servidor DNS en una máquina con Windows Server 2012.
+Realizamos la Instalación y Configuración de un Servidor DNS en una máquina con Windows Server 2012.
 
 Al haber instalado anteriormente el Active Directory ya tenemos instalado el DNS.
 
