@@ -4,45 +4,47 @@ ___
 
 Realizamos la Instalación y Configuración de un servidor DNS en una máquina con Windows Server 2012.
 
+Al haber instalado anteriormente el Active Directory ya tenemos instalado el DNS.
+
 ---
 
 # **1. Zona Directa.**
 
 En este apartado tenemos que crear una nueva zona de búsqueda directa en el Servidor.
 
-![imagen01](./images/01.png)
+![imagen01](./images/instalacion_y_configuracion_dns_w2012/01.png)
 
 Creamos una zona de búsqueda directa.
 
-![imagen02](./images/02.png)
+![imagen02](./images/instalacion_y_configuracion_dns_w2012/02.png)
 
 Nos sale el asistente para la nueva zona.
 
-![imagen03](./images/03.png)
+![imagen03](./images/instalacion_y_configuracion_dns_w2012/03.png)
 
 Elegimos el tipo de zona que queremos.
 
-![imagen04](./images/04.png)
+![imagen04](./images/instalacion_y_configuracion_dns_w2012/04.png)
 
 Seleccionamos que queremos que se repliquen los datos para todos los servidores DNS que se ejecutan en controladores de dominio en el dominio que tengo.
 
-![imagen05](./images/05.png)
+![imagen05](./images/instalacion_y_configuracion_dns_w2012/05.png)
 
 Le ponemos un nombre a nuestra zona.
 
-![imagen06](./images/06.png)
+![imagen06](./images/instalacion_y_configuracion_dns_w2012/06.png)
 
 Permitimos actualizaciones dinánmicas seguras.
 
-![imagen07](./images/07.png)
+![imagen07](./images/instalacion_y_configuracion_dns_w2012/07.png)
 
 Se ha creado la nueva zona.
 
-![imagen08](./images/08.png)
+![imagen08](./images/instalacion_y_configuracion_dns_w2012/08.png)
 
 Ya contamos con otra zona de búsqueda directa.
 
-![imagen09](./images/09.png)
+![imagen09](./images/instalacion_y_configuracion_dns_w2012/09.png)
 
 ---
 
@@ -50,39 +52,39 @@ Ya contamos con otra zona de búsqueda directa.
 
 En este apartado tenemos que crear una nueva zona de búsqueda inversa para la subred.
 
-![imagen10](./images/10.png)
+![imagen10](./images/instalacion_y_configuracion_dns_w2012/10.png)
 
 Nos sale el asistente para la nueva zona.
 
-![imagen11](./images/11.png)
+![imagen11](./images/instalacion_y_configuracion_dns_w2012/11.png)
 
 Elegimos el tipo de zona que queremos.
 
-![imagen12](./images/12.png)
+![imagen12](./images/instalacion_y_configuracion_dns_w2012/12.png)
 
 Seleccionamos que queremos que se repliquen los datos para todos los servidores DNS que se ejecutan en controladores de dominio en el dominio que tengo.
 
-![imagen13](./images/13.png)
+![imagen13](./images/instalacion_y_configuracion_dns_w2012/13.png)
 
 Elegimos la zona de búsqueda inversa para IPv4.
 
-![imagen14](./images/14.png)
+![imagen14](./images/instalacion_y_configuracion_dns_w2012/14.png)
 
 Identificamos la zona de búsqueda inversa escribiendo la id. de red.
 
-![imagen15](./images/15.png)
+![imagen15](./images/instalacion_y_configuracion_dns_w2012/15.png)
 
 Permitimos actualizaciones dinánmicas seguras.
 
-![imagen16](./images/16.png)
+![imagen16](./images/instalacion_y_configuracion_dns_w2012/16.png)
 
 Se ha creado la nueva zona.
 
-![imagen17](./images/17.png)
+![imagen17](./images/instalacion_y_configuracion_dns_w2012/17.png)
 
 Ya contamos con otra zona de búsqueda inversa.
 
-![imagen18](./images/18.png)
+![imagen18](./images/instalacion_y_configuracion_dns_w2012/18.png)
 
 ---
 
@@ -90,7 +92,7 @@ Ya contamos con otra zona de búsqueda inversa.
 
 Configuramos reenviadores de DNS con un DNS público, por ejemplo 8.8.4.4.
 
-![imagen19](./images/19.png)
+![imagen19](./images/instalacion_y_configuracion_dns_w2012/19.png)
 
 ---
 
@@ -98,17 +100,17 @@ Configuramos reenviadores de DNS con un DNS público, por ejemplo 8.8.4.4.
 
 Configuramos el Servidor para ser Servidor DNS Caché, esto se hace en la configuración estática de red.
 
-![imagen20](./images/20.png)
+![imagen20](./images/instalacion_y_configuracion_dns_w2012/20.png)
 
 Configuramos el Cliente para que su Servidor DNS sea el Servidor W2012.
 
-![imagen21](./images/21.png)
+![imagen21](./images/instalacion_y_configuracion_dns_w2012/21.png)
 
 Comprobamos el funcionamiento como caché DNS de ambas máquinas al acceder a sitios de Internet.
 
-![imagen22](./images/22.png)
+![imagen22](./images/instalacion_y_configuracion_dns_w2012/22.png)
 
-![imagen23](./images/23.png)
+![imagen23](./images/instalacion_y_configuracion_dns_w2012/23.png)
 
 ---
 
@@ -116,59 +118,59 @@ Comprobamos el funcionamiento como caché DNS de ambas máquinas al acceder a si
 
 Ahora tenemos que configurar el servidor como DNS Maestro, además de Caché.
 
-![imagen24](./images/24.png)
+![imagen24](./images/instalacion_y_configuracion_dns_w2012/24.png)
 
 En la zona de búsqueda directa añadiimos los siguientes registros.
 
-![imagen25](./images/25.png)
+![imagen25](./images/instalacion_y_configuracion_dns_w2012/25.png)
 
 * Un alias para el servidor denominado server.        
 
-![imagen26](./images/26.png)
+![imagen26](./images/instalacion_y_configuracion_dns_w2012/26.png)
 
 * Una impresora con IP fija denominada printer.
 
-![imagen27](./images/27.png)
+![imagen27](./images/instalacion_y_configuracion_dns_w2012/27.png)
 
 * Un servidor de correo denominado correo, asociado a una dirección en mi servidor.
 
-![imagen28](./images/28.png)
+![imagen28](./images/instalacion_y_configuracion_dns_w2012/28.png)
 
-![imagen29](./images/29.png)
+![imagen29](./images/instalacion_y_configuracion_dns_w2012/29.png)
 
-![imagen30](./images/30.png)
+![imagen30](./images/instalacion_y_configuracion_dns_w2012/30.png)
 
-![imagen31](./images/31.png)
+![imagen31](./images/instalacion_y_configuracion_dns_w2012/31.png)
 
-![imagen32](./images/32.png)
+![imagen32](./images/instalacion_y_configuracion_dns_w2012/32.png)
 
 Crear una subzona denominada servicios (dominio nuevo)
 
-![imagen33](./images/33.png)
+![imagen33](./images/instalacion_y_configuracion_dns_w2012/33.png)
 
-![imagen34](./images/34.png)
+![imagen34](./images/instalacion_y_configuracion_dns_w2012/34.png)
 
 Ahora tenemos que añadir otros registros dentro de la subzona.
 
-![imagen35](./images/35.png)
+![imagen35](./images/instalacion_y_configuracion_dns_w2012/35.png)
 
 Dentro de la subzona demoninada servicios añadimos los siguientes registros.
 
-![imagen36](./images/36.png)
+![imagen36](./images/instalacion_y_configuracion_dns_w2012/36.png)
 
 * Agregamos un servidor ftp.
 
-![imagen37](./images/37.png)
+![imagen37](./images/instalacion_y_configuracion_dns_w2012/37.png)
 
 * Una impresora nueva.
 
-![imagen38](./images/38.png)
+![imagen38](./images/instalacion_y_configuracion_dns_w2012/38.png)
 
 * el Equipo del administrador del sistema.
 
-![imagen39](./images/39.png)
+![imagen39](./images/instalacion_y_configuracion_dns_w2012/39.png)
 
-![imagen40](./images/40.png)
+![imagen40](./images/instalacion_y_configuracion_dns_w2012/40.png)
 
 ---
 
@@ -176,20 +178,20 @@ Dentro de la subzona demoninada servicios añadimos los siguientes registros.
 
 Comprobar que se resuelven los nombres desde la consola del Servidor.
 
-![imagen41](./images/41.png)
+![imagen41](./images/instalacion_y_configuracion_dns_w2012/41.png)
 
 Validamos un cliente en el dominio y comprobar que el nombre de su equipo aparece en la zona de búsqueda del servidor como un nuevo registro A.
 
-![imagen42](./images/42.png)
+![imagen42](./images/instalacion_y_configuracion_dns_w2012/42.png)
 
-![imagen43](./images/43.png)
+![imagen43](./images/instalacion_y_configuracion_dns_w2012/43.png)
 
 Comprobamos desde la consola del cliente que se resuelven correctamente los nombres dados de alta en el servidor.
 
-![imagen44](./images/44.png)
+![imagen44](./images/instalacion_y_configuracion_dns_w2012/44.png)
 
 Realizamos también desde el cliente, algunas operaciones con nslookup tanto dentro como fuera de nuestra intranet.
 
-![imagen45](./images/45.png)
+![imagen45](./images/instalacion_y_configuracion_dns_w2012/45.png)
 
 ---
