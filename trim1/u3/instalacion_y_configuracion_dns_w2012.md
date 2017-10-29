@@ -201,6 +201,7 @@ Comprobamos desde la consola del cliente que se resuelven correctamente los nomb
 Realizamos también desde el cliente, algunas operaciones con nslookup tanto dentro como fuera de nuestra intranet.
 
 * Dentro de nuestra intranet.
+
 ![imagen45](./images/instalacion_y_configuracion_dns_w2012/45.png)
 
 * Fuera de nuestra intranet.
