@@ -194,4 +194,6 @@ Realizamos también desde el cliente, algunas operaciones con nslookup tanto den
 
 ![imagen45](./images/instalacion_y_configuracion_dns_w2012/45.png)
 
+![imagen46](./images/instalacion_y_configuracion_dns_w2012/46.png)
+
 ---
