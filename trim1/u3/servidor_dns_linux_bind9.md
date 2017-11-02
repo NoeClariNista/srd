@@ -110,7 +110,7 @@ Comprobamos desde la consola del Cliente que se resuelven correctamente los nomb
 
 # **6. Servidor Esclavo.**
 
-Clonamos la máquina con el Servidor bind9 instalado y configuramos el nuevo linux para que bind9 se comporte como un Servidor Esclavo.
+Clonamos la máquina con el Servidor bind9 Instalado y Configuramos el nuevo Linux para que bind9 se comporte como un Servidor Esclavo.
 
 ![imagen19](./images/servidor_dns_linux_bind9/19.png)
 
