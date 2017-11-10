@@ -15,9 +15,9 @@ miEmpresa   en  IIS  asociado  a  la  subcarpeta  anterior  y  con  acceso a tra
 sitio web (denominado ‘pagos’) como subdominio de
 miEmpresa (pagos.miEmpresa.com) y configura este último para ser accedido de forma segura, vía ‘https’.
 
-* Crea el sitio web, asociado a una carpeta (miEmpresa\pagos) y con la configuración adecuada en IIS y en los servicios DNS. Comprueba el acceso (aún vía ‘http’) con un navegador desde el propio servidor y desde un cliente W10.
+// * Crea el sitio web, asociado a una carpeta (miEmpresa\pagos) y con la configuración adecuada en IIS y en los servicios DNS. Comprueba el acceso (aún vía ‘http’) con un navegador desde el propio servidor y desde un cliente W10.
 
-o Configuración  A:  Siguiendo  los  pasos  del  tutorial correspondiente,  configura  el  nuevo  sitio  para  
+// o Configuración  A:  Siguiendo  los  pasos  del  tutorial correspondiente,  configura  el  nuevo  sitio  para  
 que se pueda acceder (sólo) como sitio web seguro (https) con un Certificado Autofirmado.
 
 o Configuración B:  Crearemos un nuevo sitio seguro (tienda.miempresa.com) con la generación de un  Certificado  Digital a  través  de  la  aplicación  OpenSSL.  Para  empezar,  realizaremos  la  solicitud  de un nuevo certificado de servidor para nuestro sitio seguro (crear fichero certreq.txt).
