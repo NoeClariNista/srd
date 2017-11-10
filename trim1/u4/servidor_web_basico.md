@@ -3,7 +3,7 @@ ___
 # **Servidor Web Básico.**
 ___
 
-## **Internet Information Server – Instalación, Configuración Y Creación De Sitios Web.**
+## **Instalación, Configuración Y Creación De Sitios Web.**
 
 * Instalamos IIS en Windows 2012 Server (Asistente para configurar Servidor, Servidor de Aplicaciones IIS). Incluimos Autenticación Básica y de Windows.
 
@@ -35,7 +35,7 @@ ___
 
 ---
 
-## **Internet Information Server – Creación De Sitios Web Independientes.**
+## **Creación De Sitios Web Independientes.**
 
 Seguimos los  pasos  detallados  en  el  documento  PDF  de  Instalación  y  Configuración  IIS,  
 apartado  2  sobre  creación  de  sitios  web  independientes,  crea  dos  nuevos  sitios  web,  uno  
@@ -56,7 +56,7 @@ etc.) incluidas en el citado documento o, aún mejor, definir tu propio sitio we
 
 ---
 
-## **Internet Information Server – Creación De Directorios Virtuales.**
+## **Creación De Directorios Virtuales.**
 
 Siguiendo  los  pasos  detallados  en  el  documento  PDF  de  Instalación  y  Configuración  IIS,  
 apartado  3  sobre  creación  de  directorios  virtuales,  crea  una  carpeta  que  se  corresponda  
