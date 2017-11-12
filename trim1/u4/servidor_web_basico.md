@@ -49,7 +49,7 @@ Entramos en el Cliente Windows 10 y accedemos, desde un navegador web, a la pág
 
 ![imagen15](./images/servidor_web_basico/15.png)
 
-Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dentro de aqui creamos un dominio y un alias..
+Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dentro de aquí creamos un dominio y un alias..
 
 ![imagen16](./images/servidor_web_basico/16.png)
 
@@ -93,7 +93,7 @@ Intentamos ahora acceder desde W10.
 
 ![imagen31](./images/servidor_web_basico/31.png)
 
-Creamos una página web HTML sencilla (index.htm) como página principal de mi dominio y la colocamos en C:\Inetpub\wwwroot.
+Creamos una página web HTML sencilla (index.htm) como página principal de mi dominio y la colocamos en `C:\Inetpub\wwwroot`.
 
 ![imagen32](./images/servidor_web_basico/32.png)
 
@@ -151,7 +151,7 @@ Accedemos y navegamos por el sitio web tanto desde el Servidor como desde el Cli
 
 ## **Creación De Sitios Web Independientes.**
 
-Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dentro de aqui creamos un dominio y varios alias.
+Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dentro de aquí creamos un dominio y varios alias.
 
 ![imagen51](./images/servidor_web_basico/51.png)
 
@@ -183,9 +183,9 @@ Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dent
 
 ![imagen65](./images/servidor_web_basico/65.png)
 
-![imagen66](./images/servidor_web_basico/66.png)
+Creamos dos nuevos sitios web, uno asociado al dominio principal y otro a un subdominio, estos dos sitios webs serán independientes.
 
-Creamos dos nuevos sitios web, uno asociado al dominio principal y otro a un subdominio, estos dos sitios webs seran independientes.
+![imagen66](./images/servidor_web_basico/66.png)
 
 ![imagen67](./images/servidor_web_basico/67.png)
 
@@ -197,13 +197,11 @@ Creamos dos nuevos sitios web, uno asociado al dominio principal y otro a un sub
 
 ![imagen71](./images/servidor_web_basico/71.png)
 
-![imagen72](./images/servidor_web_basico/72.png)
-
 Finalmente, incorporamos algunos archivos HTML, imágenes y subcarpetas a mi nuevo sitio web y comprobamos el acceso desde navegadores web tanto del Servidor como del Cliente W10.
 
-![imagen73](./images/servidor_web_basico/73.png)
+![imagen72](./images/servidor_web_basico/72.png)
 
-![imagen74](./images/servidor_web_basico/74.png)
+![imagen73](./images/servidor_web_basico/73.png)
 
 ---
 
@@ -211,15 +209,17 @@ Finalmente, incorporamos algunos archivos HTML, imágenes y subcarpetas a mi nue
 
 Creamos un directorio virtual, de una carpeta que hemos creado anteriormente,
 
+![imagen74](./images/servidor_web_basico/74.png)
+
 ![imagen75](./images/servidor_web_basico/75.png)
 
 ![imagen76](./images/servidor_web_basico/76.png)
 
 ![imagen77](./images/servidor_web_basico/77.png)
 
-![imagen78](./images/servidor_web_basico/78.png)
-
 Este directorio virtual debe contener, al menos, tres subcarpetas con páginas html diferentes para comprobar el buen funcionamiento del sitio.
+
+![imagen78](./images/servidor_web_basico/78.png)
 
 ![imagen79](./images/servidor_web_basico/79.png)
 
@@ -235,15 +235,15 @@ Este directorio virtual debe contener, al menos, tres subcarpetas con páginas h
 
 ![imagen85](./images/servidor_web_basico/85.png)
 
-![imagen86](./images/servidor_web_basico/86.png)
-
 Habilitamos dentro de nuestro directorio virtual para poder acceder a todo el directorio virtual.
 
-![imagen87](./images/servidor_web_basico/87.png)
+![imagen86](./images/servidor_web_basico/86.png)
 
 Comprobamos el acceso a cada una de las diferentes secciones de nuestro sitio web, tanto desde el Servidor como desde el Cliente W10.
 
 * Servidor.
+
+![imagen87](./images/servidor_web_basico/87.png)
 
 ![imagen88](./images/servidor_web_basico/88.png)
 
@@ -251,16 +251,14 @@ Comprobamos el acceso a cada una de las diferentes secciones de nuestro sitio we
 
 ![imagen90](./images/servidor_web_basico/90.png)
 
-![imagen91](./images/servidor_web_basico/91.png)
-
 * Cliente.
+
+![imagen91](./images/servidor_web_basico/91.png)
 
 ![imagen92](./images/servidor_web_basico/92.png)
 
 ![imagen93](./images/servidor_web_basico/93.png)
 
 ![imagen94](./images/servidor_web_basico/94.png)
-
-![imagen95](./images/servidor_web_basico/95.png)
 
 ---
