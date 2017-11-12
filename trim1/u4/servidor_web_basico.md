@@ -209,27 +209,58 @@ Finalmente, incorporamos algunos archivos HTML, imágenes y subcarpetas a mi nue
 
 ## **Creación De Directorios Virtuales.**
 
-Siguiendo  los  pasos  detallados  en  el  documento  PDF  de  Instalación  y  Configuración  IIS,  
-apartado  3  sobre  creación  de  directorios  virtuales,  crea  una  carpeta  que  se  corresponda  
-con una posible sección del sitio web creado en la práctica anterior (creación de sitios web
-independientes).  Crea  un  nuevo  directorio  virtual  en  IIS  (dentro  del  citado  sitio  web)  y  
-relaciónalo con la carpeta que has cre
-ado.
+Creamos un directorio virtual, de una carpeta que hemos creado anteriormente,
 
-* Este directorio virtual debe contener, al menos, tres subcarpetas con páginas html diferentes para  comprobar el buen funcionamiento del sitio. Por ejemplo, tu directorio virtual podría ser departamentos, con tres subcarpetas contabilidad, administración  e informática y acceso a través de la URL servicios.srd.edu o departamentos.srd.edu.
+![imagen75](./images/servidor_web_basico/75.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen76](./images/servidor_web_basico/76.png)
 
-* Comprobamos el acceso a cada una de las diferentes secciones de nuestro sitio web, tanto desde el Servidor como desde el Cliente W10.
+![imagen77](./images/servidor_web_basico/77.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen78](./images/servidor_web_basico/78.png)
 
-* Recuerda realizar las configuraciones DNS necesarias para que los diferentes nombres que se han ido creando referentes a nuestro sitio web sean resueltos correctamente.
+Este directorio virtual debe contener, al menos, tres subcarpetas con páginas html diferentes para comprobar el buen funcionamiento del sitio.
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen79](./images/servidor_web_basico/79.png)
 
-* Finalmente, elige los documentos que serán mostrados por defecto en cada uno de los sitios y directorios virtuales creados y el orden de prioridad entre ellos.
+![imagen80](./images/servidor_web_basico/80.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen81](./images/servidor_web_basico/81.png)
+
+![imagen82](./images/servidor_web_basico/82.png)
+
+![imagen83](./images/servidor_web_basico/83.png)
+
+![imagen84](./images/servidor_web_basico/84.png)
+
+![imagen85](./images/servidor_web_basico/85.png)
+
+![imagen86](./images/servidor_web_basico/86.png)
+
+Habilitamos dentro de nuestro directorio virtual para poder acceder a todo el directorio virtual.
+
+![imagen87](./images/servidor_web_basico/87.png)
+
+Comprobamos el acceso a cada una de las diferentes secciones de nuestro sitio web, tanto desde el Servidor como desde el Cliente W10.
+
+* Servidor.
+
+![imagen88](./images/servidor_web_basico/88.png)
+
+![imagen89](./images/servidor_web_basico/89.png)
+
+![imagen90](./images/servidor_web_basico/90.png)
+
+![imagen91](./images/servidor_web_basico/91.png)
+
+* Cliente.
+
+![imagen92](./images/servidor_web_basico/92.png)
+
+![imagen93](./images/servidor_web_basico/93.png)
+
+![imagen94](./images/servidor_web_basico/94.png)
+
+![imagen95](./images/servidor_web_basico/95.png)
 
 ---
