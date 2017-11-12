@@ -174,21 +174,39 @@ Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dent
 
 ![imagen51](./images/servidor_web_basico/51.png)
 
+Creamos una zona de búsqueda directa.
+
 ![imagen52](./images/servidor_web_basico/52.png)
+
+Nos sale el asistente para la nueva zona.
 
 ![imagen53](./images/servidor_web_basico/53.png)
 
+Elegimos el tipo de zona que queremos.
+
 ![imagen54](./images/servidor_web_basico/54.png)
+
+Seleccionamos que queremos que se repliquen los datos para todos los servidores DNS que se ejecutan en controladores de dominio en el dominio que tengo.
 
 ![imagen55](./images/servidor_web_basico/55.png)
 
+Le ponemos un nombre a nuestra zona.
+
 ![imagen56](./images/servidor_web_basico/56.png)
+
+Permitimos actualizaciones dinámicas seguras.
 
 ![imagen57](./images/servidor_web_basico/57.png)
 
+Se ha creado la nueva zona.
+
 ![imagen58](./images/servidor_web_basico/58.png)
 
+Ya contamos con otra zona de búsqueda directa.
+
 ![imagen59](./images/servidor_web_basico/59.png)
+
+Ahora tenemos que añadir unos nuevos registros.
 
 ![imagen60](./images/servidor_web_basico/60.png)
 
@@ -254,7 +272,7 @@ Este directorio virtual debe contener, al menos, tres subcarpetas con páginas h
 
 ![imagen85](./images/servidor_web_basico/85.png)
 
-Habilitamos dentro de nuestro directorio virtual para poder acceder a este directorio.
+Habilitamos dentro de nuestro directorio virtual para poder acceder a este directorio desde un navegador web.
 
 ![imagen86](./images/servidor_web_basico/86.png)
 
