@@ -1,11 +1,12 @@
 ___
 
 # **Servidor Web Básico.**
+
 ___
 
-## **Instalación, Configuración Y Creación De Sitios Web.**
+## **1. Instalación, Configuración Y Creación De Sitios Web.**
 
-Instalamos IIS en Windows 2012 Server (Asistente para Configurar Servidor, Servidor de Aplicaciones IIS). Incluimos Autenticación Básica y de Windows.
+Instalamos IIS en Windows 2012 Server.
 
 Lo primero que tenemos que hacer es ir a Administrador del Servidor.
 
@@ -37,7 +38,7 @@ El resto de pasos los realizamos como se pueden ver en las imágenes.
 
 ![imagen12](./images/servidor_web_basico/12.png)
 
-Finalmente terminamos la instalación del IIS en Windows 2012 Server.
+Finalmente terminamos la instalación de IIS en Windows 2012 Server.
 
 ![imagen13](./images/servidor_web_basico/13.png)
 
@@ -45,11 +46,11 @@ Ahora comprobamos el acceso a nuestro Servidor Web (localhost) desde un navegado
 
 ![imagen14](./images/servidor_web_basico/14.png)
 
-Entramos en el Cliente Windows 10 y accedemos, desde un navegador web, a la página principal del Servidor a través de la IP del Servidor.
+Entramos en el Cliente Windows 10 y accedemos, desde un navegador web, a la página principal del Servidor a través de la IP del Servidor, 172.18.20.11.
 
 ![imagen15](./images/servidor_web_basico/15.png)
 
-Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dentro de aquí creamos un dominio y un alias..
+Ahora en la configuración DNS creamos una nueva zona de búsqueda directa.
 
 ![imagen16](./images/servidor_web_basico/16.png)
 
@@ -64,6 +65,8 @@ Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dent
 ![imagen21](./images/servidor_web_basico/21.png)
 
 ![imagen22](./images/servidor_web_basico/22.png)
+
+Dentro de nuestra nueva zona de búsqueda directa creamos un alias.
 
 ![imagen23](./images/servidor_web_basico/23.png)
 
@@ -89,7 +92,7 @@ Añadimos un alias en el servicio DNS que relacione el sitio www con el dominio 
 
 ![imagen30](./images/servidor_web_basico/30.png)
 
-Intentamos ahora acceder desde W10.
+Intentamos ahora acceder desde W10 a www.
 
 ![imagen31](./images/servidor_web_basico/31.png)
 
@@ -125,7 +128,7 @@ Creamos un pequeño sitio web con varias páginas e imágenes organizadas en sub
 
 ![imagen42](./images/servidor_web_basico/42.png)
 
-Accedemos y navegamos por el sitio web tanto desde el Servidor como desde el Cliente W10.
+Accedemos y navegamos por los sitios web tanto desde el Servidor como desde el Cliente W10.
 
 * Servidor.
 
@@ -149,7 +152,7 @@ Accedemos y navegamos por el sitio web tanto desde el Servidor como desde el Cli
 
 ---
 
-## **Creación De Sitios Web Independientes.**
+## **2. Creación De Sitios Web Independientes.**
 
 Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dentro de aquí creamos un dominio y varios alias.
 
@@ -205,9 +208,9 @@ Finalmente, incorporamos algunos archivos HTML, imágenes y subcarpetas a mi nue
 
 ---
 
-## **Creación De Directorios Virtuales.**
+## **3. Creación De Directorios Virtuales.**
 
-Creamos un directorio virtual, de una carpeta que hemos creado anteriormente,
+Creamos un directorio virtual, de una carpeta que hemos creado anteriormente.
 
 ![imagen74](./images/servidor_web_basico/74.png)
 
@@ -235,7 +238,7 @@ Este directorio virtual debe contener, al menos, tres subcarpetas con páginas h
 
 ![imagen85](./images/servidor_web_basico/85.png)
 
-Habilitamos dentro de nuestro directorio virtual para poder acceder a todo el directorio virtual.
+Habilitamos dentro de nuestro directorio virtual para poder acceder a este directorio.
 
 ![imagen86](./images/servidor_web_basico/86.png)
 
