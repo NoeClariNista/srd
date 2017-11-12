@@ -5,54 +5,205 @@ ___
 
 ## **Instalación, Configuración Y Creación De Sitios Web.**
 
-* Instalamos IIS en Windows 2012 Server (Asistente para configurar Servidor, Servidor de Aplicaciones IIS). Incluimos Autenticación Básica y de Windows.
+Instalamos IIS en Windows 2012 Server (Asistente para Configurar Servidor, Servidor de Aplicaciones IIS). Incluimos Autenticación Básica y de Windows.
+
+Lo primero que tenemos que hacer es ir a Administrador del Servidor.
 
 ![imagen01](./images/servidor_web_basico/01.png)
 
-* Comprobamos el acceso a nuestro Servidor Web (localhost) desde un navegador web (debe aparecer una página en construcción).
+Luego tenemos que ir a Administrar y vamos a Agregar roles y características.
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen02](./images/servidor_web_basico/02.png)
 
-* Entramos en el Cliente Windows 10 y accedemos, desde un navegador web, a la página principal del Servidor a través de la IP del Servidor.
+El resto de pasos los realizamos como se pueden ver en las imágenes.
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen03](./images/servidor_web_basico/03.png)
 
-* Accedemos ahora desde W10 a la misma página mediante el nombre principal del dominio y desde cualquier otro alias que haya sido definido en la configuración DNS.
+![imagen04](./images/servidor_web_basico/04.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen05](./images/servidor_web_basico/05.png)
 
-* Tratamos de acceder desde W10 al sitio www del dominio principal. Lo que nos ocurre es que nos da un error porque el alias de www no esta creado en la configuración DNS. Añadimos un alias en el servicio DNS que relacione el sitio www con el dominio principal. Intentamos ahora acceder desde W10.
+![imagen06](./images/servidor_web_basico/06.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen07](./images/servidor_web_basico/07.png)
 
-* Creamos una página web HTML sencilla (index.htm) como página principal de mi dominio y colócala en C:\Inetpub\wwwroot. Compruebamos el acceso a esta página desde el propio Servidor y desde el Cliente, utilizando los diferentes alias y direcciones configurados en el servicio DNS.
+![imagen08](./images/servidor_web_basico/08.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen09](./images/servidor_web_basico/09.png)
 
-* Creamos un pequeño sitio web con varias páginas e imágenes organizadas en subcarpetas de wwwroot. Abre el Administrador de Internet Information Services y comprueba la estructura del sitio creado en Sitio Web Predeterminado. Accede y navega por el sitio web tanto desde el Servidor como desde el Cliente W10.
+![imagen10](./images/servidor_web_basico/10.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen11](./images/servidor_web_basico/11.png)
+
+![imagen12](./images/servidor_web_basico/12.png)
+
+Finalmente terminamos la instalación del IIS en Windows 2012 Server.
+
+![imagen13](./images/servidor_web_basico/13.png)
+
+Ahora comprobamos el acceso a nuestro Servidor Web (localhost) desde un navegador web (debe aparecer una página en construcción).
+
+![imagen14](./images/servidor_web_basico/14.png)
+
+Entramos en el Cliente Windows 10 y accedemos, desde un navegador web, a la página principal del Servidor a través de la IP del Servidor.
+
+![imagen15](./images/servidor_web_basico/15.png)
+
+Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dentro de aqui creamos un dominio y un alias..
+
+![imagen16](./images/servidor_web_basico/16.png)
+
+![imagen17](./images/servidor_web_basico/17.png)
+
+![imagen18](./images/servidor_web_basico/18.png)
+
+![imagen19](./images/servidor_web_basico/19.png)
+
+![imagen20](./images/servidor_web_basico/20.png)
+
+![imagen21](./images/servidor_web_basico/21.png)
+
+![imagen22](./images/servidor_web_basico/22.png)
+
+![imagen23](./images/servidor_web_basico/23.png)
+
+![imagen24](./images/servidor_web_basico/24.png)
+
+![imagen25](./images/servidor_web_basico/25.png)
+
+Accedemos ahora desde W10 a la misma página mediante el nombre principal del dominio y desde cualquier otro alias que haya sido definido en la configuración DNS.
+
+![imagen26](./images/servidor_web_basico/26.png)
+
+Tratamos de acceder desde W10 al sitio www del dominio principal.
+
+![imagen27](./images/servidor_web_basico/27.png)
+
+Lo que nos ocurre es que nos da un error porque el alias de www no esta creado en la configuración DNS.
+
+Añadimos un alias en el servicio DNS que relacione el sitio www con el dominio principal.
+
+![imagen28](./images/servidor_web_basico/28.png)
+
+![imagen29](./images/servidor_web_basico/29.png)
+
+![imagen30](./images/servidor_web_basico/30.png)
+
+Intentamos ahora acceder desde W10.
+
+![imagen31](./images/servidor_web_basico/31.png)
+
+Creamos una página web HTML sencilla (index.htm) como página principal de mi dominio y la colocamos en C:\Inetpub\wwwroot.
+
+![imagen32](./images/servidor_web_basico/32.png)
+
+![imagen33](./images/servidor_web_basico/33.png)
+
+Comprobamos el acceso a esta página desde el propio Servidor y desde el Cliente, utilizando los diferentes alias y direcciones configurados en el servicio DNS.
+
+* Servidor.
+
+![imagen34](./images/servidor_web_basico/34.png)
+
+![imagen35](./images/servidor_web_basico/35.png)
+
+* Cliente.
+
+![imagen36](./images/servidor_web_basico/36.png)
+
+![imagen37](./images/servidor_web_basico/37.png)
+
+Creamos un pequeño sitio web con varias páginas e imágenes organizadas en subcarpetas de wwwroot.
+
+![imagen38](./images/servidor_web_basico/38.png)
+
+![imagen39](./images/servidor_web_basico/39.png)
+
+![imagen40](./images/servidor_web_basico/40.png)
+
+![imagen41](./images/servidor_web_basico/41.png)
+
+![imagen42](./images/servidor_web_basico/42.png)
+
+Accedemos y navegamos por el sitio web tanto desde el Servidor como desde el Cliente W10.
+
+* Servidor.
+
+![imagen43](./images/servidor_web_basico/43.png)
+
+![imagen44](./images/servidor_web_basico/44.png)
+
+![imagen45](./images/servidor_web_basico/45.png)
+
+![imagen46](./images/servidor_web_basico/46.png)
+
+* Cliente.
+
+![imagen47](./images/servidor_web_basico/47.png)
+
+![imagen48](./images/servidor_web_basico/48.png)
+
+![imagen49](./images/servidor_web_basico/49.png)
+
+![imagen50](./images/servidor_web_basico/50.png)
 
 ---
 
 ## **Creación De Sitios Web Independientes.**
 
-Seguimos los  pasos  detallados  en  el  documento  PDF  de  Instalación  y  Configuración  IIS,  
-apartado  2  sobre  creación  de  sitios  web  independientes,  crea  dos  nuevos  sitios  web,  uno  
-asociado al dominio principal y otro a un subdominio.
+Ahora en la configuración DNS creamos una nueva zona de búsqueda directa, dentro de aqui creamos un dominio y varios alias.
 
-* Podemos utilizar las sugerencias (en  cuanto  a  dominios,  subdominios,  carpetas,  ficheros,  
-etc.) incluidas en el citado documento o, aún mejor, definir tu propio sitio web con algún tema que te interese.
+![imagen51](./images/servidor_web_basico/51.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen52](./images/servidor_web_basico/52.png)
 
-* Sería especialmente interesante la opción de que el nuevo sitio web no fuera parte de tu dominio principal de W2012 Server, sino que crearas un nuevo dominio para este sitio web. Recuerda que para esto sería necesario, además de todos los pasos de configuración de  IIS, incluir una nueva zona de búsqueda  directa en tu servicio DNS con las opciones de configuración necesarias (registros A, CNAME, ...)
+![imagen53](./images/servidor_web_basico/53.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen54](./images/servidor_web_basico/54.png)
 
-* Finalmente, incorporamos algunos archivos HTML, imágenes y subcarpetas a mi nuevo sitio web y comprobamos el acceso desde navegadores web tanto del Servidor como del Cliente W10.
+![imagen55](./images/servidor_web_basico/55.png)
 
-![imagen01](./images/servidor_web_basico/01.png)
+![imagen56](./images/servidor_web_basico/56.png)
+
+![imagen57](./images/servidor_web_basico/57.png)
+
+![imagen58](./images/servidor_web_basico/58.png)
+
+![imagen59](./images/servidor_web_basico/59.png)
+
+![imagen60](./images/servidor_web_basico/60.png)
+
+![imagen61](./images/servidor_web_basico/61.png)
+
+![imagen62](./images/servidor_web_basico/62.png)
+
+![imagen63](./images/servidor_web_basico/63.png)
+
+![imagen64](./images/servidor_web_basico/64.png)
+
+![imagen65](./images/servidor_web_basico/65.png)
+
+![imagen66](./images/servidor_web_basico/66.png)
+
+Creamos dos nuevos sitios web, uno asociado al dominio principal y otro a un subdominio, estos dos sitios webs seran independientes.
+
+![imagen67](./images/servidor_web_basico/67.png)
+
+![imagen68](./images/servidor_web_basico/68.png)
+
+![imagen69](./images/servidor_web_basico/69.png)
+
+![imagen70](./images/servidor_web_basico/70.png)
+
+![imagen71](./images/servidor_web_basico/71.png)
+
+![imagen72](./images/servidor_web_basico/72.png)
+
+Finalmente, incorporamos algunos archivos HTML, imágenes y subcarpetas a mi nuevo sitio web y comprobamos el acceso desde navegadores web tanto del Servidor como del Cliente W10.
+
+![imagen73](./images/servidor_web_basico/73.png)
+
+![imagen74](./images/servidor_web_basico/74.png)
 
 ---
 
