@@ -50,25 +50,41 @@ Entramos en el Cliente Windows 10 y accedemos, desde un navegador web, a la pág
 
 ![imagen15](./images/servidor_web_basico/15.png)
 
-Ahora en la configuración DNS creamos una nueva zona de búsqueda directa.
+Ahora tenemos que crear en la configuración DNS una nueva zona de búsqueda directa en el Servidor.
+
+Creamos una zona de búsqueda directa.
 
 ![imagen16](./images/servidor_web_basico/16.png)
 
+Nos sale el asistente para la nueva zona.
+
 ![imagen17](./images/servidor_web_basico/17.png)
+
+Elegimos el tipo de zona que queremos.
 
 ![imagen18](./images/servidor_web_basico/18.png)
 
+Seleccionamos que queremos que se repliquen los datos para todos los servidores DNS que se ejecutan en controladores de dominio en el dominio que tengo.
+
 ![imagen19](./images/servidor_web_basico/19.png)
+
+Le ponemos un nombre a nuestra zona.
 
 ![imagen20](./images/servidor_web_basico/20.png)
 
+Permitimos actualizaciones dinámicas seguras.
+
 ![imagen21](./images/servidor_web_basico/21.png)
+
+Se ha creado la nueva zona.
 
 ![imagen22](./images/servidor_web_basico/22.png)
 
-Dentro de nuestra nueva zona de búsqueda directa creamos un alias.
+Ya contamos con otra zona de búsqueda directa.
 
 ![imagen23](./images/servidor_web_basico/23.png)
+
+Ahora tenemos que añadir un nuevo registro.
 
 ![imagen24](./images/servidor_web_basico/24.png)
 
