@@ -32,26 +32,26 @@ ___
 
 ## **Carpetas Privadas.**
 
-// * Guiándote  por  los  pasos  detallados  en  el  apartado  de  carpetas  privadas  del  documento  PDF  de  Carpetas Seguras  y  Privadas,  vamos  a  crear  un  nuevo  sitio  web  (empleados.miEmpresa.com) destinado a almacenar información privada de los empleados, con las siguientes características.
+Vamos  a  crear  un  nuevo  sitio  web  (empleados.miEmpresa.com) destinado a almacenar información privada de los empleados, con las siguientes características.
 
-//  * Necesitamos  crear  una  carpeta  empleados  (dentro  de  miEmpresa)  y,  dentro  de  esta,  tres  o  cuatro subcarpetas personales con nombres de empleados y una, denominada común, a la que tendrán acceso todos los empleados, pero no otros usuarios sin identificar.
+* Necesitamos crear una carpeta empleados (dentro de miEmpresa) y, dentro de esta, cuatro subcarpetas personales con nombres de empleados y una, denominada común, a la que tendrán acceso todos los empleados, pero no otros usuarios sin identificar.
 
-//  * Crearemos  el  nuevo  sitio  web,  como  subdominio  de  nuestro  dominio  principal,  asociado  a  la carpeta genérica empleados.
+* Creamos un nuevo sitio web, como subdominio de nuestro dominio principal, asociado a la carpeta genérica empleados.
 
-//  * Colocar un fichero index.html diferente en cada una de las carpetas creadas, con el objetivo de poder comprobar el acceso desde un navegador.
+* Colocamos un fichero index.html diferente en cada una de las carpetas creadas, con el objetivo de poder comprobar el acceso desde un navegador.
 
-//  * Para el sitio web creado y para cada una de sus carpetas, deshabilitamos el acceso anónimo.
+* Para el sitio web creado y para cada una de sus carpetas, deshabilitamos el acceso anónimo.
 
-//  * Agregar función de Autenticación Básica a nuestro Servicio de IIS a través de la Administración del Servidor.
+* Agregar función de Autenticación Básica a nuestro Servicio de IIS a través de la Administración del Servidor.
 
-//  * En   Active   Directory,   crearemos   un   usuario   para   cada   empleado   (tantos   como   carpetas personales) y un grupo Empleados que los incluya a todos.
+* En Active Directory, crearemos un usuario para cada empleado (tantos   como carpetas personales) y un grupo Empleados que los incluya a todos.
 
-//  * Desactivamos,  para  la  carpeta  empleados,  los  permisos  heredables  a  través  de  las  opciones  avanzadas  en  la  ficha  de  seguridad.  Añadimos  grupo  de  Administradores  con  Control  Total  y  grupo Empleados con Lectura y Ejecución+ Mostrar Carpeta+Leer.
+* Desactivamos, para la carpeta empleados, los permisos heredables a través de las opciones avanzadas en la ficha de seguridad. Añadimos grupo de Administradores con Control Total y grupo Empleados con Lectura y Ejecución+ Mostrar Carpeta+Leer.
 
-//  * Realizamos   el   mismo   procedimiento   para   cada   una   de   las   carpetas   personales   de   los   empleados, colocando como usuarios autorizados el Grupo de Administradores (Control Total) y el empleado propietario de cada carpeta (con los permisos que creas convenientes).
+* Realizamos el mismo procedimiento para cada una de las carpetas personales de los empleados, colocando como usuarios autorizados el Grupo de Administradores (Control Total) y el empleado propietario de cada carpeta (con los permisos que creas convenientes).
 
-//  * Realizamos   el   mismo   procedimiento   para   la   carpeta   ‘comun’,   colocando   como   usuarios  autorizados  el  Grupo  de  Administradores  (Control  Total)  y  el  grupo  Empleados  (con  los  permisos que creas convenientes).
+* Realizamos el mismo procedimiento para la carpeta ‘comun’, colocando   como usuarios autorizados el Grupo de Administradores (Control  Total) y el grupo Empleados (con los permisos que creas convenientes).
 
-//  * Comprobamos  el  acceso,  tanto  desde  el  servidor  como  desde  el  cliente  W10,  a  las  diferentes carpetas con distintos usuarios.
+* Comprobamos el acceso, tanto desde el servidor como desde el cliente W10, a las diferentes carpetas con distintos usuarios.
 
 ---
