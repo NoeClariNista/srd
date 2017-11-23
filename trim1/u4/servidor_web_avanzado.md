@@ -76,7 +76,7 @@ ___
 
   ![imagen22](./images/servidor_web_avanzado/22.png)
 
-* Creamos  un  nuevo  sitio web (denominado ‘pagos’) como subdominio de miEmpresa (pagos.miEmpresa.com) y configuramos este último para ser accedido de forma segura, vía ‘https’.
+* Creamos un nuevo sitio web (denominado ‘pagos’) como subdominio de miEmpresa (pagos.miEmpresa.com) y configuramos este último para ser accedido de forma segura, vía ‘https’.
 
   ![imagen23](./images/servidor_web_avanzado/23.png)
 
@@ -106,7 +106,7 @@ ___
 
     ![imagen32](./images/servidor_web_avanzado/32.png)
 
-* Configuración B: Crearemos un nuevo sitio seguro (tienda.miempresa.com) con la generación de un Certificado Digital a través de la aplicación OpenSSL. Para empezar, realizaremos la solicitud de un nuevo certificado de Servidor para nuestro sitio seguro (creamos fichero certreq.txt).
+* Configuración B: Crearemos un nuevo sitio seguro (tienda.miempresa.com) con la generación de un Certificado Digital a través de la aplicación OpenSSL.
 
   ![imagen33](./images/servidor_web_avanzado/33.png)
 
@@ -128,7 +128,7 @@ ___
 
   ![imagen41](./images/servidor_web_avanzado/41.png)
 
-* A través de OpenSSl generamos un nuevo certificado de servidor (y comprobando los ficheros generados en cada paso): generamos una clave privada de  la  entidad certificadora, creamos un certificado digital de la entidad certificadora y, finalmente, creamos un certificado digital de nuestra web.
+* A través de OpenSSl generamos un nuevo certificado de servidor. Generamos una clave privada de la  entidad certificadora, creamos un certificado digital de la entidad certificadora y, finalmente, creamos un certificado digital de nuestra web.
 
   ![imagen42](./images/servidor_web_avanzado/42.png)
 
@@ -136,7 +136,7 @@ ___
 
   ![imagen44](./images/servidor_web_avanzado/44.png)
 
-* Importamos el nuevo certificado de servidor creado para completar la petición pendiente en nuestro sitio seguro ‘tienda’.
+* Realizaremos la solicitud de un nuevo certificado de Servidor para nuestro sitio seguro.
 
   ![imagen45](./images/servidor_web_avanzado/45.png)
 
@@ -146,11 +146,13 @@ ___
 
   ![imagen48](./images/servidor_web_avanzado/48.png)
 
+* Completaremos la solicitud de un nuevo certificado de Servidor para nuestro sitio seguro.
+
   ![imagen49](./images/servidor_web_avanzado/49.png)
 
   ![imagen50](./images/servidor_web_avanzado/50.png)
 
-* Requerimos que nuestros sitio seguros sólo se pueda acceder mediante una conexión segura y reiniciar los sitios web.
+* Importamos el nuevo certificado de servidor creado para completar la petición pendiente en nuestro sitio seguro ‘tienda’. Requerimos que nuestros sitio seguros sólo se pueda acceder mediante una conexión segura.
 
   ![imagen51](./images/servidor_web_avanzado/51.png)
 
@@ -248,7 +250,7 @@ Vamos a crear un nuevo sitio web (empleados.miEmpresa.com) destinado a almacenar
 
   ![imagen86](./images/servidor_web_avanzado/86.png)
 
-* Desactivamos, para la carpeta empleados, los permisos heredables a través de las opciones avanzadas en la ficha de seguridad. Añadimos grupo de Administradores con Control Total y grupo Empleados con Lectura y Ejecución+ Mostrar Carpeta+Leer.
+* Desactivamos, para la carpeta empleados, los permisos heredables a través de las opciones avanzadas en la ficha de seguridad. Añadimos grupo de Administradores con Control Total y grupo Empleados con Lectura y Ejecución.
 
   ![imagen87](./images/servidor_web_avanzado/87.png)
 
