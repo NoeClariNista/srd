@@ -48,7 +48,7 @@ ___
 
   ![imagen11](./images/servidor_web_avanzado/11.png)
 
-* Creamos un nuevo sitio web denominado miEmpresa en IIS asociado a la  subcarpeta  anterior y con acceso a través de la dirección www.miEmpresa.com.
+* Creamos un nuevo sitio web denominado miEmpresa en IIS asociado a la subcarpeta  anterior y con acceso a través de la dirección www.miEmpresa.com.
 
   ![imagen12](./images/servidor_web_avanzado/12.png)
 
@@ -58,7 +58,7 @@ ___
 
   ![imagen15](./images/servidor_web_avanzado/15.png)
 
-* Actualizamos DNS adecuadamente.
+* Actualizamos el DNS adecuadamente.
 
   ![imagen16](./images/servidor_web_avanzado/16.png)
 
