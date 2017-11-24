@@ -26,4 +26,6 @@ ___
 
 * **Actividad 1. [Servidor Web Básico.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/servidor_web_basico.md)**
 
+* **Actividad 2. [Servidor Web Avanzado.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/servidor_web_avanzado.md)**
+
 ---
