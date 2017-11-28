@@ -12,9 +12,7 @@ Instalamos el soporte para PHP para tus sitios Web gestionados por IIS. Se recom
 
 Para descargarnos IIS Fast CGI vamos al panel de Administración de Servidor y agregamos roles/características y agremos el rol de CGI.
 
-Para descargarnos la versión de PHP vamos a la página de [PHP](windows.php.net/downloads/releases/archives).
-
-* Utilizando MSI Installer para Windows: Descargar archivo Installer en http://windows.php.net/download/ y seguir los pasos (ver http://www.php.net/manual/es/install.windows.installer.msi.php).
+MSI Installer para Windows nos descargarmos la versión de PHP, para ello vamos a la página de [PHP](windows.php.net/downloads/releases/archives).
 
 Configuramos luego IIS para que admita el fichero index.php por defecto en las carpetas y/o sitios que nos interese.
 
