@@ -28,7 +28,7 @@ Siguiendo los pasos detallados en las guías y tutoriales, instala PHPMyAdmin pa
 
 ## **Instalación De Servidor FTP Y CMS Drupal.**
 
-Instalamos Servidor FTP FileZilla en Windows 2012 Server. Nos descargamos Filezilla en la página de [Filezilla](http://filezilla-project.org/download.php?type=server).
+Instalamos Servidor FTP FileZilla en Windows 2012 Server. Nos descargamos Filezilla en desde la página de [Filezilla](http://filezilla-project.org/download.php?type=server).
 
 ![imagen41](./images/servidor_web_avanzado_2/41.png)
 
@@ -44,7 +44,7 @@ Instalamos Servidor FTP FileZilla en Windows 2012 Server. Nos descargamos Filezi
 
 ![imagen47](./images/servidor_web_avanzado_2/47.png)
 
-Creamos un usuario denominado `ftpuserp` en el Servidor FTP y le asociamos a este usuario permisos de Control Total sobre la carpeta en la que se va a instalar el CMS de miEmpresa.
+Creamos un usuario denominado `ftpuser` en el Servidor FTP y le asociamos a este usuario permisos de Control Total sobre la carpeta en la que se va a instalar el CMS de miEmpresa.
 
 ![imagen48](./images/servidor_web_avanzado_2/48.png)
 
@@ -78,9 +78,9 @@ Comprobamos el acceso a phpMyAdmin desde un navegador (phpmyadmin.miEmpresa.com)
 
 ![imagen59](./images/servidor_web_avanzado_2/59.png)
 
-----------------------------------------------------------------------------------------------
+Descargamos CMS Drupal de drupal.org. Nos descargamos Drupal desde la página de [Drupal](http://drupal.org/project/drupal)
 
-Descargamos CMS Drupal de drupal.org. Nos descargamos Drupal en la página de [Drupal](http://drupal.org/project/drupal)
+----------------------------------------------------------------------------------------------
 
 Comprobamos el acceso al sitio FTP creado a través de un navegador y con el usuario ftpuser.
 
