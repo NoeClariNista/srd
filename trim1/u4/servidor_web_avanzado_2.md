@@ -101,9 +101,9 @@ instalar y configurar temas Marinelli, Zen y Fusion;
 
 // crear dos o tres páginas de contenido,
 
-crear menú Primary Links y colocar como bloque.
+// crear menú Primary Links y colocar como bloque.
 
-Otras opciones de configuración que desees.
+// Otras opciones de configuración que desees.
 
 ---
 
