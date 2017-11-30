@@ -80,17 +80,30 @@ Comprobamos el acceso a phpMyAdmin desde un navegador (phpmyadmin.miEmpresa.com)
 
 Descargamos CMS Drupal de drupal.org. Nos descargamos Drupal desde la página de [Drupal](http://drupal.org/project/drupal)
 
-----------------------------------------------------------------------------------------------
-
 Comprobamos el acceso al sitio FTP creado a través de un navegador y con el usuario ftpuser.
 
 Instalamos un Cliente FTP (p.e.: FileZilla) en Windows 10 para poder realizar todas las operaciones sobre los ficheros y carpetas del servidor web. Nos descargamos Filezilla en la página de [Filezilla](http://filezilla-project.org/download.php?type=client).
 
-* Descomprimir y subir archivos Drupal a carpeta principal (www.miEmpresa.com).
-* Crear una nueva base de datos, denominada cms, a través de phpMyAdmin.
-* Crear usuario cms y asignar todos los privilegios para la base de datos anterior.
-* Instalar CMS Drupal desde el navegador siguiendo los pasos y consultando documentación en Internet.
-* Configuración y creación del sitio Drupal: configurar idioma español; instalar módulo gtranslate y habilitar traducción a varios idiomas; instalar y configurar temas Marinelli, Zen y Fusion; crear dos o tres páginas de contenido, crear menú Primary Links y colocar como bloque. Otras opciones de configuración que desees.
+Descomprimir y subir archivos Drupal a carpeta principal (www.miEmpresa.com).
+
+Crear una nueva base de datos, denominada cms, a través de phpMyAdmin.
+
+Crear usuario cms y asignar todos los privilegios para la base de datos anterior.
+
+Instalar CMS Drupal desde el navegador siguiendo los pasos y consultando documentación en Internet.
+
+---------------------------------------------------------------------------------------
+
+// Configuración y creación del sitio Drupal: configurar idioma español;
+
+instalar módulo gtranslate y habilitar traducción a varios idiomas;
+instalar y configurar temas Marinelli, Zen y Fusion;
+
+// crear dos o tres páginas de contenido,
+
+crear menú Primary Links y colocar como bloque.
+
+Otras opciones de configuración que desees.
 
 ---
 
