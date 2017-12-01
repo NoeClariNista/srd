@@ -102,10 +102,6 @@ Elige una de las siguientes aplicaciones web integradas basadas en software libr
 
 Consulta la amplia documentación disponible en Internet:
 
-* Galería fotográfica: Gallery o Coppermine.
-* Tienda Virtual: osCommerce
-* Formación online: Moodle
 * Blog: Wordpress
-* Foros: SMF
 
 ---
