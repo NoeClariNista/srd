@@ -92,18 +92,7 @@ Crear usuario cms y asignar todos los privilegios para la base de datos anterior
 
 Instalar CMS Drupal desde el navegador siguiendo los pasos y consultando documentación en Internet.
 
----------------------------------------------------------------------------------------
-
-// Configuración y creación del sitio Drupal: configurar idioma español;
-
-instalar módulo gtranslate y habilitar traducción a varios idiomas;
-instalar y configurar temas Marinelli, Zen y Fusion;
-
-// crear dos o tres páginas de contenido,
-
-// crear menú Primary Links y colocar como bloque.
-
-// Otras opciones de configuración que desees.
+Configuración y creación del sitio Drupal: configurar idioma español; instalar módulo gtranslate y habilitar traducción a varios idiomas; instalar y configurar temas Marinelli, Zen y Fusion; crear dos o tres páginas de contenido, crear menú Primary Links y colocar como bloque. Otras opciones de configuración que desees.
 
 ---
 
