@@ -16,101 +16,113 @@ ___
 
 Vamos a realizar las instalaciones y configuraciones necesarias para obtener un Servidor Web con soporte PHP y accesos a bases de datos relacionales, acceso FTP y gestor de bases de datos. Sobre este Servidor, podremos realizar instalaciones de aplicaciones integradas (CMS, e-commerce, etc) desde el propio Servidor o en modo remoto desde un Cliente W10.
 
-Lo primero que tenemos que hacer es ir a panel de Administración de Servidor y vamos a agregar roles/características y agregamos el rol de CGI, con esto nos descargamos IIS Fast CGI.
+Lo primero que tenemos que hacer es ir a panel de Administración de Servidor, vamos a agregar roles/características y agregamos el rol de CGI, con esto nos descargaremos IIS Fast CGI.
 
-![imagen01](./images/servidor_web_avanzado_2/01.png)
+![imagen001](./images/servidor_web_avanzado_2/001.png)
 
-![imagen02](./images/servidor_web_avanzado_2/02.png)
+![imagen002](./images/servidor_web_avanzado_2/002.png)
 
 Instalamos el soporte para PHP para tus sitios Web gestionados por IIS. Se recomienda PHP-5.3.9-nts-Win32-VC9-x86.msi. Nos descargarmos la versión de PHP, para ello vamos a la página de [PHP](windows.php.net/downloads/releases/archives).
 
-Los pasos los realizamos como se pueden ver en las imágenes.
+Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
 
-![imagen03](./images/servidor_web_avanzado_2/03.png)
+![imagen003](./images/servidor_web_avanzado_2/003.png)
 
-![imagen04](./images/servidor_web_avanzado_2/04.png)
+![imagen004](./images/servidor_web_avanzado_2/004.png)
 
-![imagen05](./images/servidor_web_avanzado_2/05.png)
+![imagen005](./images/servidor_web_avanzado_2/005.png)
 
-![imagen06](./images/servidor_web_avanzado_2/06.png)
+![imagen006](./images/servidor_web_avanzado_2/006.png)
 
-![imagen07](./images/servidor_web_avanzado_2/07.png)
+![imagen007](./images/servidor_web_avanzado_2/007.png)
 
-![imagen08](./images/servidor_web_avanzado_2/08.png)
+![imagen008](./images/servidor_web_avanzado_2/008.png)
 
 Comprobamos la instalación correcta de PHP colocando un fichero index.php en el sitio web destinado a gestionar el CMS Drupal (www.miEmpresa.com) con el siguiente código: `<?php phpinfo(); ?>`
 
-![imagen09](./images/servidor_web_avanzado_2/09.png)
+![imagen009](./images/servidor_web_avanzado_2/009.png)
 
-![imagen10](./images/servidor_web_avanzado_2/10.png)
+![imagen010](./images/servidor_web_avanzado_2/010.png)
 
-![imagen11](./images/servidor_web_avanzado_2/11.png)
+Vamos a un navegador, ponemos www.miempresa.com y tenemos que ver que funciona.
 
-Instalamos el Servidor de bases de datos relacionales MySQL para tus sitios Web gestionados por IIS. Descargar para ello el paquete instalador de http://dev.mysql.com/downloads/installer/. Instalamos MySQL y complementos necesarios.
+![imagen011](./images/servidor_web_avanzado_2/011.png)
 
-Los pasos los realizamos como se pueden ver en las imágenes.
+Instalamos el Servidor de bases de datos relacionales MySQL para tus sitios Web gestionados por IIS. Descargamos para ello el paquete instalador de [MySQL](http://dev.mysql.com/downloads/installer/). Instalamos MySQL y los complementos que creemos necesarios.
 
-![imagen12](./images/servidor_web_avanzado_2/12.png)
+Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
 
-![imagen13](./images/servidor_web_avanzado_2/13.png)
+![imagen012](./images/servidor_web_avanzado_2/012.png)
 
-![imagen14](./images/servidor_web_avanzado_2/14.png)
+![imagen013](./images/servidor_web_avanzado_2/013.png)
+
+![imagen014](./images/servidor_web_avanzado_2/014.png)
 
 Descargamos e instalamos .NET Framework 4.0.
 
-![imagen15](./images/servidor_web_avanzado_2/15.png)
+![imagen015](./images/servidor_web_avanzado_2/015.png)
 
-![imagen16](./images/servidor_web_avanzado_2/16.png)
+![imagen016](./images/servidor_web_avanzado_2/016.png)
 
-Los pasos los realizamos como se pueden ver en las imágenes.
+Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
 
-![imagen17](./images/servidor_web_avanzado_2/17.png)
+![imagen017](./images/servidor_web_avanzado_2/017.png)
 
-![imagen18](./images/servidor_web_avanzado_2/18.png)
+![imagen018](./images/servidor_web_avanzado_2/018.png)
 
-![imagen19](./images/servidor_web_avanzado_2/19.png)
+![imagen019](./images/servidor_web_avanzado_2/019.png)
 
-![imagen20](./images/servidor_web_avanzado_2/20.png)
+![imagen020](./images/servidor_web_avanzado_2/020.png)
 
-![imagen21](./images/servidor_web_avanzado_2/21.png)
+![imagen021](./images/servidor_web_avanzado_2/021.png)
 
-![imagen22](./images/servidor_web_avanzado_2/22.png)
+![imagen022](./images/servidor_web_avanzado_2/022.png)
 
-![imagen23](./images/servidor_web_avanzado_2/23.png)
+![imagen023](./images/servidor_web_avanzado_2/023.png)
 
-![imagen24](./images/servidor_web_avanzado_2/24.png)
+![imagen024](./images/servidor_web_avanzado_2/024.png)
 
-![imagen25](./images/servidor_web_avanzado_2/25.png)
+![imagen025](./images/servidor_web_avanzado_2/025.png)
 
-![imagen26](./images/servidor_web_avanzado_2/26.png)
+![imagen026](./images/servidor_web_avanzado_2/026.png)
 
-![imagen27](./images/servidor_web_avanzado_2/27.png)
+![imagen027](./images/servidor_web_avanzado_2/027.png)
 
-![imagen28](./images/servidor_web_avanzado_2/28.png)
+![imagen028](./images/servidor_web_avanzado_2/028.png)
 
-![imagen29](./images/servidor_web_avanzado_2/29.png)
+![imagen029](./images/servidor_web_avanzado_2/029.png)
 
-![imagen30](./images/servidor_web_avanzado_2/30.png)
+Finalmente ya tenemos instalado MySQL.
 
-![imagen31](./images/servidor_web_avanzado_2/31.png)
+![imagen030](./images/servidor_web_avanzado_2/030.png)
 
-Instalamos PHPMyAdmin para tus sitios Web gestionados por IIS. Para esto debes crear un nuevo sitio web asociado a phpmyadmin.miEmpresa.com, recordando crear la correspondiente carpeta (donde descomprimirás los ficheros de phpMyAdmin) y actualizar DNS.
+Abrimos una consola de MySQL y nos conectamos con el usuario que creamos anteriormente.
 
-![imagen32](./images/servidor_web_avanzado_2/32.png)
+![imagen031](./images/servidor_web_avanzado_2/031.png)
 
-![imagen33](./images/servidor_web_avanzado_2/33.png)
+Instalamos PHPMyAdmin para tus sitios Web gestionados por IIS. Para esto debes crear un nuevo sitio web asociado a phpmyadmin.miEmpresa.com, recordando crear la correspondiente carpeta (donde descomprimirás los ficheros de phpMyAdmin) y actualizamos los DNS. Descargamos para ello el paquete instalador de [phpMyAdmin](http://www.phpmyadmin.net/home_page/downloads.php)
 
-![imagen34](./images/servidor_web_avanzado_2/34.png)
+![imagen032](./images/servidor_web_avanzado_2/032.png)
 
-![imagen35](./images/servidor_web_avanzado_2/35.png)
+![imagen033](./images/servidor_web_avanzado_2/033.png)
 
-![imagen36](./images/servidor_web_avanzado_2/36.png)
+![imagen034](./images/servidor_web_avanzado_2/034.png)
 
-![imagen37](./images/servidor_web_avanzado_2/37.png)
+![imagen035](./images/servidor_web_avanzado_2/035.png)
 
-![imagen38](./images/servidor_web_avanzado_2/38.png)
+![imagen036](./images/servidor_web_avanzado_2/036.png)
 
-![imagen39](./images/servidor_web_avanzado_2/39.png)
+Ponemos en un navegador phpmyadmin.miempresa.com y nos tiene que salir la página de phpMyAdmin.
+
+![imagen037](./images/servidor_web_avanzado_2/037.png)
+
+Ponemos el usuario que ya hemos creado.
+
+![imagen038](./images/servidor_web_avanzado_2/038.png)
+
+Finalmente entramos en phpMyAdmin.
+
+![imagen039](./images/servidor_web_avanzado_2/039.png)
 
 ---
 
@@ -118,163 +130,217 @@ Instalamos PHPMyAdmin para tus sitios Web gestionados por IIS. Para esto debes c
 
 Instalamos Servidor FTP FileZilla en Windows 2012 Server. Nos descargamos Filezilla en desde la página de [Filezilla](http://filezilla-project.org/download.php?type=server).
 
-![imagen40](./images/servidor_web_avanzado_2/40.png)
+![imagen040](./images/servidor_web_avanzado_2/040.png)
 
-![imagen41](./images/servidor_web_avanzado_2/41.png)
+![imagen041](./images/servidor_web_avanzado_2/041.png)
 
-![imagen42](./images/servidor_web_avanzado_2/42.png)
+![imagen042](./images/servidor_web_avanzado_2/042.png)
 
-![imagen43](./images/servidor_web_avanzado_2/43.png)
+![imagen043](./images/servidor_web_avanzado_2/043.png)
 
-![imagen44](./images/servidor_web_avanzado_2/44.png)
+![imagen044](./images/servidor_web_avanzado_2/044.png)
 
-![imagen45](./images/servidor_web_avanzado_2/45.png)
+![imagen045](./images/servidor_web_avanzado_2/045.png)
 
-![imagen46](./images/servidor_web_avanzado_2/46.png)
+![imagen046](./images/servidor_web_avanzado_2/046.png)
 
 Creamos un usuario denominado `ftpuser` en el Servidor FTP y le asociamos a este usuario permisos de Control Total sobre la carpeta en la que se va a instalar el CMS de miEmpresa.
 
-![imagen47](./images/servidor_web_avanzado_2/47.png)
+![imagen047](./images/servidor_web_avanzado_2/047.png)
 
-![imagen48](./images/servidor_web_avanzado_2/48.png)
+![imagen048](./images/servidor_web_avanzado_2/048.png)
 
-![imagen49](./images/servidor_web_avanzado_2/49.png)
+![imagen049](./images/servidor_web_avanzado_2/049.png)
 
 Creamos un nuevo registro DNS que nos permita acceder a nuestro sitio FTP a través de la dirección `ftp.miEmpresa.com`.
 
-![imagen50](./images/servidor_web_avanzado_2/50.png)
+![imagen050](./images/servidor_web_avanzado_2/050.png)
 
-![imagen51](./images/servidor_web_avanzado_2/51.png)
+![imagen051](./images/servidor_web_avanzado_2/051.png)
 
 Comprobamos el acceso al sitio FTP a través de un navegador desde localhost y a tráves de la dirección `ftp.miEmpresa.com`, todo esto conectandonos con el usuario que hemos creado anteriormente.
 
-![imagen52](./images/servidor_web_avanzado_2/52.png)
+![imagen052](./images/servidor_web_avanzado_2/052.png)
 
-![imagen53](./images/servidor_web_avanzado_2/53.png)
+![imagen053](./images/servidor_web_avanzado_2/053.png)
 
-![imagen54](./images/servidor_web_avanzado_2/54.png)
+![imagen054](./images/servidor_web_avanzado_2/054.png)
 
-![imagen55](./images/servidor_web_avanzado_2/55.png)
+![imagen055](./images/servidor_web_avanzado_2/055.png)
 
 A partir de ahora realizaremos todo desde el cliente Windows 10.
 
 Comprobamos el acceso a phpMyAdmin desde un navegador (phpmyadmin.miEmpresa.com).
 
-![imagen56](./images/servidor_web_avanzado_2/56.png)
+![imagen056](./images/servidor_web_avanzado_2/056.png)
 
-![imagen57](./images/servidor_web_avanzado_2/57.png)
+![imagen057](./images/servidor_web_avanzado_2/057.png)
 
-![imagen58](./images/servidor_web_avanzado_2/58.png)
+![imagen058](./images/servidor_web_avanzado_2/058.png)
 
 Descargamos CMS Drupal de drupal.org. Nos descargamos Drupal desde la página de [Drupal](http://drupal.org/project/drupal)
 
 Comprobamos el acceso al sitio FTP creado a través de un navegador y con el usuario ftpuser. Antes de comprobarlo tenemos que añadir unas reglas de entrada y de salida al Firewall para que nos permita conectar el Cliente con el Servidor.
 
-![imagen59](./images/servidor_web_avanzado_2/59.png)
+![imagen059](./images/servidor_web_avanzado_2/059.png)
 
-![imagen60](./images/servidor_web_avanzado_2/60.png)
+![imagen060](./images/servidor_web_avanzado_2/060.png)
 
-![imagen61](./images/servidor_web_avanzado_2/61.png)
+![imagen061](./images/servidor_web_avanzado_2/061.png)
 
-![imagen62](./images/servidor_web_avanzado_2/62.png)
+![imagen062](./images/servidor_web_avanzado_2/062.png)
 
-![imagen63](./images/servidor_web_avanzado_2/63.png)
+![imagen063](./images/servidor_web_avanzado_2/063.png)
 
-![imagen64](./images/servidor_web_avanzado_2/64.png)
+![imagen064](./images/servidor_web_avanzado_2/064.png)
 
-![imagen65](./images/servidor_web_avanzado_2/65.png)
+![imagen065](./images/servidor_web_avanzado_2/065.png)
 
-![imagen66](./images/servidor_web_avanzado_2/66.png)
+![imagen066](./images/servidor_web_avanzado_2/066.png)
 
 Intentamos acceder a tráves de un navegador y con el usuario ftpuser.
 
-![imagen67](./images/servidor_web_avanzado_2/67.png)
+![imagen067](./images/servidor_web_avanzado_2/067.png)
 
-![imagen68](./images/servidor_web_avanzado_2/68.png)
+![imagen068](./images/servidor_web_avanzado_2/068.png)
 
 Instalamos un Cliente FTP (p.e.: FileZilla) en Windows 10 para poder realizar todas las operaciones sobre los ficheros y carpetas del servidor web. Nos descargamos Filezilla en la página de [Filezilla](http://filezilla-project.org/download.php?type=client).
 
-![imagen69](./images/servidor_web_avanzado_2/69.png)
+![imagen069](./images/servidor_web_avanzado_2/069.png)
 
-![imagen70](./images/servidor_web_avanzado_2/70.png)
+![imagen070](./images/servidor_web_avanzado_2/070.png)
 
-![imagen71](./images/servidor_web_avanzado_2/71.png)
+![imagen071](./images/servidor_web_avanzado_2/071.png)
 
-![imagen72](./images/servidor_web_avanzado_2/72.png)
+![imagen072](./images/servidor_web_avanzado_2/072.png)
 
-![imagen73](./images/servidor_web_avanzado_2/73.png)
+![imagen073](./images/servidor_web_avanzado_2/073.png)
 
 Descomprimir y subir archivos Drupal a carpeta principal (www.miEmpresa.com).
 
-![imagen74](./images/servidor_web_avanzado_2/74.png)
+![imagen074](./images/servidor_web_avanzado_2/074.png)
 
-![imagen75](./images/servidor_web_avanzado_2/75.png)
+![imagen075](./images/servidor_web_avanzado_2/075.png)
 
-![imagen76](./images/servidor_web_avanzado_2/76.png)
+![imagen076](./images/servidor_web_avanzado_2/076.png)
 
-![imagen77](./images/servidor_web_avanzado_2/77.png)
+![imagen077](./images/servidor_web_avanzado_2/077.png)
 
 Crear una nueva base de datos, denominada cms, a través de phpMyAdmin.
 
-![imagen78](./images/servidor_web_avanzado_2/78.png)
+![imagen078](./images/servidor_web_avanzado_2/078.png)
 
-![imagen79](./images/servidor_web_avanzado_2/79.png)
+![imagen079](./images/servidor_web_avanzado_2/079.png)
 
-![imagen80](./images/servidor_web_avanzado_2/80.png)
+![imagen080](./images/servidor_web_avanzado_2/080.png)
 
-![imagen81](./images/servidor_web_avanzado_2/81.png)
+![imagen081](./images/servidor_web_avanzado_2/081.png)
 
 Crear usuario cms y asignar todos los privilegios para la base de datos anterior.
 
-![imagen82](./images/servidor_web_avanzado_2/82.png)
+![imagen082](./images/servidor_web_avanzado_2/082.png)
 
-![imagen83](./images/servidor_web_avanzado_2/83.png)
+![imagen083](./images/servidor_web_avanzado_2/083.png)
 
-![imagen84](./images/servidor_web_avanzado_2/84.png)
+![imagen084](./images/servidor_web_avanzado_2/084.png)
 
-![imagen85](./images/servidor_web_avanzado_2/85.png)
+![imagen085](./images/servidor_web_avanzado_2/085.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen086](./images/servidor_web_avanzado_2/086.png)
 
 Instalar CMS Drupal desde el navegador siguiendo los pasos y consultando documentación en Internet.
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen087](./images/servidor_web_avanzado_2/087.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen088](./images/servidor_web_avanzado_2/088.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen089](./images/servidor_web_avanzado_2/089.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen090](./images/servidor_web_avanzado_2/090.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen091](./images/servidor_web_avanzado_2/091.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen092](./images/servidor_web_avanzado_2/092.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen093](./images/servidor_web_avanzado_2/093.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen094](./images/servidor_web_avanzado_2/094.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen095](./images/servidor_web_avanzado_2/095.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen096](./images/servidor_web_avanzado_2/096.png)
+
+![imagen097](./images/servidor_web_avanzado_2/097.png)
+
+![imagen098](./images/servidor_web_avanzado_2/098.png)
+
+![imagen099](./images/servidor_web_avanzado_2/099.png)
+
+![imagen100](./images/servidor_web_avanzado_2/100.png)
+
+![imagen101](./images/servidor_web_avanzado_2/101.png)
+
+![imagen102](./images/servidor_web_avanzado_2/102.png)
+
+![imagen103](./images/servidor_web_avanzado_2/103.png)
+
+![imagen104](./images/servidor_web_avanzado_2/104.png)
 
 Configuración y creación del sitio Drupal: configurar idioma español; instalar módulo gtranslate y habilitar traducción a varios idiomas; instalar y configurar temas Marinelli, Zen y Fusion; crear dos o tres páginas de contenido, crear menú Primary Links y colocar como bloque. Otras opciones de configuración que desees.
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen105](./images/servidor_web_avanzado_2/105.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen105](./images/servidor_web_avanzado_2/105.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen105](./images/servidor_web_avanzado_2/105.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen105](./images/servidor_web_avanzado_2/105.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen105](./images/servidor_web_avanzado_2/105.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen105](./images/servidor_web_avanzado_2/105.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen105](./images/servidor_web_avanzado_2/105.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen105](./images/servidor_web_avanzado_2/105.png)
+
+![imagen130](./images/servidor_web_avanzado_2/130.png)
+
+![imagen131](./images/servidor_web_avanzado_2/131.png)
 
 ---
 
@@ -282,26 +348,32 @@ Configuración y creación del sitio Drupal: configurar idioma español; instala
 
 Eligimos una de las siguientes aplicaciones web integradas basadas en software libre y realiza, en grupos de hasta tres alumnos, su instalación y configuración en tu servidor web, siempre en modo remoto, desde el cliente W7 (excepto la creación del sitio web IIS –subdominio de miEmpresa-, carpeta física y configuración DNS y FTP necesarios).
 
-* Blog: Wordpress
+* Blog: [Wordpress](http://wordpress.org/download/)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen132](./images/servidor_web_avanzado_2/132.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen133](./images/servidor_web_avanzado_2/133.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen134](./images/servidor_web_avanzado_2/134.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen135](./images/servidor_web_avanzado_2/135.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen136](./images/servidor_web_avanzado_2/136.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen137](./images/servidor_web_avanzado_2/137.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen138](./images/servidor_web_avanzado_2/138.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen139](./images/servidor_web_avanzado_2/139.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen140](./images/servidor_web_avanzado_2/140.png)
 
-![imagen86](./images/servidor_web_avanzado_2/86.png)
+![imagen141](./images/servidor_web_avanzado_2/141.png)
+
+![imagen142](./images/servidor_web_avanzado_2/142.png)
+
+![imagen143](./images/servidor_web_avanzado_2/143.png)
+
+![imagen144](./images/servidor_web_avanzado_2/144.png)
 
 ---
