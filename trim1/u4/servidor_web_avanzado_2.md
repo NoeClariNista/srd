@@ -232,11 +232,11 @@ Crear una nueva base de datos, denominada cms, a través de phpMyAdmin.
 
 ![imagen079](./images/servidor_web_avanzado_2/079.png)
 
+Crear usuario cms y asignar todos los privilegios para la base de datos anterior.
+
 ![imagen080](./images/servidor_web_avanzado_2/080.png)
 
 ![imagen081](./images/servidor_web_avanzado_2/081.png)
-
-Crear usuario cms y asignar todos los privilegios para la base de datos anterior.
 
 ![imagen082](./images/servidor_web_avanzado_2/082.png)
 
@@ -246,9 +246,9 @@ Crear usuario cms y asignar todos los privilegios para la base de datos anterior
 
 ![imagen085](./images/servidor_web_avanzado_2/085.png)
 
-![imagen086](./images/servidor_web_avanzado_2/086.png)
-
 Instalar CMS Drupal desde el navegador siguiendo los pasos y consultando documentación en Internet.
+
+![imagen086](./images/servidor_web_avanzado_2/086.png)
 
 ![imagen087](./images/servidor_web_avanzado_2/087.png)
 
@@ -282,11 +282,11 @@ Instalar CMS Drupal desde el navegador siguiendo los pasos y consultando documen
 
 ![imagen102](./images/servidor_web_avanzado_2/102.png)
 
+Configuración y creación del sitio Drupal: configurar idioma español; instalar módulo gtranslate y habilitar traducción a varios idiomas; instalar y configurar temas Marinelli, Zen y Fusion; crear dos o tres páginas de contenido, crear menú Primary Links y colocar como bloque. Otras opciones de configuración que desees.
+
 ![imagen103](./images/servidor_web_avanzado_2/103.png)
 
 ![imagen104](./images/servidor_web_avanzado_2/104.png)
-
-Configuración y creación del sitio Drupal: configurar idioma español; instalar módulo gtranslate y habilitar traducción a varios idiomas; instalar y configurar temas Marinelli, Zen y Fusion; crear dos o tres páginas de contenido, crear menú Primary Links y colocar como bloque. Otras opciones de configuración que desees.
 
 ![imagen105](./images/servidor_web_avanzado_2/105.png)
 
@@ -340,8 +340,6 @@ Configuración y creación del sitio Drupal: configurar idioma español; instala
 
 ![imagen130](./images/servidor_web_avanzado_2/130.png)
 
-![imagen131](./images/servidor_web_avanzado_2/131.png)
-
 ---
 
 ## **Instalación Y Configuración De Aplicaciones Web Integradas.**
@@ -349,6 +347,8 @@ Configuración y creación del sitio Drupal: configurar idioma español; instala
 Eligimos una de las siguientes aplicaciones web integradas basadas en software libre y realiza, en grupos de hasta tres alumnos, su instalación y configuración en tu servidor web, siempre en modo remoto, desde el cliente W7 (excepto la creación del sitio web IIS –subdominio de miEmpresa-, carpeta física y configuración DNS y FTP necesarios).
 
 * Blog: [Wordpress](http://wordpress.org/download/)
+
+![imagen131](./images/servidor_web_avanzado_2/131.png)
 
 ![imagen132](./images/servidor_web_avanzado_2/132.png)
 
@@ -373,7 +373,5 @@ Eligimos una de las siguientes aplicaciones web integradas basadas en software l
 ![imagen142](./images/servidor_web_avanzado_2/142.png)
 
 ![imagen143](./images/servidor_web_avanzado_2/143.png)
-
-![imagen144](./images/servidor_web_avanzado_2/144.png)
 
 ---
