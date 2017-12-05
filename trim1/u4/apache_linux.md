@@ -30,8 +30,8 @@ Configurar MV Ubuntu o similar en adaptador Puente (acceso a Internet)
 Instalar Apache: sudo apt-get install apache2
 Comprobar carpeta raíz sitio web: /var/www
 Comprobar acceso a localhost //It works!
-
 Añadir línea www.miempresa.com asociada a IP servidor en /etc/hosts o servidor DNS. Comprobar acceso
+
 Reiniciar apache: sudo /etc/init.d/apache2 restart ó reload
 Error + Access logs: /var/log/apache2
 
@@ -77,6 +77,7 @@ Opciones típicas...
             § openssl rsa -in server.key -out server.pem
             § openssl req -new -key server.key -out server.csr
             § openssl x509 -req -days 360 -in server.csr -signkey server.key -out server.crt
+
         Modificar /etc/apache2/sites-available/000-default.conf según indicaciones PDF para crear host virtual seguro
         Consultar alternativas al PDF (Host Virtual) en este enlace
         Habilitar módulo SSL apache: sudo a2enmod ssl
