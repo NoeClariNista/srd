@@ -25,7 +25,8 @@ Configurar MV Ubuntu o similar en adaptador Puente (acceso a Internet)
 
 ---
 
-Apache:
+## **Apache.**
+
 Instalar Apache: sudo apt-get install apache2
 Comprobar carpeta raíz sitio web: /var/www
 Comprobar acceso a localhost //It works!
@@ -36,16 +37,20 @@ Error + Access logs: /var/log/apache2
 
 ---
 
-    PHP
-        Instalar php: sudo apt-get install php5
-        Comprobar acceso a index.php -<?php phpinfo(); ?>-
-        sudo apt-get install libapache2-mod-php5 //No debe ser necesario
+PHP
+Instalar php: sudo apt-get install php5
+Comprobar acceso a index.php -<?php phpinfo(); ?>-
+sudo apt-get install libapache2-mod-php5 //No debe ser necesario
 
 
-    Crear Hosts Virtuales en Apache, es decir, asociar carpetas con sitios web (ej: empleados.miempresa.com --> /var/www/empleados) y establecer configuración (/etc/apache2/sites-available/000-default.conf)
-        Configuración Hosts Virtuales (sitios web independientes) en este enlace:
-        Ejemplo:
+Crear Hosts Virtuales en Apache, es decir, asociar carpetas con sitios web (ej: empleados.miempresa.com --> /var/www/empleados) y establecer configuración (/etc/apache2/sites-available/000-default.conf)
 
+Configuración Hosts Virtuales (sitios web independientes) en este enlace:
+
+
+Ejemplo:
+
+~~~
 <VirtualHost *:80>
 
 ServerAdmin webmaster@miempresa.com
@@ -61,6 +66,7 @@ Opciones típicas...
 </Directory>
 
 </VirtualHost>
+~~~
 
 ---
 
