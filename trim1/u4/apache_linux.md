@@ -37,7 +37,8 @@ Error + Access logs: /var/log/apache2
 
 ---
 
-PHP
+## **PHP.**
+
 Instalar php: sudo apt-get install php5
 Comprobar acceso a index.php -<?php phpinfo(); ?>-
 sudo apt-get install libapache2-mod-php5 //No debe ser necesario
@@ -70,41 +71,52 @@ Opciones típicas...
 
 ---
 
-    Configurar sitio web seguro pagos:
-        Al instalar Apache, se instala también SSL
-        Generar certificado autofirmado:
-            § openssl genrsa -des3 -out server.key 1024
-            § openssl rsa -in server.key -out server.pem
-            § openssl req -new -key server.key -out server.csr
-            § openssl x509 -req -days 360 -in server.csr -signkey server.key -out server.crt
+## **Configurar Sitio Web Seguro Pagos.**
 
-        Modificar /etc/apache2/sites-available/000-default.conf según indicaciones PDF para crear host virtual seguro
-        Consultar alternativas al PDF (Host Virtual) en este enlace
-        Habilitar módulo SSL apache: sudo a2enmod ssl
+Al instalar Apache, se instala también SSL
 
----
+Generar certificado autofirmado:
+* openssl genrsa -des3 -out server.key 1024
+* openssl rsa -in server.key -out server.pem
+* openssl req -new -key server.key -out server.csr
+* openssl x509 -req -days 360 -in server.csr -signkey server.key -out server.crt
 
-    Acceso a carpetas privadas
+Modificar /etc/apache2/sites-available/000-default.conf según indicaciones PDF para crear host virtual seguro
 
-        Autenticación mediante .htaccess: Ver enlace
-        Estructura: empleados.miemepresa.com (acceso a todos los empleados pero no anónimos) y subcarpetas personales de empleados (dos o tres, con acceso limitado al usuario)
+Consultar alternativas al PDF (Host Virtual) en este enlace
+
+Habilitar módulo SSL apache: sudo a2enmod ssl
 
 ---
 
-    MySQL
-        Instalar MySQL: sudo apt-get install mysql-server
-        Instalar soporte php para MySQL: sudo apt-get install php5-mysql //Puede no ser necesario
+## **Acceso A Carpetas Privadas.**
+
+Autenticación mediante .htaccess: Ver enlace
+
+Estructura: empleados.miemepresa.com (acceso a todos los empleados pero no anónimos) y subcarpetas personales de empleados (dos o tres, con acceso limitado al usuario)
 
 ---
 
-    phpMyAdmin
-        Descargar última versión (tar.gz) desde phpmyadmin.net, descomprimir en subcarpeta de /var/www (u otra asociada por host virtual) y comprobar acceso
+## **MySQL.**
+
+Instalar MySQL: sudo apt-get install mysql-server
+
+Instalar soporte php para MySQL: sudo apt-get install php5-mysql //Puede no ser necesario
 
 ---
 
-    Plataforma Drupal / Joomla / Moodle / etc
-        Creación bases de datos y usuarios necesarios
-        Instalación /configuración FTP y/o SSH para acceso remoto desde cliente (opcional)
-        Descarga, instalación y configuración plataforma Drupal, Joomla, Moodle, Gallery, osCommerce, etc. en página principal.
+## **phpMyAdmin.**
+
+Descargar última versión (tar.gz) desde phpmyadmin.net, descomprimir en subcarpeta de /var/www (u otra asociada por host virtual) y comprobar acceso
+
+---
+
+## **Plataforma Drupal / Joomla / Moodle / etc.**
+
+Creación bases de datos y usuarios necesarios
+
+Instalación /configuración FTP y/o SSH para acceso remoto desde cliente (opcional)
+
+Descarga, instalación y configuración plataforma Drupal, Joomla, Moodle, Gallery, osCommerce, etc. en página principal.
 
 ---
