@@ -99,15 +99,15 @@ Estructura: empleados.miemepresa.com (acceso a todos los empleados pero no anón
 
 ## **MySQL.**
 
-Instalar MySQL: sudo apt-get install mysql-server
+Instalar MySQL: sudo apt-get install mysql-server.
 
-Instalar soporte php para MySQL: sudo apt-get install php5-mysql //Puede no ser necesario
+Instalar soporte php para MySQL: sudo apt-get install php5-mysql.
 
 ---
 
 ## **phpMyAdmin.**
 
-Descargar última versión (tar.gz) desde phpmyadmin.net, descomprimir en subcarpeta de /var/www (u otra asociada por host virtual) y comprobar acceso
+Descargar última versión (tar.gz) desde phpmyadmin.net, descomprimir en subcarpeta de /var/www (u otra asociada por host virtual) y comprobar acceso.
 
 ---
 
