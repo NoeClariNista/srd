@@ -235,7 +235,7 @@ Creación bases de datos y usuarios necesarios.
 
 ![imagen62](./images/apache_linux/62.png)
 
-Descarga, instalación y configuración plataforma Drupal en página principal.
+Descargamos, hacemos la instalación y la configuración de la plataforma Drupal en la página principal.
 
 ![imagen63](./images/apache_linux/63.png)
 
