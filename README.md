@@ -26,6 +26,10 @@ ___
 
 * **Actividad 1. [Servidor Web Básico.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/servidor_web_basico.md)**
 
-* **Actividad 2. [Servidor Web Avanzado.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/servidor_web_avanzado.md)**
+* **Actividad 2. [Servidor Web Avanzado - Carpetas Seguras Y Privadas.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/servidor_web_avanzado.md)**
+
+* **Actividad 3. [Servidor Web Avanzado - PHP, MySQL, phpMyAdmin, FTP y Drupal.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/servidor_web_avanzado_2.md)**
+
+* **Actividad 4. [Apache Linux.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/apache_linux.md)**
 
 ---
