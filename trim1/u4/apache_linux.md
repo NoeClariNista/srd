@@ -78,9 +78,9 @@ Vamos al navegador y comprobamos el acceso a localhost y a `www.miempresa.com`.
 
 ## **Host Virtuales.**
 
-Creamos Hosts Virtuales en Apache, es decir, asociamos carpetas con sitios web, empleados.miempresa.com a /var/www/empleados, y establecemos la configuración en /etc/apache2/sites-available/000-default.conf.
+Creamos Hosts Virtuales en Apache, es decir, asociamos carpetas con sitios web, `empleados.miempresa.com` a `/var/www/empleados`, y establecemos la configuración en `/etc/apache2/sites-available/000-default.conf`.
 
-Lo primero es hacer la carpeta en `/var/www`.
+Lo primero que hacemos es crear la carpeta empleados en `/var/www`.
 
 ![imagen16](./images/apache_linux/16.png)
 
@@ -90,7 +90,7 @@ Dentro de esta carpeta añadimos un index.html.
 
 ![imagen18](./images/apache_linux/18.png)
 
-Ahora tenemos que ir a `/etc/apache2/sites-available/` y editar 000-default.conf.
+Ahora tenemos que ir a `/etc/apache2/sites-available/` y editamos 000-default.conf.
 
 ![imagen19](./images/apache_linux/19.png)
 
@@ -116,7 +116,7 @@ Comprobamos el acceso a `empleados.miempresa.com`.
 
 Al instalar Apache, se instala también SSL.
 
-Generamos certificado autofirmado, para ello introducimos los siguientes comandos.
+Generamos un certificado autofirmado, para ello introducimos los siguientes comandos.
 
 * openssl genrsa -des3 -out apache.key 1024.
 * openssl rsa -in apache.key -out apache.pem.
@@ -125,23 +125,25 @@ Generamos certificado autofirmado, para ello introducimos los siguientes comando
 
 ![imagen25](./images/apache_linux/25.png)
 
-Creamos un nuevo virtual host a partir del /etc/apache2/sites-available/000-default.conf según indicaciones PDF para crear host virtual seguro.
+Creamos un nuevo Virtual Host a partir del `/etc/apache2/sites-available/000-default.conf`.
 
 ![imagen26](./images/apache_linux/26.png)
 
 ![imagen27](./images/apache_linux/27.png)
 
-Hacemos un enlace simbólico en `/etc/apache2/sites-enabled`
+Hacemos un enlace simbólico en `/etc/apache2/sites-enabled`.
 
 ![imagen28](./images/apache_linux/28.png)
 
-Habilitamos el módulo SSL apache con el comando sudo a2enmod ssl.
+Reiniciamos el Servicio de Apache.
 
 ![imagen29](./images/apache_linux/29.png)
 
+Habilitamos el módulo SSL apache con el comando sudo a2enmod ssl.
+
 ![imagen30](./images/apache_linux/30.png)
 
-Añadimos a /etc/hosts pagos.miempresa.com.
+Añadimos a /etc/hosts `pagos.miempresa.com`.
 
 ![imagen31](./images/apache_linux/31.png)
 
@@ -151,13 +153,13 @@ Hacemos la carpeta pagos donde estará un index.html.
 
 ![imagen33](./images/apache_linux/33.png)
 
-Dentro de esta carpeta añadimos un index.html.
+Dentro de esta carpeta editamos el index.html.
 
 ![imagen34](./images/apache_linux/34.png)
 
 ![imagen35](./images/apache_linux/35.png)
 
-Comprobamos el acceso.
+Comprobamos el acceso a `pagos.miempresa.com`.
 
 ![imagen36](./images/apache_linux/36.png)
 
@@ -165,23 +167,31 @@ Comprobamos el acceso.
 
 ## **Acceso A Carpetas Privadas.**
 
-Autenticación mediante .htaccess.
+Autenticación mediante .htaccess, para ello creamos una carpeta de claves, por ejemplo, `/var/claves`.
 
 ![imagen37](./images/apache_linux/37.png)
+
+Dentro de la carpeta `/var/www/empleados/` añadimos el .htaccess.
 
 ![imagen38](./images/apache_linux/38.png)
 
 ![imagen39](./images/apache_linux/39.png)
 
+Lanzamos el comando htpasswd -c /var/claves/noelia noelia para
+
 ![imagen40](./images/apache_linux/40.png)
 
-Estructura: empleados.miempresa.com (acceso a todos los empleados pero no anónimos) y subcarpetas personales de empleados (dos o tres, con acceso limitado al usuario)
+Para hacer que el acceso a `empleados.miempresa.com` sea siempre pidiendo contraseña al usuario tenemos que editar `/etc/apache2/sites-available/000-default.conf`.
 
 ![imagen41](./images/apache_linux/41.png)
 
 ![imagen42](./images/apache_linux/42.png)
 
+Reiniciamos el Servicio de Apache.
+
 ![imagen43](./images/apache_linux/43.png)
+
+Comprobamos el acceso a `empleados.miempresa.com`.
 
 ![imagen44](./images/apache_linux/44.png)
 
@@ -191,7 +201,7 @@ Estructura: empleados.miempresa.com (acceso a todos los empleados pero no anóni
 
 ## **MySQL.**
 
-Instalar MySQL: sudo apt-get install mysql-server.
+Instalamos MySQL con el comando sudo apt-get install mysql-server.
 
 ![imagen46](./images/apache_linux/46.png)
 
@@ -199,7 +209,7 @@ Instalar MySQL: sudo apt-get install mysql-server.
 
 ![imagen48](./images/apache_linux/48.png)
 
-Instalar soporte php para MySQL: sudo apt-get install php-mysql.
+Instalamos el soporte PHP para MySQL con el comando sudo apt-get install php-mysql.
 
 ![imagen49](./images/apache_linux/49.png)
 
@@ -207,11 +217,13 @@ Instalar soporte php para MySQL: sudo apt-get install php-mysql.
 
 ## **phpMyAdmin.**
 
-Descargar última versión (tar.gz) desde phpmyadmin.net, descomprimir en subcarpeta de /var/www (u otra asociada por host virtual) y comprobar acceso.
+Descargamos la última versión (tar.gz) desde phpmyadmin.net.
 
 ![imagen50](./images/apache_linux/50.png)
 
 ![imagen51](./images/apache_linux/51.png)
+
+Descomprimimos en la subcarpeta de `/var/www`.
 
 ![imagen52](./images/apache_linux/52.png)
 
@@ -219,25 +231,39 @@ Descargar última versión (tar.gz) desde phpmyadmin.net, descomprimir en subcar
 
 ![imagen54](./images/apache_linux/54.png)
 
+Establecemos la configuración en `/etc/apache2/sites-available`.
+
 ![imagen55](./images/apache_linux/55.png)
 
 ![imagen56](./images/apache_linux/56.png)
 
 ![imagen57](./images/apache_linux/57.png)
 
+Creamos un enlace simbólico en `/etc/apache2/sites-enabled`.
+
 ![imagen58](./images/apache_linux/58.png)
 
+Habilitamos el módulo SSL apache con el comando sudo a2ensite 000-phpmyadmin.
+
 ![imagen59](./images/apache_linux/59.png)
+
+Añadimos la línea `phpmyadmin.miempresa.com` en /etc/hosts.
 
 ![imagen60](./images/apache_linux/60.png)
 
 ![imagen61](./images/apache_linux/61.png)
 
+Reiniciamos el Servicio de Apache.
+
 ![imagen62](./images/apache_linux/62.png)
+
+Comprobamos el acceso a `phpmyadmin.miempresa.com`.
 
 ![imagen63](./images/apache_linux/63.png)
 
 ![imagen64](./images/apache_linux/64.png)
+
+Introducimos el usuario root con su contraseña.
 
 ![imagen65](./images/apache_linux/65.png)
 
@@ -247,45 +273,67 @@ Descargar última versión (tar.gz) desde phpmyadmin.net, descomprimir en subcar
 
 ## **Plataforma Drupal.**
 
-Creación bases de datos y usuarios necesarios.
+Vamos a `phpmyadmin.miempresa.com`, introducimos el usuario root con su contraseña.
 
 ![imagen67](./images/apache_linux/67.png)
+
+Creamos el usuario alumno.
 
 ![imagen68](./images/apache_linux/68.png)
 
 ![imagen69](./images/apache_linux/69.png)
 
+Le damos todos los privilegios a este usuario.
+
 ![imagen70](./images/apache_linux/70.png)
 
 ![imagen71](./images/apache_linux/71.png)
+
+Creamos bases de datos llamada alumnos.
 
 ![imagen72](./images/apache_linux/72.png)
 
 ![imagen73](./images/apache_linux/73.png)
 
-Descargamos, hacemos la instalación y la configuración de la plataforma Drupal en la página principal.
+Descargamos Drupal de la plataforma Drupal.
 
 ![imagen74](./images/apache_linux/74.png)
 
+Descomprimimos en la carpeta.
+
 ![imagen75](./images/apache_linux/75.png)
 
+Movemos la carpeta descomprimida a `/var/www`.
+
 ![imagen76](./images/apache_linux/76.png)
+
+Establecemos la configuración en `/etc/apache2/sites-available`.
 
 ![imagen77](./images/apache_linux/77.png)
 
 ![imagen78](./images/apache_linux/78.png)
 
+Creamos un enlace simbólico en `/etc/apache2/sites-enabled`.
+
 ![imagen79](./images/apache_linux/79.png)
+
+Añadimos la línea `drupal.miempresa.com` en `/etc/hosts`.
 
 ![imagen80](./images/apache_linux/80.png)
 
 ![imagen81](./images/apache_linux/81.png)
 
+Reiniciamos el Servicio de Apache.
+
 ![imagen82](./images/apache_linux/82.png)
+
+Habilitamos el módulo SSL Apache con el comando sudo a2ensite 000-drupal.
 
 ![imagen83](./images/apache_linux/83.png)
 
 ![imagen84](./images/apache_linux/84.png)
+
+Comprobamos el acceso a `drupal.miempresa.com`. Dentro de aqui realizaremos la instalación y la configuración de la plataforma Drupal en la página principal.
 
 ![imagen85](./images/apache_linux/85.png)
 
