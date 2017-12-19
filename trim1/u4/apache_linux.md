@@ -40,7 +40,7 @@ Reiniciamos apache con el comando sudo /etc/init.d/apache2 restart.
 
 ![imagen07](./images/apache_linux/07.png)
 
-Comrpobamos que dentro de `/var/log/apache2/` se encuentran error.log y access.log.
+Comprobamos que dentro de `/var/log/apache2/` se encuentran error.log y access.log.
 
 ![imagen08](./images/apache_linux/08.png)
 
@@ -73,6 +73,10 @@ Vamos al navegador y comprobamos el acceso a localhost y a `www.miempresa.com`.
 ![imagen14](./images/apache_linux/14.png)
 
 ![imagen15](./images/apache_linux/15.png)
+
+---
+
+## **Host Virtuales.**
 
 Creamos Hosts Virtuales en Apache, es decir, asociamos carpetas con sitios web, empleados.miempresa.com a /var/www/empleados, y establecemos la configuración en /etc/apache2/sites-available/000-default.conf.
 
@@ -215,7 +219,7 @@ Descargar última versión (tar.gz) desde phpmyadmin.net, descomprimir en subcar
 
 ---
 
-## **Plataforma Drupal / Joomla / Moodle / etc.**
+## **Plataforma Drupal.**
 
 Creación bases de datos y usuarios necesarios.
 
