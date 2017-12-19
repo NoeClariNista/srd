@@ -114,7 +114,7 @@ Comprobamos el acceso a `empleados.miempresa.com`.
 
 ## **Configurar Sitio Web Seguro Pagos.**
 
-Al instalar Apache, se instala también SSL.
+Al instalar Apache, se instala automáticamente SSL.
 
 Generamos un certificado autofirmado, para ello introducimos los siguientes comandos.
 
@@ -135,15 +135,15 @@ Hacemos un enlace simbólico en `/etc/apache2/sites-enabled`.
 
 ![imagen28](./images/apache_linux/28.png)
 
-Reiniciamos el Servicio de Apache.
+Reiniciamos el Servicio Apache.
 
 ![imagen29](./images/apache_linux/29.png)
 
-Habilitamos el módulo SSL apache con el comando sudo a2enmod ssl.
+Habilitamos el módulo SSL Apache con el comando sudo a2enmod ssl.
 
 ![imagen30](./images/apache_linux/30.png)
 
-Añadimos a /etc/hosts `pagos.miempresa.com`.
+Añadimos a línea `pagos.miempresa.com` en s`/etc/hosts`.
 
 ![imagen31](./images/apache_linux/31.png)
 
@@ -167,7 +167,7 @@ Comprobamos el acceso a `pagos.miempresa.com`.
 
 ## **Acceso A Carpetas Privadas.**
 
-Autenticación mediante .htaccess, para ello creamos una carpeta de claves, por ejemplo, `/var/claves`.
+Autenticación mediante .htaccess, para ello creamos una carpeta de claves, por ejemplo, en `/var/claves`.
 
 ![imagen37](./images/apache_linux/37.png)
 
@@ -177,7 +177,7 @@ Dentro de la carpeta `/var/www/empleados/` añadimos el .htaccess.
 
 ![imagen39](./images/apache_linux/39.png)
 
-Lanzamos el comando htpasswd -c /var/claves/noelia noelia para
+Lanzamos el comando htpasswd -c /var/claves/noelia noelia.
 
 ![imagen40](./images/apache_linux/40.png)
 
@@ -187,7 +187,7 @@ Para hacer que el acceso a `empleados.miempresa.com` sea siempre pidiendo contra
 
 ![imagen42](./images/apache_linux/42.png)
 
-Reiniciamos el Servicio de Apache.
+Reiniciamos el Servicio Apache.
 
 ![imagen43](./images/apache_linux/43.png)
 
@@ -243,17 +243,17 @@ Creamos un enlace simbólico en `/etc/apache2/sites-enabled`.
 
 ![imagen58](./images/apache_linux/58.png)
 
-Habilitamos el módulo SSL apache con el comando sudo a2ensite 000-phpmyadmin.
+Habilitamos el módulo 000-phpmyadmin con el comando sudo a2ensite 000-phpmyadmin.
 
 ![imagen59](./images/apache_linux/59.png)
 
-Añadimos la línea `phpmyadmin.miempresa.com` en /etc/hosts.
+Añadimos la línea `phpmyadmin.miempresa.com` en `/etc/hosts`.
 
 ![imagen60](./images/apache_linux/60.png)
 
 ![imagen61](./images/apache_linux/61.png)
 
-Reiniciamos el Servicio de Apache.
+Reiniciamos el Servicio Apache.
 
 ![imagen62](./images/apache_linux/62.png)
 
@@ -323,11 +323,11 @@ Añadimos la línea `drupal.miempresa.com` en `/etc/hosts`.
 
 ![imagen81](./images/apache_linux/81.png)
 
-Reiniciamos el Servicio de Apache.
+Reiniciamos el Servicio Apache.
 
 ![imagen82](./images/apache_linux/82.png)
 
-Habilitamos el módulo SSL Apache con el comando sudo a2ensite 000-drupal.
+Habilitamos el módulo 000-drupal con el comando sudo a2ensite 000-drupal.
 
 ![imagen83](./images/apache_linux/83.png)
 
