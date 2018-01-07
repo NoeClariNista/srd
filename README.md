@@ -32,4 +32,6 @@ ___
 
 * **Actividad 4. [Apache Linux.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/apache_linux.md)**
 
+* **Actividad 5. [Panel De Control Hosting Web.](https://github.com/NoeClariNista/srd/blob/master/trim1/u4/panel_de_control_hosting_web.md)**
+
 ---
