@@ -14,7 +14,7 @@ Vamos a ir a la página oficial de [Webmin](http://www.webmin.com/).
 
 ![imagen01](./images/panel_de_control_hosting_web/01.png)
 
-Luego vamos a Download y nos descargamos por comandos Webmin con la dirección que nos aparece en la página y que sea la versión para Ubuntu.
+Luego vamos a Download y nos descargamos por comandos Webmin con la dirección que nos aparece en la página, la versión para Ubuntu.
 
 ![imagen02](./images/panel_de_control_hosting_web/02.png)
 
@@ -38,7 +38,7 @@ Nos da un error y hacemos la siguiente instalación.
 
 ---
 
-# **3. Configuración Webmin.**
+# **3. Configuración De Webmin.**
 
 Introducimos la dirección 172.18.20.41:10000. Nos da un error de seguridad.
 
@@ -64,7 +64,7 @@ Tenemos que hacer las gestiones dentro del Server.
 
 ![imagen11](./images/panel_de_control_hosting_web/11.png)
 
-## **4.1. Gestión Apache.**
+## **4.1. Gestión De Apache.**
 
 En la primera pestaña del Apache Webserver podemos ver lo siguiente.
 
@@ -78,7 +78,7 @@ En la última pestaña vemos lo siguiente.
 
 ![imagen14](./images/panel_de_control_hosting_web/14.png)
 
-## **4.2. Gestión BIND DNS Server.**
+## **4.2. Gestión De BIND DNS Server.**
 
 En el BIND DNS Server vemos lo siguiente. Donde se encuentra nuestro DNS de empresa20.com.
 
@@ -94,13 +94,13 @@ También podemos ver todos los alias y hosts que tenemos creados, para ello vamo
 
 ![imagen18](./images/panel_de_control_hosting_web/18.png)
 
-## **4.3. Gestión MySQL.**
+## **4.3. Gestión De MySQL.**
 
 En MySQL Database Server podemos ver que tenemos que entrar como root y con su contraseña.
 
 ![imagen19](./images/panel_de_control_hosting_web/19.png)
 
-Aqui vemos las base de datos creadas y más datos de cada una.
+Aquí vemos las base de datos creadas y más datos de cada una.
 
 ![imagen20](./images/panel_de_control_hosting_web/20.png)
 
