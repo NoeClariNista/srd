@@ -4,7 +4,7 @@ ___
 
 ---
 
-Instalar Servicio FTP en Windows 2012 Server, a través de Agregar roles y características (IIS)
+Instalar Servicio FTP en Windows 2012 Server, a través de Agregar roles y características (IIS) y desinstalamos el Filezilla.
 
 Acceder a la creación y configuración de Sitios FTP por medio de la Administración de IIS.
 
