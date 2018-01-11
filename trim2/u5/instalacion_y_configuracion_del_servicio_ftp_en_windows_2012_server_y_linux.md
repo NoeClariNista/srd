@@ -16,6 +16,18 @@ Creamos tres nuevos sitios FTP (en todos ellos se debe poder acceder a través d
 
     * Examinamos todas las opciones de configuración de la página principal de tu Sitio FTP (IIS) y hacemos una descripción breve de cada una en el informe. No modifiques nada aún.
 
+    aislamiento -> no podrá acceder a carpetas anteriores en el arbol.
+    autentificación -> acceso anonimo o básica.
+    comprobación ->
+    ssl -> los certificados.
+    examen de directorios -> como es el estilo de la lista de directorios.
+    filtrado de solicitudes -> para no permitir a ciertas máquinas.
+
+    registro -> donde se guard el registro de los errores y accesos.
+    reglas de autorizacion -> distintas reglas de permisos a los usuarios y distintos usuarios.
+    restricciones direciones ip.
+    sesiones actuales -> las sesiones activas ahora mismo.
+
     * Tratamos de acceder al sitio ftp desde el propio Servidor a través de un navegador y un explorador de archivos.
 
     * Comprobamos accesos permitidos y denegados. Comprobamos también permisos asignados.
