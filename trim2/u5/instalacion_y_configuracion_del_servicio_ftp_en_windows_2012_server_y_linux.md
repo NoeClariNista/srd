@@ -45,3 +45,31 @@ Debemos crear un nuevo registro DNS que permita acceder a nuestro sitio FTP a tr
 En un principio es posible que debas detener un sitio web para que pueda iniciarse otro. Tras comprobar el funcionamiento por separado de los sitios, encontrar una solución para que nuestro servidor ofrezca varios sitios FTP simultáneamente.
 
 ---
+
+# **Instalación Y Configuración Del Servicio FTP En Linux.**
+
+---
+
+* Instalar Servicio SSH en el Servidor Linux.
+
+* Crear dos usuarios en el sistema, con diferentes privilegios y niveles de acceso al filesystem.
+
+* Comprobar, desde una máquina cliente, acceso de los usuarios mediante ssh.
+
+* Tratar de ejecutar una aplicación gráfica del servidor de forma remota, desde el cliente, mediante ssh.
+
+* Acceder, también desde el Cliente, mediante sftp (ftp seguro, incluido en el paquete ssh) al sistema de ficheros del servidor y probar acceso, carga y descarga de archivos con ambos usuarios.
+
+* Realizar varias copias de archivos hacia / desde el servidor mediante scp, utilizando también los dos usuarios creados anteriormente.
+
+* Instalar el paquete proftpd.
+
+* Investigar y editar el fichero de configuración `/etc/proftpd/proftpd.conf` buscando información en Internet.
+
+* Tratar de conectar al servicio ftp gestionado por proftpd tanto desde el servidor como desde un cliente.
+
+* Desde la máquina cliente, probar el acceso al ftp mediante los usuarios creados y realizando diferentes operaciones de listado, subida y descarga de archivos.
+
+* Informar sobre la configuración, uso y funcionamiento de proftpd.
+
+---
