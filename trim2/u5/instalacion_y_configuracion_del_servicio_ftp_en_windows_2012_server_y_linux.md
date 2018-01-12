@@ -14,7 +14,7 @@ Creamos tres nuevos sitios FTP (en todos ellos se debe poder acceder a través d
 
   * El primero dominio estará asociado a la unidad C: completa. No debe permitir accesos anónimos. Sin uso de SSL. Sólo el usuario Administrador podrá acceder al sitio. Modos lectura y escritura.  Ahora realiza las siguientes acciones:
 
-    * Examinamos todas las opciones de configuración de la página principal de tu Sitio FTP (IIS) y hacemos una descripción breve de cada una en el informe. No modifiques nada aún.
+    * Examinamos todas las opciones de configuración de la página principal de tu Sitio FTP (IIS) y hacemos una descripción breve de cada una en el informe.
 
     aislamiento -> no podrá acceder a carpetas anteriores en el arbol.
     autentificación -> acceso anonimo o básica.
