@@ -43,7 +43,7 @@ Creamos tres nuevos sitios FTP (en todos ellos se debe poder acceder a través d
 Debemos crear un nuevo registro DNS que permita acceder a nuestro sitio FTP a través de la dirección ftp.miServer.com (o el dominio que utilices habitualmente).
 
 En un principio es posible que debas detener un sitio web para que pueda iniciarse otro. Tras comprobar el funcionamiento por separado de los sitios, encontrar una solución para que nuestro servidor ofrezca varios sitios FTP simultáneamente.
-
+---
 ---
 
 # **Instalación Y Configuración Del Servicio FTP En Linux.**
