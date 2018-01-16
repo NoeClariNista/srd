@@ -10,9 +10,9 @@ Instalamos el Servicio FTP en Windows 2012 Server, a través de Agregar roles y 
 
 Accedemos a la creación y configuración de Sitios FTP por medio de la Administración de IIS.
 
-Creamos tres nuevos sitios FTP (en todos ellos se debe poder acceder a través de las IPs del servidor y, en algún caso, de un nombre DNS ftp.tudominio.ext):
+Creamos tres nuevos sitios FTP, en todos ellos se debe poder acceder a través de las IPs del servidor.
 
-  * El primero dominio estará asociado a la unidad C: completa. No debe permitir accesos anónimos. Sin uso de SSL. Sólo el usuario Administrador podrá acceder al sitio. Modos lectura y escritura.  Ahora realiza las siguientes acciones:
+  * El primero dominio estará asociado a la unidad C: completa. No debe permitir accesos anónimos. Sin uso de SSL. Sólo el usuario Administrador podrá acceder al sitio. Modos lectura y escritura.
 
     * Examinamos todas las opciones de configuración de la página principal de tu Sitio FTP (IIS) y hacemos una descripción breve de cada una en el informe.
 
@@ -36,9 +36,15 @@ Creamos tres nuevos sitios FTP (en todos ellos se debe poder acceder a través d
 
     * Instalamos el software WinSCP en el cliente Windows, configuramos la conexión a tu sitio ftp y tratamos de establecer conexión y realizamos comprobaciones.
 
-  * El segundo dominio estará asociado al directorio wwwroot de Inetpub. Se permitirá el acceso a todos los usuarios de Active Directory en modo lectura y escritura. No permitimos acceso anónimo y habilitamos en este caso la posibilidad (permitir, no requerir) de conexiones SSL asociadas a uno de los certificados que poseas en IIS. Realizamos diferentes comprobaciones válidas e inválidas de conexión y operaciones, tanto desde el Servidor como desde el Cliente. Realizamos una configuración de conexión SSL desde WinSCP.
+  * El segundo dominio estará asociado al directorio wwwroot de Inetpub. Se permitirá el acceso a todos los usuarios de Active Directory en modo lectura y escritura. No permitimos acceso anónimo y habilitamos en este caso la posibilidad de conexiones SSL asociadas a uno de los certificados que poseas en IIS.
 
-  * El tercer dominio estará asociado a una carpeta cualquiera del Servidor que contenga información (archivos y carpetas), pero que no sea importante. Permitiremos acceso anónimo y sólo se podrá consultar y leer. Comprobamos desde Servidor y Cliente.
+    * Realizamos comprobaciones válidas e inválidas de conexión y operaciones, tanto desde el Servidor como desde el Cliente.
+
+    * Realizamos una configuración de conexión SSL desde WinSCP.
+
+  * El tercer dominio estará asociado a una carpeta cualquiera del Servidor que contenga información (archivos y carpetas), pero que no sea importante. Permitiremos acceso anónimo y sólo se podrá consultar y leer.
+
+    * Comprobamos desde Servidor y Cliente.
 
 Debemos crear un nuevo registro DNS que permita acceder a nuestro sitio FTP a través de la dirección ftp.miServer.com (o el dominio que utilices habitualmente).
 
@@ -50,26 +56,26 @@ En un principio es posible que debas detener un sitio web para que pueda iniciar
 
 ---
 
-* Instalar Servicio SSH en el Servidor Linux.
+* Instalamos el Servicio SSH en el Servidor Linux.
 
-* Crear dos usuarios en el sistema, con diferentes privilegios y niveles de acceso al filesystem.
+* Creamos dos usuarios en el sistema, con diferentes privilegios y niveles de acceso al filesystem.
 
-* Comprobar, desde una máquina cliente, acceso de los usuarios mediante ssh.
+* Comprobamos, desde una máquina cliente, acceso de los usuarios mediante ssh.
 
-* Tratar de ejecutar una aplicación gráfica del servidor de forma remota, desde el cliente, mediante ssh.
+* Tratamos de ejecutar una aplicación gráfica del servidor de forma remota, desde el Cliente, mediante ssh.
 
-* Acceder, también desde el Cliente, mediante sftp (ftp seguro, incluido en el paquete ssh) al sistema de ficheros del servidor y probar acceso, carga y descarga de archivos con ambos usuarios.
+* Accedemos, también desde el Cliente, mediante sftp al sistema de ficheros del Servidor y probar acceso, carga y descarga de archivos con ambos usuarios.
 
-* Realizar varias copias de archivos hacia / desde el servidor mediante scp, utilizando también los dos usuarios creados anteriormente.
+* Realizamos varias copias de archivos hacia / desde el servidor mediante scp, utilizando también los dos usuarios creados anteriormente.
 
-* Instalar el paquete proftpd.
+* Instalamos el paquete proftpd.
 
-* Investigar y editar el fichero de configuración `/etc/proftpd/proftpd.conf` buscando información en Internet.
+* Investigamos y editamos el fichero de configuración `/etc/proftpd/proftpd.conf` buscando información en Internet.
 
-* Tratar de conectar al servicio ftp gestionado por proftpd tanto desde el servidor como desde un cliente.
+* Tratamos de conectar al servicio ftp gestionado por proftpd tanto desde el Servidor como desde un Cliente.
 
-* Desde la máquina cliente, probar el acceso al ftp mediante los usuarios creados y realizando diferentes operaciones de listado, subida y descarga de archivos.
+* Desde la máquina Cliente, probamos el acceso al ftp mediante los usuarios creados y realizando diferentes operaciones de listado, subida y descarga de archivos.
 
-* Informar sobre la configuración, uso y funcionamiento de proftpd.
+* Informamos sobre la configuración, uso y funcionamiento de proftpd.
 
 ---
