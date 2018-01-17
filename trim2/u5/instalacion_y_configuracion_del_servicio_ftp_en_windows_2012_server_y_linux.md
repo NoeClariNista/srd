@@ -67,25 +67,15 @@ Creamos tres nuevos sitios FTP, en todos ellos debemos poder acceder a través d
   * Examinamos todas las opciones de configuración de la página principal de tu Sitio FTP (IIS) y vemos lo siguiente.
 
     El Aislamiento de usuario FTP es para que un usuario no pueda acceder a carpetas anteriores del árbol.
-
     La autentificación FTP es para dar acceso anónimo o acceso básico.
-
     La compatibilidad con el firewall es para comprobar el firewall.
-
     La configuración SSL de FTP es para configurar los certificados SSL.
-
     El examen de directorios es para ver como es el estilo de la lista de directorios.
-
     El filtrado de solicitudes es para no permitir a ciertas máquinas.
-
     Los mensajes de FTP.
-
     El registro FTP es donde se guarda el registro de los errores y accesos de nuestro FTP.
-
     Las reglas de autorización son las distintas reglas de permisos a los usuarios.
-
     Las restricciones direcciones IP.
-
     Las sesiones actuales son las sesiones activas en este momento.
 
   * Tratamos de acceder al sitio FTP desde el propio Servidor a través de un navegador. Comprobamos accesos permitidos y denegados, por ejemplo, con otro usuario que no exista en nuestro Servidor y como ningún usuario con ninguna contraseña.
