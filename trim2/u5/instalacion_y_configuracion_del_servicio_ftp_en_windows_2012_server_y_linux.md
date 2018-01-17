@@ -4,6 +4,7 @@ ___
 
 ---
 
+
 Desinstalamos el Filezilla en Windows 2012 Server.
 
 Instalamos el Servicio FTP en Windows 2012 Server, a través de Agregar roles y características (IIS).
