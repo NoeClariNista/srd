@@ -124,7 +124,7 @@ Creamos tres nuevos sitios FTP, en todos ellos debemos poder acceder a través d
 
     ![imagen037](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/037.png)
 
-  * Configuramos la conexión al sitio FTP y tratamos de establecer conexión y realizamos comprobaciones.
+  * Configuramos la conexión al sitio FTP, tratamos de establecer conexión y realizamos comprobaciones.
 
     ![imagen038](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/038.png)
 
@@ -222,7 +222,7 @@ Debemos crear un nuevo registro DNS que permita acceder a nuestro sitio FTP a tr
 
 ![imagen073](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/073.png)
 
-En un principio es posible que debas detener un sitio web para que pueda iniciarse otro. Tras comprobar el funcionamiento por separado de los sitios, hemos encontrado una solución para que nuestro Servidor ofrezca varios sitios FTP simultáneamente. Para poder realizar esta acción tenemos que darles a cada sitio FTP un puerto diferente.
+En un principio es posible que debamos detener un sitio web para que pueda iniciarse otro. Tras comprobar el funcionamiento por separado de los sitios, hemos encontrado una solución para que nuestro Servidor ofrezca varios sitios FTP simultáneamente. Para poder realizar esta acción tenemos que darles a cada sitio FTP un puerto diferente.
 
 * Segundo Sitio FTP.
 
@@ -306,7 +306,7 @@ Creamos dos usuarios en el sistema.
 
 ![imagen103](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/103.png)
 
-Comprobamos, desde una máquina Cliente, acceso de los usuarios mediante ssh. Tratamos de ejecutar una aplicación gráfica del servidor de forma remota, desde el Cliente, mediante ssh, para ello instalamos el geany.
+Comprobamos, desde una máquina Cliente, acceso de los usuarios mediante ssh. Tratamos de ejecutar una aplicación gráfica del servidor de forma remota, desde el Cliente, mediante ssh, instalamos el geany para poder abrirlo de forma gráfica.
 
 ![imagen104](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/104.png)
 
@@ -316,7 +316,7 @@ Accedemos, también desde el Cliente, mediante sftp al sistema de ficheros del S
 
 ![imagen106](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/106.png)
 
-Realizamos varias copias de archivos hacia / desde el servidor mediante scp, utilizando también los dos usuarios creados anteriormente.
+Realizamos varias copias de archivos hacia / desde el Servidor mediante scp, utilizando también los dos usuarios creados anteriormente.
 
 ![imagen107](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/107.png)
 
