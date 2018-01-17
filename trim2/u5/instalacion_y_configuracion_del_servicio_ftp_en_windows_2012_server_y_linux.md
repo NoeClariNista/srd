@@ -4,7 +4,6 @@ ___
 
 ---
 
-
 Desinstalamos el Filezilla en Windows 2012 Server.
 
 Instalamos el Servicio FTP en Windows 2012 Server, a través de Agregar roles y características (IIS).
@@ -31,7 +30,7 @@ El resto de pasos los realizamos como se pueden ver en las imágenes.
 
 ![imagen008](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/008.png)
 
-Finalmente terminamos la instalación del Servicio DHCP en Windows 2012 Server.
+Finalmente terminamos la instalación del Servicio FTP en Windows 2012 Server.
 
 ![imagen009](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/009.png)
 
@@ -47,7 +46,7 @@ Creamos tres nuevos sitios FTP, en todos ellos debemos poder acceder a través d
 
 ![imagen012](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/012.png)
 
-* Primero Sitio FTP.
+* Primer Sitio FTP.
 
   ![imagen013](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/013.png)
 
@@ -67,79 +66,79 @@ Creamos tres nuevos sitios FTP, en todos ellos debemos poder acceder a través d
 
   * Examinamos todas las opciones de configuración de la página principal de tu Sitio FTP (IIS) y vemos lo siguiente.
 
-  El Aislamiento de usuario FTP es para que un usuario no pueda acceder a carpetas anteriores del árbol.
+    El Aislamiento de usuario FTP es para que un usuario no pueda acceder a carpetas anteriores del árbol.
 
-  La autentificación FTP es para dar acceso anónimo o acceso básico.
+    La autentificación FTP es para dar acceso anónimo o acceso básico.
 
-  La compatibilidad con el firewall es para comprobar el firewall.
+    La compatibilidad con el firewall es para comprobar el firewall.
 
-  La configuración SSL de FTP es para configurar los certificados SSL.
+    La configuración SSL de FTP es para configurar los certificados SSL.
 
-  El examen de directorios es para ver como es el estilo de la lista de directorios.
+    El examen de directorios es para ver como es el estilo de la lista de directorios.
 
-  El filtrado de solicitudes es para no permitir a ciertas máquinas.
+    El filtrado de solicitudes es para no permitir a ciertas máquinas.
 
-  Los mensajes de ftp.
+    Los mensajes de FTP.
 
-  El registro FTP es donde se guarda el registro de los errores y accesos de nuestro FTP.
+    El registro FTP es donde se guarda el registro de los errores y accesos de nuestro FTP.
 
-  Las reglas de autorización son las distintas reglas de permisos a los usuarios.
+    Las reglas de autorización son las distintas reglas de permisos a los usuarios.
 
-  Las restricciones direcciones IP.
+    Las restricciones direcciones IP.
 
-  Las sesiones actuales son las sesiones activas en este momento.
+    Las sesiones actuales son las sesiones activas en este momento.
 
-  * Tratamos de acceder al sitio ftp desde el propio Servidor a través de un navegador. Comprobamos accesos permitidos y denegados, por ejemplo, con otro usuario que no exista en nuestro Servidor y como ningún usuario con ninguna contraseña.
+  * Tratamos de acceder al sitio FTP desde el propio Servidor a través de un navegador. Comprobamos accesos permitidos y denegados, por ejemplo, con otro usuario que no exista en nuestro Servidor y como ningún usuario con ninguna contraseña.
 
-  ![imagen018](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/018.png)
+    ![imagen018](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/018.png)
 
-  ![imagen019](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/019.png)
+    ![imagen019](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/019.png)
 
-  ![imagen020](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/020.png)
+    ![imagen020](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/020.png)
 
-  ![imagen021](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/021.png)
+    ![imagen021](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/021.png)
 
-  ![imagen022](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/022.png)
+    ![imagen022](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/022.png)
 
-  ![imagen023](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/023.png)
+    ![imagen023](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/023.png)
 
-  ![imagen024](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/024.png)
+    ![imagen024](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/024.png)
 
   * Accedemos ahora desde un Cliente Windows de la misma forma. Realizamos las mismas comprobaciones que en el Servidor.
 
-  ![imagen025](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/025.png)
+    ![imagen025](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/025.png)
 
-  ![imagen026](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/026.png)
+    ![imagen026](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/026.png)
 
-  ![imagen027](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/027.png)
+    ![imagen027](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/027.png)
 
-  ![imagen028](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/028.png)
+    ![imagen028](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/028.png)
 
   * Instalamos el software WinSCP en el Cliente Windows.
 
-  ![imagen029](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/029.png)
+    ![imagen029](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/029.png)
 
-  ![imagen030](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/030.png)
+    ![imagen030](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/030.png)
 
-  ![imagen031](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/031.png)
+    ![imagen031](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/031.png)
 
-  ![imagen032](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/032.png)
+    ![imagen032](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/032.png)
 
-  ![imagen033](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/033.png)
+    ![imagen033](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/033.png)
 
-  ![imagen034](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/034.png)
+    ![imagen034](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/034.png)
 
-  ![imagen035](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/035.png)
+    ![imagen035](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/035.png)
 
-  ![imagen036](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/036.png)
+    ![imagen036](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/036.png)
 
-  ![imagen037](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/037.png)
+    ![imagen037](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/037.png)
 
-  * Configuramos la conexión a tu sitio ftp y tratamos de establecer conexión y realizamos comprobaciones.
+  * Configuramos la conexión al sitio FTP y tratamos de establecer conexión y realizamos comprobaciones.
 
-  ![imagen038](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/038.png)
+    ![imagen038](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/038.png)
 
-  ![imagen039](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/039.png)
+    ![imagen039](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/039.png)
 
 * Segundo Sitio FTP.
 
@@ -149,7 +148,7 @@ Creamos tres nuevos sitios FTP, en todos ellos debemos poder acceder a través d
 
   ![imagen041](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/041.png)
 
-   Habilitamos en este caso la posibilidad de conexiones SSL asociadas a uno de los certificados que poseemos en IIS.
+  Habilitamos en este caso la posibilidad de conexiones SSL asociadas a uno de los certificados que poseemos en IIS.
 
   ![imagen042](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/042.png)
 
@@ -161,35 +160,35 @@ Creamos tres nuevos sitios FTP, en todos ellos debemos poder acceder a través d
 
   * Realizamos comprobaciones válidas e inválidas de conexión y operaciones, tanto desde el Servidor como desde el Cliente, por ejemplo, con el usuario Administrador, con otro usuario que no exista en nuestro Servidor y como ningún usuario con ninguna contraseña.
 
-  ![imagen045](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/045.png)
+    ![imagen045](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/045.png)
 
-  ![imagen046](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/046.png)
+    ![imagen046](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/046.png)
 
-  ![imagen047](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/047.png)
+    ![imagen047](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/047.png)
 
-  ![imagen048](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/048.png)
+    ![imagen048](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/048.png)
 
-  ![imagen049](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/049.png)
+    ![imagen049](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/049.png)
 
-  ![imagen050](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/050.png)
+    ![imagen050](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/050.png)
 
-  ![imagen051](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/051.png)
+    ![imagen051](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/051.png)
 
-  ![imagen052](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/052.png)
+    ![imagen052](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/052.png)
 
-  ![imagen053](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/053.png)
+    ![imagen053](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/053.png)
 
-  ![imagen054](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/054.png)
+    ![imagen054](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/054.png)
 
-  ![imagen055](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/055.png)
+    ![imagen055](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/055.png)
 
   * Realizamos una configuración de conexión SSL desde WinSCP.
 
-  ![imagen056](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/056.png)
+    ![imagen056](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/056.png)
 
-  ![imagen057](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/057.png)
+    ![imagen057](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/057.png)
 
-  ![imagen058](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/058.png)
+    ![imagen058](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/058.png)
 
 * Tercer Sitio FTP.
 
@@ -209,21 +208,21 @@ Creamos tres nuevos sitios FTP, en todos ellos debemos poder acceder a través d
 
   * Comprobamos desde el Servidor y desde el Cliente.
 
-  ![imagen064](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/064.png)
+    ![imagen064](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/064.png)
 
-  ![imagen065](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/065.png)
+    ![imagen065](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/065.png)
 
-  ![imagen066](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/066.png)
+    ![imagen066](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/066.png)
 
   * Realizamos una configuración de conexión SSL desde WinSCP.
 
-  ![imagen067](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/067.png)
+    ![imagen067](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/067.png)
 
-  ![imagen068](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/068.png)
+    ![imagen068](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/068.png)
 
-  ![imagen069](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/069.png)
+    ![imagen069](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/069.png)
 
-  ![imagen070](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/070.png)
+    ![imagen070](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/070.png)
 
 Debemos crear un nuevo registro DNS que permita acceder a nuestro sitio FTP a través de la dirección ftp.pc20.edu.
 
@@ -237,51 +236,51 @@ En un principio es posible que debas detener un sitio web para que pueda iniciar
 
 * Segundo Sitio FTP.
 
-![imagen074](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/074.png)
+  ![imagen074](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/074.png)
 
-![imagen075](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/075.png)
+  ![imagen075](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/075.png)
 
-![imagen076](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/076.png)
+  ![imagen076](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/076.png)
 
 * Tercer Sitio FTP.
 
-![imagen077](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/077.png)
+  ![imagen077](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/077.png)
 
-![imagen078](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/078.png)
+  ![imagen078](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/078.png)
 
-![imagen079](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/079.png)
+  ![imagen079](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/079.png)
 
 Realizamos comprobaciones válidas de conexión tanto desde el Servidor como desde el Cliente.
 
 * Desde el Servidor.
 
-![imagen080](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/080.png)
+  ![imagen080](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/080.png)
 
-![imagen081](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/081.png)
+  ![imagen081](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/081.png)
 
-![imagen082](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/082.png)
+  ![imagen082](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/082.png)
 
-![imagen083](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/083.png)
+  ![imagen083](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/083.png)
 
-![imagen084](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/084.png)
+  ![imagen084](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/084.png)
 
-![imagen085](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/085.png)
+  ![imagen085](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/085.png)
 
-![imagen086](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/086.png)
+  ![imagen086](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/086.png)
 
-![imagen087](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/087.png)
+  ![imagen087](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/087.png)
 
 * Desde el Cliente.
 
-![imagen088](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/088.png)
+  ![imagen088](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/088.png)
 
-![imagen089](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/089.png)
+  ![imagen089](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/089.png)
 
-![imagen090](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/090.png)
+  ![imagen090](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/090.png)
 
-![imagen091](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/091.png)
+  ![imagen091](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/091.png)
 
-![imagen092](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/092.png)
+  ![imagen092](./images/instalacion_y_configuracion_del_servicio_ftp_en_windows_2012_server_y_linux/092.png)
 
 Realizamos una configuración de conexión SSL desde WinSCP de los tres sitios FTP.
 
