@@ -45,6 +45,6 @@ ___
 ## **Tema 6.
 Instalación Y Administración De Servicios De Correo Electrónico.**
 
-* **Actividad 1. [Instalación Y Configuración De Servicios De Correo Electrónico En Windows 2012 Server.]()**
+* **Actividad 1. [Instalación Y Configuración De Servicios De Correo Electrónico En Windows 2012 Server.](https://github.com/NoeClariNista/srd/blob/master/trim2/u6/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows.md)**
 
 ---
