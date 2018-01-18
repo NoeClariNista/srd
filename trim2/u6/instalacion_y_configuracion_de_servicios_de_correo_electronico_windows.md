@@ -48,15 +48,15 @@ Luego tenemos que ir a Herramientas y vamos a Administrador de Internet Informat
 
 ![imagen13](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/13.png)
 
-Realizamos la configuración en las propiedades de SMTP:
+Realizamos la configuración en las propiedades de SMTP.
 
 ![imagen14](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/14.png)
 
-Establecemos como IP todas las asignadas. Limitamos el número de conexiones a 50. Habilitamos el registro en formato W3C, diario y en una carpeta determinada.
+  * Establecemos como IP todas las asignadas. Limitamos el número de conexiones a 50. Habilitamos el registro en formato W3C, diario y en una carpeta determinada.
 
-![imagen15](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/15.png)
+    ![imagen15](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/15.png)
 
-![imagen16](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/16.png)
+    ![imagen16](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/16.png)
 
 ---
 
