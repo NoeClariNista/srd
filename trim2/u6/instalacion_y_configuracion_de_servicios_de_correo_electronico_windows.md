@@ -60,38 +60,174 @@ Realizamos la configuración en las propiedades de SMTP.
 
 ---
 
-  * Configuramos el envío de mensajes dentro de nuestra red local: Aceptamos la conexión al Servidor y la retransmisión de mensajes a todos los equipos menos los que aparecen en la lista (incluir una IP cualquiera en la lista para impedir su acceso y retransmisión).
+  * Configuramos el envío de mensajes dentro de nuestra red local. Aceptamos la conexión al Servidor y la retransmisión de mensajes a todos los equipos menos los que aparecen en la lista, incluimos una IP cualquiera en la lista para impedimos su acceso y retransmisión, en concreto 172.18.20.20.
 
+    ![imagen17](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/17.png)
 
+    ![imagen18](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/18.png)
+
+    ![imagen19](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/19.png)
+
+    ![imagen20](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/20.png)
+
+    ![imagen21](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/21.png)
+
+    [imagen22](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/22.png)
 
   * Establecemos autenticación anónima.
 
+    ![imagen23](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/22.png)
 
+    ![imagen24](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/22.png)
 
-  * Echamos un vistazo al resto de opciones de configuración del servidor. Aplicamos cambios y reiniciamos el Servicio.
+  * Echamos un vistazo al resto de opciones de configuración del servidor.
 
+    ![imagen25](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/25.png)
 
+    ![imagen26](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/26.png)
+
+    ![imagen27](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/27.png)
+
+    ![imagen28](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/28.png)
+
+  * Aplicamos cambios y reiniciamos el Servicio.
+
+    ![imagen29](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/29.png)
+
+    ![imagen30](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/30.png)
+
+    ![imagen31](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/31.png)
+
+    ![imagen32](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/32.png)
 
   * Comprobamos la existencia del dominio AD predeterminado. Creamos un dominio de tipo alias para disponer de cuentas en otro dominio.
 
+    ![imagen33](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/33.png)
 
+    ![imagen34](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/34.png)
+
+    ![imagen35](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/35.png)
+
+    ![imagen36](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/36.png)
+
+    ![imagen37](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/37.png)
+
+  * Creamos un nuevo DNS.
+
+    ![imagen38](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/38.png)
+
+    ![imagen39](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/39.png)
+
+    ![imagen40](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/40.png)
+
+    ![imagen41](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/41.png)
+
+    ![imagen42](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/42.png)
+
+    ![imagen43](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/43.png)
+
+    ![imagen44](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/44.png)
+
+    ![imagen45](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/45.png)
+
+    ![imagen46](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/46.png)
+
+    ![imagen47](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/47.png)
+
+    ![imagen48](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/48.png)
+
+    ![imagen49](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/49.png)
+
+    ![imagen50](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/50.png)
+
+    ![imagen51](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/51.png)
 
   * Comprobamos carpetas de correo creados en C:\Inetpub\mailroot.
 
-
+    ![imagen52](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/52.png)
 
     * En el cliente Windows:
 
-      Comprobar acceso al nuevo nombre DNS creado en el servidor.
+      Comprobar acceso al nuevo nombre DNS creado en el Servidor.
 
-      Configurar el cliente de correo Live mail agregando dos cuentas de correo cualesquiera (usuarios AD -dominio- y no AD). Se deberá especificar: usuario / buzón, contraseña,  servidor SMTP.
+        ![imagen53](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/53.png)
+
+      Configurar el Cliente de correo Live mail agregando dos cuentas de correo cualesquiera (usuarios AD -dominio- y no AD). Se deberá especificar: usuario / buzón, contraseña,  servidor SMTP.
+
+        ![imagen54](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/54.png)
+
+        ![imagen55](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/55.png)
+
+        ![imagen56](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/56.png)
+
+        ![imagen57](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/57.png)
+
+        ![imagen58](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/58.png)
+
+        ![imagen59](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/59.png)
+
+        ![imagen60](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/60.png)
+
+        ![imagen61](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/61.png)
+
+        ![imagen62](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/62.png)
+
+        ![imagen63](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/63.png)
+
+        ![imagen64](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/64.png)
 
       Enviar varios correos desde / hacia las diferentes cuentas y comprobar envío (real o ficticio) y carpetas mailroot. Las carpetas existentes en mailroot alojan mensajes en cola (Queue), mensajes para destinatarios desconocidos (Badmail) y mensajes entregados (Drop).
 
-      Nueva configuración de servicio SMTP a través del administrador de aplicaciones (IIS) 6.0. Establecer autenticación básica de Windows. Probar diferentes configuraciones de dominio predeterminado, cifrado TLS, etc.
+        ![imagen65](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/65.png)
 
-    * En el cliente Windows:
+        ![imagen66](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/66.png)
 
-      Configurar las cuentas según los parámetros especificados en el servidor. Enviar varios correos desde / hacia las diferentes cuentas y comprobar envío y carpetas mailroot. En este caso sólo tendrán acceso al servidor SMTP cuentas del dominio y correspondientes a usuarios de AD.
+        ![imagen67](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/67.png)
+
+        ![imagen68](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/68.png)
+
+        ![imagen69](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/69.png)
+
+        ![imagen70](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/70.png)
+
+        ![imagen71](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/71.png)
+
+        ![imagen72](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/72.png)
+
+        ![imagen73](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/73.png)
+
+        ![imagen74](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/74.png)
+
+        ![imagen75](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/75.png)
+
+    * En el Servidor.
+
+      Nueva configuración de servicio SMTP a través del administrador de aplicaciones (IIS) 6.0.
+
+        ![imagen76](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/76.png)
+
+        ![imagen77](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/77.png)
+
+        ![imagen78](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/78.png)
+
+        ![imagen79](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/79.png)
+
+        ![imagen80](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/80.png)
+
+      Establecer autenticación básica de Windows.
+
+        ![imagen81](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/81.png)
+
+        ![imagen82](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/82.png)
+
+      Probar diferentes configuraciones de dominio predeterminado, por ejemplo, cifrado TLS.
+
+        ![imagen83](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/83.png)
+
+        ![imagen84](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/84.png)
+
+    * En el Cliente Windows:
+
+      Configuramos las cuentas según los parámetros especificados en el Servidor. Enviar varios correos desde / hacia las diferentes cuentas y comprobar envío y carpetas mailroot. En este caso sólo tendrán acceso al servidor SMTP cuentas del dominio y correspondientes a usuarios de AD.
 
 ---
