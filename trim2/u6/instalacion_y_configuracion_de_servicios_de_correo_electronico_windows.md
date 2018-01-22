@@ -58,8 +58,6 @@ Realizamos la configuración en las propiedades de SMTP.
 
     ![imagen16](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/16.png)
 
----
-
   * Configuramos el envío de mensajes dentro de nuestra red local. Aceptamos la conexión al Servidor y la retransmisión de mensajes a todos los equipos menos los que aparecen en la lista, incluimos una IP cualquiera en la lista para impedimos su acceso y retransmisión, en concreto 172.18.20.20.
 
     ![imagen17](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/17.png)
