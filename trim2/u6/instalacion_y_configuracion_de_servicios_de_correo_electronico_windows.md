@@ -228,6 +228,14 @@ Realizamos la configuración en las propiedades de SMTP.
 
     * En el Cliente Windows:
 
-      Configuramos las cuentas según los parámetros especificados en el Servidor. Enviar varios correos desde / hacia las diferentes cuentas y comprobar envío y carpetas mailroot. En este caso sólo tendrán acceso al servidor SMTP cuentas del dominio y correspondientes a usuarios de AD.
+      Configuramos las cuentas según los parámetros especificados en el Servidor.
+
+        ![imagen85](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/85.png)
+
+        ![imagen86](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/86.png)
+
+      Enviamos varios correos desde / hacia las diferentes cuentas y comprobar envío y carpetas mailroot. En este caso sólo tendrán acceso al servidor SMTP cuentas del dominio y correspondientes a usuarios de AD.
+
+
 
 ---
