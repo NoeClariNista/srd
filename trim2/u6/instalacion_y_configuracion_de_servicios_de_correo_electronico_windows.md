@@ -302,7 +302,9 @@ Debes descargar e instalar en el Servidor Windows 2012 Server el Servidor de cor
 
 Crea dos dominios denominados srd.edu y asir.edu.
 
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
 
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
 
 Ejecuta los diagnósticos para ambos dominios y soluciona el error de backup asignando una carpeta para tal fin. Establece copia de seguridad de los mensajes.
 
