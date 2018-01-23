@@ -273,3 +273,51 @@ Realizamos la configuración en las propiedades de SMTP.
         ![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
 
 ---
+
+# **Práctica hMailServer Windows 2012 Server.**
+
+---
+
+## **Configuración De hMailServer En Windows Server 2012.**
+
+---
+
+Queremos configurar un servidor de correo para nuestra red local, para que los usuarios de nuestra red puedan comunicarse por correo electrónico.
+
+En primer lugar, hay que desinstalar el Servicio SMTP de Windows 2012 Server.
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+Debes descargar e instalar en el Servidor Windows 2012 Server el Servidor de correo hMailServer.
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+Crea dos dominios denominados srd.edu y asir.edu.
+
+
+
+Ejecuta los diagnósticos para ambos dominios y soluciona el error de backup asignando una carpeta para tal fin. Establece copia de seguridad de los mensajes.
+
+Crea dos cuentas para dos usuarios ficticios en cada uno de los dos dominios. Investiga y configura las cuentas con diferentes opciones (cuota de disco, auto-reply, forwarding, signature, etc.)
+
+Configura el servicio DNS para crear las entradas mail.srd.edu y mail.asir.edu que apunten a la dirección ip del Servidor Windows 2012.
+
+Realiza todas las opciones de configuración que consideres necesarias y/o convenientes. Consulta para ello los tutoriales cuyos enlaces se proporcionan (opciones de protocolos SMTP, POP e IMAP, rangos de IP, bloqueo de correo entrante, nombre de host, reenvío dominios remotos, blacklists, opciones de logging, etc.) (tutoriales)
+
+Configura en el cliente W10 un Cliente de correo como thunderbird o Live Mail (en los ordenadores clientes) para acceder al Servidor de correo instalado en Windows 2012.
+
+Realiza prueba de envío y recepción de correos entre los diferentes usuarios, comprobando, además de envío y recepción correctas, el efecto de las opciones configuradas en las cuentas.
+
+Crea una lista de distribución empleados asociada al dominio y añade a los dos usuarios de miempresa.com a ella.
+
+Realiza prueba de envío y recepción de correos por medio de la lista de distribución.
+
+---
