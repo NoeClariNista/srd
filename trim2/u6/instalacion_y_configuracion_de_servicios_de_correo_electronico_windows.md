@@ -308,13 +308,33 @@ Crea dos dominios denominados srd.edu y asir.edu.
 
 Ejecuta los diagnósticos para ambos dominios y soluciona el error de backup asignando una carpeta para tal fin. Establece copia de seguridad de los mensajes.
 
-Crea dos cuentas para dos usuarios ficticios en cada uno de los dos dominios. Investiga y configura las cuentas con diferentes opciones (cuota de disco, auto-reply, forwarding, signature, etc.)
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
 
-Configura el servicio DNS para crear las entradas mail.srd.edu y mail.asir.edu que apunten a la dirección ip del Servidor Windows 2012.
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+Creamos dos cuentas para dos usuarios ficticios en cada uno de los dos dominios. Configuramos las cuentas con diferentes opciones (cuota de disco, auto-reply, forwarding, signature, etc.)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+Configuramos el servicio DNS para crear las entradas `mail.srd.edu` y `mail.asir.edu` que apunten a la dirección ip del Servidor Windows 2012.
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
 
 Realiza todas las opciones de configuración que consideres necesarias y/o convenientes. Consulta para ello los tutoriales cuyos enlaces se proporcionan (opciones de protocolos SMTP, POP e IMAP, rangos de IP, bloqueo de correo entrante, nombre de host, reenvío dominios remotos, blacklists, opciones de logging, etc.) (tutoriales)
 
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
 Configura en el cliente W10 un Cliente de correo como thunderbird o Live Mail (en los ordenadores clientes) para acceder al Servidor de correo instalado en Windows 2012.
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
 
 Realiza prueba de envío y recepción de correos entre los diferentes usuarios, comprobando, además de envío y recepción correctas, el efecto de las opciones configuradas en las cuentas.
 
