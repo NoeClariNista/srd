@@ -6,263 +6,297 @@ ___
 
 ## **Instalación Y Configuración De Un Servidor De Correo SMTP.**
 
-Instalamos el Servicio SMTP en Windows 2012 Server utilizando Asistente.
+---
+
+Instalamos el Servicio SMTP en Windows 2012 Server utilizando el Asistente.
 
 Lo primero que tenemos que hacer es ir a Administrador del Servidor.
 
-![imagen01](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/01.png)
+![imagen001](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/001.png)
 
 Luego tenemos que ir a Administrar y vamos a Agregar roles y características.
 
-![imagen02](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/02.png)
+![imagen002](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/002.png)
 
 El resto de pasos los realizamos como se pueden ver en las imágenes.
 
-![imagen03](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/03.png)
+![imagen003](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/003.png)
 
-![imagen04](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/04.png)
+![imagen004](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/004.png)
 
-![imagen05](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/05.png)
+![imagen005](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/005.png)
 
-![imagen06](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/06.png)
+![imagen006](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/006.png)
 
-![imagen07](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/07.png)
+![imagen007](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/007.png)
 
-![imagen08](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/08.png)
+![imagen008](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/008.png)
 
-![imagen09](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/09.png)
+![imagen009](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/009.png)
 
 Finalmente terminamos la instalación del Servicio SMTP en Windows 2012 Server.
 
-![imagen10](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/10.png)
+![imagen010](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/010.png)
 
-Configuración de Servicio SMTP a través del Administrador de aplicaciones (IIS) 6.0.
+La configuración del Servicio SMTP la haremos a través del Administrador de aplicaciones (IIS) 6.0.
 
 Lo que tenemos que hacer es ir a Administrador del Servidor.
 
-![imagen11](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/11.png)
+![imagen011](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/011.png)
 
 Luego tenemos que ir a Herramientas y vamos a Administrador de Internet Information Services (IIS) 6.0.
 
-![imagen12](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/12.png)
+![imagen012](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/012.png)
 
-![imagen13](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/13.png)
+![imagen013](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/013.png)
 
 Realizamos la configuración en las propiedades de SMTP.
 
-![imagen14](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/14.png)
+![imagen014](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/014.png)
 
   * Establecemos como IP todas las asignadas. Limitamos el número de conexiones a 50. Habilitamos el registro en formato W3C, diario y en una carpeta determinada.
 
-    ![imagen15](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/15.png)
+    ![imagen015](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/015.png)
 
-    ![imagen16](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/16.png)
+    ![imagen016](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/016.png)
 
   * Configuramos el envío de mensajes dentro de nuestra red local. Aceptamos la conexión al Servidor y la retransmisión de mensajes a todos los equipos menos los que aparecen en la lista, incluimos una IP cualquiera en la lista para impedimos su acceso y retransmisión, en concreto 172.18.20.20.
 
-    ![imagen17](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/17.png)
+    ![imagen017](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/017.png)
 
-    ![imagen18](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/18.png)
+    ![imagen018](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/018.png)
 
-    ![imagen19](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/19.png)
+    ![imagen019](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/019.png)
 
-    ![imagen20](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/20.png)
+    ![imagen020](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/020.png)
 
-    ![imagen21](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/21.png)
+    ![imagen021](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/021.png)
 
-    [imagen22](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/22.png)
+    [imagen022](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/022.png)
 
   * Establecemos autenticación anónima.
 
-    ![imagen23](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/22.png)
+    ![imagen023](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/023.png)
 
-    ![imagen24](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/22.png)
+    ![imagen024](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/024.png)
 
-  * Echamos un vistazo al resto de opciones de configuración del servidor.
+  * Echamos un vistazo al resto de opciones de configuración del Servidor.
 
-    ![imagen25](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/25.png)
+    ![imagen025](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/025.png)
 
-    ![imagen26](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/26.png)
+    ![imagen026](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/026.png)
 
-    ![imagen27](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/27.png)
+    ![imagen027](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/027.png)
 
-    ![imagen28](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/28.png)
+    ![imagen028](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/028.png)
 
   * Aplicamos cambios y reiniciamos el Servicio.
 
-    ![imagen29](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/29.png)
+    ![imagen029](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/029.png)
 
-    ![imagen30](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/30.png)
+    ![imagen030](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/030.png)
 
-    ![imagen31](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/31.png)
+    ![imagen031](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/031.png)
 
-    ![imagen32](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/32.png)
+    ![imagen032](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/032.png)
 
   * Comprobamos la existencia del dominio AD predeterminado. Creamos un dominio de tipo alias para disponer de cuentas en otro dominio.
 
-    ![imagen33](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/33.png)
+    ![imagen033](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/033.png)
 
-    ![imagen34](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/34.png)
+    ![imagen034](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/034.png)
 
-    ![imagen35](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/35.png)
+    ![imagen035](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/035.png)
 
-    ![imagen36](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/36.png)
+    ![imagen036](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/036.png)
 
-    ![imagen37](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/37.png)
+    ![imagen037](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/037.png)
 
   * Creamos un nuevo DNS.
 
-    ![imagen38](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/38.png)
+    Lo primero que tenemos que hacer es ir a Administrador del Servidor.
 
-    ![imagen39](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/39.png)
+    ![imagen038](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/038.png)
 
-    ![imagen40](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/40.png)
+    Luego a DNS para poder crear una nueva zona de búsqueda directa en el Servidor.
 
-    ![imagen41](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/41.png)
+    ![imagen039](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/039.png)
 
-    ![imagen42](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/42.png)
+    ![imagen040](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/040.png)
 
-    ![imagen43](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/43.png)
+    Creamos una zona de búsqueda directa.
 
-    ![imagen44](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/44.png)
+    ![imagen041](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/041.png)
 
-    ![imagen45](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/45.png)
+    Nos sale el asistente para la nueva zona.
 
-    ![imagen46](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/46.png)
+    ![imagen042](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/042.png)
 
-    ![imagen47](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/47.png)
+    Elegimos el tipo de zona que queremos.
 
-    ![imagen48](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/48.png)
+    ![imagen043](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/043.png)
 
-    ![imagen49](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/49.png)
+    Seleccionamos que queremos que se repliquen los datos para todos los servidores DNS que se ejecutan en controladores de dominio en el dominio que tengo.
 
-    ![imagen50](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/50.png)
+    ![imagen044](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/044.png)
 
-    ![imagen51](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/51.png)
+    Le ponemos un nombre a nuestra zona.
 
-  * Comprobamos carpetas de correo creados en C:\Inetpub\mailroot.
+    ![imagen045](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/045.png)
 
-    ![imagen52](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/52.png)
+    Permitimos actualizaciones dinámicas seguras.
+
+    ![imagen046](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/046.png)
+
+    Se ha creado la nueva zona.
+
+    ![imagen047](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/047.png)
+
+    Ya contamos con otra zona de búsqueda directa.
+
+    ![imagen048](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/048.png)
+
+    En la zona de búsqueda directa añadimos un host nuevo (A).
+
+    ![imagen049](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/049.png)
+
+    Un host para el Servidor denominado mail.
+
+    ![imagen050](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/050.png)
+
+    Ya tenemos este registros creado.
+
+    ![imagen051](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/051.png)
+
+  * Comprobamos la carpetas de correo creados en `C:\Inetpub\mailroot`.
+
+    ![imagen052](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/052.png)
 
     * En el cliente Windows:
 
-      Comprobar acceso al nuevo nombre DNS creado en el Servidor.
+      Comprobamos el acceso al nuevo nombre DNS creado en el Servidor.
 
-        ![imagen53](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/53.png)
+        ![imagen053](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/053.png)
 
-      Configurar el Cliente de correo Live mail agregando dos cuentas de correo cualesquiera (usuarios AD -dominio- y no AD). Se deberá especificar: usuario / buzón, contraseña,  servidor SMTP.
+      Configuramos el Cliente de correo Live mail agregando dos cuentas de correo cualesquiera. Deberemos especificar el usuario/buzón, la contraseña y el Servidor SMTP.
 
-        ![imagen54](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/54.png)
+        ![imagen054](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/054.png)
 
-        ![imagen55](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/55.png)
+        ![imagen055](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/055.png)
 
-        ![imagen56](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/56.png)
+        ![imagen056](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/056.png)
 
-        ![imagen57](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/57.png)
+        ![imagen057](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/057.png)
 
-        ![imagen58](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/58.png)
+        ![imagen058](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/058.png)
 
-        ![imagen59](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/59.png)
+        ![imagen059](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/059.png) <- recortar.
 
-        ![imagen60](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/60.png)
+        ![imagen060](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/060.png)
 
-        ![imagen61](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/61.png)
+        ![imagen061](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/061.png)
 
-        ![imagen62](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/62.png)
+        ![imagen062](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/062.png)
 
-        ![imagen63](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/63.png)
+        ![imagen063](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/063.png)
 
-        ![imagen64](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/64.png)
+        ![imagen064](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/064.png)
 
-      Enviar varios correos desde / hacia las diferentes cuentas y comprobar envío (real o ficticio) y carpetas mailroot. Las carpetas existentes en mailroot alojan mensajes en cola (Queue), mensajes para destinatarios desconocidos (Badmail) y mensajes entregados (Drop).
+        ![imagen065](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/065.png)
 
-        ![imagen65](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/65.png)
+      Enviamos varios correos desde / hacia las diferentes cuentas y comprobar envío (real o ficticio) y carpetas mailroot. Las carpetas existentes en mailroot alojan mensajes en cola (Queue) y mensajes entregados (Drop).
 
-        ![imagen66](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/66.png)
+        ![imagen066](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/066.png)
 
-        ![imagen67](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/67.png)
+        ![imagen067](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/067.png) <- revisar correo.
 
-        ![imagen68](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/68.png)
+        ![imagen068](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/068.png)
 
-        ![imagen69](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/69.png)
+        ![imagen069](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/069.png)
 
-        ![imagen70](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/70.png)
+        ![imagen070](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/070.png)
 
-        ![imagen71](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/71.png)
+        ![imagen071](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/071.png)
 
-        ![imagen72](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/72.png)
+        ![imagen072](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/072.png)
 
-        ![imagen73](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/73.png)
+        ![imagen073](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/073.png)
 
-        ![imagen74](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/74.png)
+        ![imagen074](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/074.png) <- revisar correo.
 
-        ![imagen75](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/75.png)
+        ![imagen075](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/075.png)
+
+        ![imagen076](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/076.png)
 
     * En el Servidor.
 
-      Nueva configuración de servicio SMTP a través del administrador de aplicaciones (IIS) 6.0.
+      Tenemos que añadir una nueva configuración de Servicio SMTP a través del administrador de aplicaciones (IIS) 6.0.
 
-        ![imagen76](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/76.png)
+      Lo que tenemos que hacer es ir a Administrador del Servidor.
 
-        ![imagen77](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/77.png)
+        ![imagen077](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/077.png)
 
-        ![imagen78](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/78.png)
+      Luego tenemos que ir a Herramientas y vamos a Administrador de Internet Information Services (IIS) 6.0.
 
-        ![imagen79](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/79.png)
+        ![imagen078](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/078.png)
 
-        ![imagen80](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/80.png)
+        ![imagen079](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/079.png)
 
-      Establecer autenticación básica de Windows.
+      Realizamos la configuración en las propiedades de SMTP.
 
-        ![imagen81](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/81.png)
+        ![imagen080](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/080.png)
 
-        ![imagen82](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/82.png)
+        ![imagen081](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/081.png)
 
-      Probar diferentes configuraciones de dominio predeterminado, por ejemplo, cifrado TLS.
+      Establecemos la autenticación básica de Windows.
 
-        ![imagen83](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/83.png)
+        ![imagen082](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/082.png)
 
-        ![imagen84](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/84.png)
+        ![imagen083](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/083.png)
+
+      Probamos diferentes configuraciones de dominio predeterminado, por ejemplo, cifrado TLS.
+
+        ![imagen084](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/084.png)
+
+        ![imagen085](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/085.png)
 
     * En el Cliente Windows:
 
       Configuramos las cuentas según los parámetros especificados en el Servidor.
 
-        ![imagen85](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/85.png)
+        ![imagen086](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/086.png)
 
-        ![imagen86](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/86.png)
+        ![imagen087](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/087.png) <- falta.
 
-        ![imagen87](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/87.png)
+        ![imagen088](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/088.png) <-recortar.
 
-        ![imagen88](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/88.png)
+        ![imagen089](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/089.png)
 
-        ![imagen89](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/89.png)
+        ![imagen090](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/090.png)
 
-        ![imagen90](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/90.png)
+        ![imagen091](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/091.png)
 
-        ![imagen91](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/91.png)
+        ![imagen092](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/092.png)
 
-        ![imagen92](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/92.png)
+        ![imagen093](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/093.png)
 
-        ![imagen93](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/93.png)
+        ![imagen094](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/094.png)
 
-        ![imagen94](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/94.png)
+        ![imagen095](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/095.png) <- cambiar usuario.
 
-        ![imagen95](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/95.png)
+        ![imagen096](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/096.png) <- arreglar.
 
-        ![imagen96](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/96.png)
+        ![imagen097](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/097.png) <- recortar.
 
-        ![imagen97](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/97.png)
+        ![imagen098](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/098.png)
 
-      Enviamos varios correos desde / hacia las diferentes cuentas y comprobar envío y carpetas mailroot. En este caso sólo tendrán acceso al servidor SMTP cuentas del dominio y correspondientes a usuarios de AD.
-
-        ![imagen98](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/98.png)
-
-        ![imagen99](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/99.png)
+        ![imagen099](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/099.png)
 
         ![imagen100](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/100.png)
 
         ![imagen101](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/101.png)
+
+      Enviamos varios correos desde / hacia las diferentes cuentas y comprobar envío y carpetas mailroot. En este caso sólo tendrán acceso al servidor SMTP cuentas del dominio y correspondientes a usuarios de AD.
 
         ![imagen102](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/102.png)
 
@@ -271,6 +305,14 @@ Realizamos la configuración en las propiedades de SMTP.
         ![imagen104](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/104.png)
 
         ![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+        ![imagen106](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/106.png)
+
+        ![imagen107](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/107.png)
+
+        ![imagen108](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/108.png)
+
+        ![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 ---
 
@@ -338,8 +380,20 @@ Configura en el cliente W10 un Cliente de correo como thunderbird o Live Mail (e
 
 Realiza prueba de envío y recepción de correos entre los diferentes usuarios, comprobando, además de envío y recepción correctas, el efecto de las opciones configuradas en las cuentas.
 
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
 Crea una lista de distribución empleados asociada al dominio y añade a los dos usuarios de miempresa.com a ella.
 
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
 Realiza prueba de envío y recepción de correos por medio de la lista de distribución.
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+
+![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
 
 ---
