@@ -72,7 +72,7 @@ Realizamos la configuración en las propiedades de SMTP.
 
     ![imagen021](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/021.png)
 
-    [imagen022](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/022.png)
+    ![imagen022](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/022.png)
 
   * Establecemos autenticación anónima.
 
@@ -208,7 +208,7 @@ Realizamos la configuración en las propiedades de SMTP.
 
         ![imagen066](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/066.png)
 
-        ![imagen067](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/067.png) <- revisar correo.
+        ![imagen067](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/067.png)
 
         ![imagen068](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/068.png)
 
@@ -222,7 +222,7 @@ Realizamos la configuración en las propiedades de SMTP.
 
         ![imagen073](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/073.png)
 
-        ![imagen074](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/074.png) <- revisar correo.
+        ![imagen074](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/074.png)
 
         ![imagen075](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/075.png)
 
@@ -266,9 +266,9 @@ Realizamos la configuración en las propiedades de SMTP.
 
         ![imagen086](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/086.png)
 
-        ![imagen087](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/087.png) <- falta.
+        ![imagen087](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/087.png)
 
-        ![imagen088](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/088.png) <-recortar.
+        ![imagen088](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/088.png)
 
         ![imagen089](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/089.png)
 
@@ -284,9 +284,9 @@ Realizamos la configuración en las propiedades de SMTP.
 
         ![imagen095](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/095.png)
 
-        ![imagen096](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/096.png) <- arreglar.
+        ![imagen096](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/096.png)
 
-        ![imagen097](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/097.png) <- recortar.
+        ![imagen097](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/097.png)
 
         ![imagen098](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/098.png)
 
