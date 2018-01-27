@@ -190,7 +190,7 @@ Realizamos la configuración en las propiedades de SMTP.
 
         ![imagen058](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/058.png)
 
-        ![imagen059](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/059.png) <- recortar.
+        ![imagen059](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/059.png)
 
         ![imagen060](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/060.png)
 
@@ -282,7 +282,7 @@ Realizamos la configuración en las propiedades de SMTP.
 
         ![imagen094](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/094.png)
 
-        ![imagen095](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/095.png) <- cambiar usuario.
+        ![imagen095](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/095.png)
 
         ![imagen096](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/096.png) <- arreglar.
 
