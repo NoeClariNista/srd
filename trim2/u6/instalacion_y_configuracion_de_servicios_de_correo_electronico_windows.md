@@ -372,7 +372,7 @@ Realiza todas las opciones de configuración que consideres necesarias y/o conve
 
 ![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-Configura en el cliente W10 un Cliente de correo como thunderbird o Live Mail (en los ordenadores clientes) para acceder al Servidor de correo instalado en Windows 2012.
+Configura en el cliente W10 un Cliente de correo como Live Mail (en los ordenadores Clientes) para acceder al Servidor de correo instalado en Windows 2012.
 
 ![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
@@ -384,7 +384,7 @@ Realiza prueba de envío y recepción de correos entre los diferentes usuarios, 
 
 ![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-Crea una lista de distribución empleados asociada al dominio y añade a los dos usuarios de miempresa.com a ella.
+Creamos una lista de distribución empleados asociada al dominio y añade a los dos usuarios de miempresa.com a ella.
 
 ![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
