@@ -426,7 +426,9 @@ Ponemos la contraseña que pusimos durante la instalación de hMailServer.
 
 ![imagen142](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/142.png)
 
---- Creamos dos dominios denominados `srd.edu` y `asir.edu`.
+Creamos dos dominios denominados `srd.edu` y `asir.edu`.
+
+Para añadir los dos nuevos dominios solo tenemos que pinchar en Añadir dominio.
 
 ![imagen143](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/143.png)
 
@@ -440,13 +442,19 @@ Ponemos la contraseña que pusimos durante la instalación de hMailServer.
 
 ![imagen148](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/148.png)
 
---- Ejecutamos los diagnósticos para ambos dominios y solucionamos el error de backup asignando una carpeta para tal fin. También establecemos una copia de seguridad de los mensajes.
+Ejecutamos los diagnósticos para ambos dominios.
 
 ![imagen149](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/149.png)
 
+* `asir.edu`.
+
 ![imagen150](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/150.png)
 
+* `srd.edu`.
+
 ![imagen151](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/151.png)
+
+Solucionamos el error de backup asignando una carpeta para tal fin. Para ello creamos la carpeta `C:\backup`. También establecemos una copia de seguridad de los mensajes.
 
 ![imagen152](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/152.png)
 
@@ -454,11 +462,19 @@ Ponemos la contraseña que pusimos durante la instalación de hMailServer.
 
 ![imagen154](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/154.png)
 
+Ejecutamos los diagnósticos para ambos dominios denuevo.
+
+* `asir.edu`.
+
 ![imagen155](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/155.png)
+
+* `srd.edu`.
 
 ![imagen156](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/156.png)
 
---- Creamos dos cuentas para dos usuarios ficticios en cada uno de los dos dominios. Configuramos las cuentas con diferentes opciones, como por ejemplo, auto-reply y forwarding.
+Creamos dos cuentas para dos usuarios ficticios en cada uno de los dos dominios. Configuramos las cuentas con diferentes opciones, como por ejemplo, auto-reply y forwarding.
+
+* `asir.edu`.
 
 ![imagen157](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/157.png)
 
@@ -471,6 +487,8 @@ Ponemos la contraseña que pusimos durante la instalación de hMailServer.
 ![imagen161](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/161.png)
 
 ![imagen162](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/162.png)
+
+* `srd.edu`.
 
 ![imagen163](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/163.png)
 
@@ -612,11 +630,17 @@ Ya tenemos este registro creado.
 
 ![imagen201](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/201.png)
 
+Ejecutamos los diagnósticos para ambos dominios.
+
+* `asir.edu`.
+
 ![imagen202](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/202.png)
+
+* `srd.edu`.
 
 ![imagen203](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/203.png)
 
-Realizamos todas las opciones de configuración que consideremos necesarias y/o convenientes, como por ejemplo, opciones de protocolos SMTP, bloqueo de correo entrante y logging.
+Realizamos todas las opciones de configuración que consideremos necesarias y convenientes, como por ejemplo, opciones de protocolos SMTP, bloqueo de correo entrante y logging.
 
 ![imagen204](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/204.png)
 
@@ -652,7 +676,7 @@ Configuramos en el Cliente W10 dos Clientes de correo como Live Mail para accede
 
 ![imagen219](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/219.png)
 
-Realizamos prueba de envío y recepción de correos entre los diferentes usuarios, comprobando, además de envío y recepción correctas, el efecto de las opciones configuradas en las cuentas.
+Realizamos pruebas de envío y recepción de correos entre los diferentes usuarios, comprobando, además de envío y recepción correctas, el efecto de las opciones configuradas en las cuentas.
 
 ![imagen220](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/220.png)
 
@@ -680,7 +704,7 @@ Creamos una lista de distribución asociada al dominio y añadimos a los dos usu
 
 ![imagen231](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/231.png)
 
-Realiza prueba de envío y recepción de correos por medio de la lista de distribución.
+Realizamos pruebas de envío y recepción de correos por medio de la lista de distribución.
 
 ![imagen232](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/232.png)
 
