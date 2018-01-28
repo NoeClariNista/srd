@@ -328,72 +328,72 @@ Queremos configurar un servidor de correo para nuestra red local, para que los u
 
 En primer lugar, hay que desinstalar el Servicio SMTP de Windows 2012 Server.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Debes descargar e instalar en el Servidor Windows 2012 Server el Servidor de correo hMailServer.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Crea dos dominios denominados srd.edu y asir.edu.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Ejecuta los diagnósticos para ambos dominios y soluciona el error de backup asignando una carpeta para tal fin. Establece copia de seguridad de los mensajes.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Creamos dos cuentas para dos usuarios ficticios en cada uno de los dos dominios. Configuramos las cuentas con diferentes opciones (cuota de disco, auto-reply, forwarding, signature, etc.)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Configuramos el servicio DNS para crear las entradas `mail.srd.edu` y `mail.asir.edu` que apunten a la dirección ip del Servidor Windows 2012.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Realiza todas las opciones de configuración que consideres necesarias y/o convenientes. Consulta para ello los tutoriales cuyos enlaces se proporcionan (opciones de protocolos SMTP, POP e IMAP, rangos de IP, bloqueo de correo entrante, nombre de host, reenvío dominios remotos, blacklists, opciones de logging, etc.) (tutoriales)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Configura en el cliente W10 un Cliente de correo como thunderbird o Live Mail (en los ordenadores clientes) para acceder al Servidor de correo instalado en Windows 2012.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Realiza prueba de envío y recepción de correos entre los diferentes usuarios, comprobando, además de envío y recepción correctas, el efecto de las opciones configuradas en las cuentas.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Crea una lista de distribución empleados asociada al dominio y añade a los dos usuarios de miempresa.com a ella.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 Realiza prueba de envío y recepción de correos por medio de la lista de distribución.
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
-![imagen105](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/105.png)
+![imagen109](./images/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows/109.png)
 
 ---
