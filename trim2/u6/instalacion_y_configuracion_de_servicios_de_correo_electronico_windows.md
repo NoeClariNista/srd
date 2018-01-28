@@ -8,6 +8,7 @@ ___
 
 ---
 
+
 Instalamos el Servicio SMTP en Windows 2012 Server utilizando el Asistente.
 
 Lo primero que tenemos que hacer es ir a Administrador del Servidor.
