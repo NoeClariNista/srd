@@ -158,9 +158,9 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen53](./instalacion_y_configuracion_servidor_correo_electronico_linux/53.png)
 
-  ![imagen54](./instalacion_y_configuracion_servidor_correo_electronico_linux/54.png)
+  Enviar  y  recibir  correos  entre  las  dos  cuentas  creadas  desde  el  Cliente  y  utilizando  el gestor de correo web SquirrelMail.
 
-  Enviar  y  recibir  correos  entre  las  dos  cuentas  creadas  desde  el  cliente  y  utilizando  el gestor de correo web SquirrelMail.
+  ![imagen54](./instalacion_y_configuracion_servidor_correo_electronico_linux/54.png)
 
   ![imagen55](./instalacion_y_configuracion_servidor_correo_electronico_linux/55.png)
 
@@ -170,24 +170,44 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen58](./instalacion_y_configuracion_servidor_correo_electronico_linux/58.png)
 
-  Comprobar que los mensajes enviados desde ambas cuentas se siguen encontrando en los respectivos buzones de los usuarios en `/var/mail`.
-
   ![imagen59](./instalacion_y_configuracion_servidor_correo_electronico_linux/59.png)
 
   ![imagen60](./instalacion_y_configuracion_servidor_correo_electronico_linux/60.png)
+
+  ![imagen61](./instalacion_y_configuracion_servidor_correo_electronico_linux/61.png)
+
+  ![imagen62](./instalacion_y_configuracion_servidor_correo_electronico_linux/62.png)
+
+  ![imagen63](./instalacion_y_configuracion_servidor_correo_electronico_linux/63.png)
+
+  ![imagen64](./instalacion_y_configuracion_servidor_correo_electronico_linux/64.png)
+
+  Comprobar que los mensajes enviados desde ambas cuentas se siguen encontrando en los respectivos buzones de los usuarios en `/var/mail`.
+
+  ![imagen65](./instalacion_y_configuracion_servidor_correo_electronico_linux/65.png)
+
+  ![imagen66](./instalacion_y_configuracion_servidor_correo_electronico_linux/66.png)
 
 Instalar Servicio POP3.
 
   Instalar servicio POP3 con el comando apt-get install dovecot-pop3d.
 
-  ![imagen61](./instalacion_y_configuracion_servidor_correo_electronico_linux/61.png)
+  ![imagen67](./instalacion_y_configuracion_servidor_correo_electronico_linux/67.png)
 
   Comprobar servicio (y puerto) POP3 activo y a la escucha con netstat –utap.
 
-  ![imagen62](./instalacion_y_configuracion_servidor_correo_electronico_linux/62.png)
+  ![imagen68](./instalacion_y_configuracion_servidor_correo_electronico_linux/68.png)
 
   Configurar  MUA  (gestor  de  correo  cliente  Evolution  o  similar)  en  máquina  Cliente  para que  acceda  a  la  recepción  de  correo  a  través  del  protocolo  POP3  instalado  en  el Servidor.
 
+
+
   Enviar  y  recibir  correos  entre  las  dos  cuentas  creadas  desde  el  cliente  y  utilizando  el gestor de correo del cliente.
 
+
+
   Comprobar  que  los  correos  enviados  y  recibidos  han  desaparecido  (han  sido  extraídos por POP3) de los buzones respectivos de los usuarios en `/var/mail`.
+
+
+
+---
