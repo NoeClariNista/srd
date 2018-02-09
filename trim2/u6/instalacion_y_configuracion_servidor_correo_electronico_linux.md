@@ -200,14 +200,14 @@ Instalamos el Servicio POP3.
 
   Configuramos MUA (gestor de correo cliente Evolution) en la máquina Cliente para que acceda a la recepción de correo a través del protocolo POP3 instalado en el Servidor.
 
+  ![imagen68](./instalacion_y_configuracion_servidor_correo_electronico_linux/68.png)
 
+  Enviamos y recibimos correos entre las dos cuentas creadas desde el Cliente y utilizando el gestor de correo del Cliente.
 
-  Enviamos y recibimos correos entre las dos cuentas creadas desde el Cliente y utilizando el gestor de correo del cliente.
-
-
+  ![imagen68](./instalacion_y_configuracion_servidor_correo_electronico_linux/68.png)
 
   Comprobamos que los correos enviados y recibidos han desaparecido (han sido extraídos por POP3) de los buzones respectivos de los usuarios en `/var/mail`.
 
-
+  ![imagen68](./instalacion_y_configuracion_servidor_correo_electronico_linux/68.png)
 
 ---
