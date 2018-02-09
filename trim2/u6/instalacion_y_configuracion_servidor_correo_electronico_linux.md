@@ -48,7 +48,7 @@ Instalamos el Servicio SMTP en Linux, utilizando el Servidor Postfix.
 
   ![imagen09](./instalacion_y_configuracion_servidor_correo_electronico_linux/09.png)
 
-  Creamos al menos dos cuentas asociadas a usuarios existentes en el Servidor y asociadas al dominio creado en Postfix. Con figurar datos de las cuentas (dirección correo, servidores entrante y saliente).
+  Creamos al menos dos cuentas asociadas a usuarios existentes en el Servidor y asociadas al dominio creado en Postfix. Configuramos datos de las cuentas (dirección correo, servidores entrante y saliente).
 
   ![imagen10](./instalacion_y_configuracion_servidor_correo_electronico_linux/10.png)
 
@@ -108,27 +108,27 @@ Instalamos el Servicio SMTP en Linux, utilizando el Servidor Postfix.
 
 Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
-  Instalar servicio IMAP con apt-get install dovecot-imapd.
+  Instalamos el Servicio IMAP con el comando apt-get install dovecot-imapd.
 
   ![imagen37](./instalacion_y_configuracion_servidor_correo_electronico_linux/37.png)
 
-  Comprobar servicio (y puerto) IMAP activo y a la escucha con netstat –utap.
+  Comprobamos el Servicio (y puerto) IMAP activo y a la escucha con el comando netstat –utap.
 
   ![imagen38](./instalacion_y_configuracion_servidor_correo_electronico_linux/38.png)
 
-  Instalar aplicación correo web SquirrelMail con apt-get install squirrelmail.
+  Instalamos la aplicación correo web SquirrelMail con el comando apt-get install squirrelmail.
 
   ![imagen39](./instalacion_y_configuracion_servidor_correo_electronico_linux/39.png)
 
-  Carpeta de configuración en `/etc/squirrelmail`.
+  La carpeta de configuración en `/etc/squirrelmail`.
 
   ![imagen40](./instalacion_y_configuracion_servidor_correo_electronico_linux/40.png)
 
-  Carpeta de aplicación en `/usr/share/squirrelmail`.
+  La carpeta de aplicación en `/usr/share/squirrelmail`.
 
   ![imagen41](./instalacion_y_configuracion_servidor_correo_electronico_linux/41.png)
 
-  Copiar líneas no comentadas `/etc/squirrelmail/apache.conf` en un nuevo fichero .conf de `/etc/apache2/sites-available`, habilitar sitio y reiniciar apache.
+  Copiamos las líneas no comentadas `/etc/squirrelmail/apache.conf` en un nuevo fichero .conf de `/etc/apache2/sites-available`, habilitamos el sitio y reiniciamos apache.
 
   ![imagen42](./instalacion_y_configuracion_servidor_correo_electronico_linux/42.png)
 
@@ -140,7 +140,7 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen46](./instalacion_y_configuracion_servidor_correo_electronico_linux/46.png)
 
-  Acceder vía HTTP en `/localhost/squirrelmail`.
+  Accedemos vía HTTP en `/localhost/squirrelmail`.
 
   ![imagen47](./instalacion_y_configuracion_servidor_correo_electronico_linux/47.png)
 
@@ -150,7 +150,7 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen50](./instalacion_y_configuracion_servidor_correo_electronico_linux/50.png)
 
-  Acceder desde una máquina cliente, vía HTTP, al gestor de correo SquirrelMail instalado.
+  Accedemos desde una máquina Cliente, vía HTTP, al gestor de correo SquirrelMail instalado.
 
   ![imagen51](./instalacion_y_configuracion_servidor_correo_electronico_linux/51.png)
 
@@ -158,7 +158,7 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen53](./instalacion_y_configuracion_servidor_correo_electronico_linux/53.png)
 
-  Enviar  y  recibir  correos  entre  las  dos  cuentas  creadas  desde  el  Cliente  y  utilizando  el gestor de correo web SquirrelMail.
+  Enviamos y recibimos correos entre las dos cuentas creadas desde el Cliente y utilizando el gestor de correo web SquirrelMail.
 
   ![imagen54](./instalacion_y_configuracion_servidor_correo_electronico_linux/54.png)
 
@@ -182,31 +182,31 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen64](./instalacion_y_configuracion_servidor_correo_electronico_linux/64.png)
 
-  Comprobar que los mensajes enviados desde ambas cuentas se siguen encontrando en los respectivos buzones de los usuarios en `/var/mail`.
+  Comprobamos que los mensajes enviados desde ambas cuentas se siguen encontrando en los respectivos buzones de los usuarios en `/var/mail`.
 
   ![imagen65](./instalacion_y_configuracion_servidor_correo_electronico_linux/65.png)
 
   ![imagen66](./instalacion_y_configuracion_servidor_correo_electronico_linux/66.png)
 
-Instalar Servicio POP3.
+Instalamos el Servicio POP3.
 
-  Instalar servicio POP3 con el comando apt-get install dovecot-pop3d.
+  Instalamos el Servicio POP3 con el comando apt-get install dovecot-pop3d.
 
   ![imagen67](./instalacion_y_configuracion_servidor_correo_electronico_linux/67.png)
 
-  Comprobar servicio (y puerto) POP3 activo y a la escucha con netstat –utap.
+  Comprobamos el Servicio (y puerto) POP3 activo y a la escucha con el comando netstat –utap.
 
   ![imagen68](./instalacion_y_configuracion_servidor_correo_electronico_linux/68.png)
 
-  Configurar  MUA  (gestor  de  correo  cliente  Evolution  o  similar)  en  máquina  Cliente  para que  acceda  a  la  recepción  de  correo  a  través  del  protocolo  POP3  instalado  en  el Servidor.
+  Configuramos MUA (gestor de correo cliente Evolution) en la máquina Cliente para que acceda a la recepción de correo a través del protocolo POP3 instalado en el Servidor.
 
 
 
-  Enviar  y  recibir  correos  entre  las  dos  cuentas  creadas  desde  el  cliente  y  utilizando  el gestor de correo del cliente.
+  Enviamos y recibimos correos entre las dos cuentas creadas desde el Cliente y utilizando el gestor de correo del cliente.
 
 
 
-  Comprobar  que  los  correos  enviados  y  recibidos  han  desaparecido  (han  sido  extraídos por POP3) de los buzones respectivos de los usuarios en `/var/mail`.
+  Comprobamos que los correos enviados y recibidos han desaparecido (han sido extraídos por POP3) de los buzones respectivos de los usuarios en `/var/mail`.
 
 
 
