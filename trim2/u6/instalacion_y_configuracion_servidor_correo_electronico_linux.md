@@ -258,7 +258,7 @@ Instalamos el Servicio POP3.
 
   ![imagen88](./images/instalacion_y_configuracion_servidor_correo_electronico_linux/88.png)
 
-  Reiniciamos el Servicio de Dovecot.
+  Reiniciamos el Servicio de Dovecot. 
 
   ![imagen89](./images/instalacion_y_configuracion_servidor_correo_electronico_linux/89.png)
 
