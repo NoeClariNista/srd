@@ -48,11 +48,17 @@ Instalamos el Servicio SMTP en Linux, utilizando el Servidor Postfix.
 
   ![imagen09](./instalacion_y_configuracion_servidor_correo_electronico_linux/09.png)
 
-  Creamos al menos dos cuentas asociadas a usuarios existentes en el Servidor y asociadas al dominio creado en Postfix. Configuramos datos de las cuentas (dirección correo, servidores entrante y saliente).
+  Creamos dos cuentas asociadas a usuarios existentes en el Servidor y asociadas al dominio creado en Postfix.
+
+  * Cuentas en el Servidor.
 
   ![imagen10](./instalacion_y_configuracion_servidor_correo_electronico_linux/10.png)
 
+  * Cuentas en el Cliente.
+
   ![imagen11](./instalacion_y_configuracion_servidor_correo_electronico_linux/11.png)
+
+  Configuramos los datos de las cuentas (dirección correo, servidores entrante y saliente).
 
   ![imagen12](./instalacion_y_configuracion_servidor_correo_electronico_linux/12.png)
 
@@ -92,7 +98,7 @@ Instalamos el Servicio SMTP en Linux, utilizando el Servidor Postfix.
 
   ![imagen30](./instalacion_y_configuracion_servidor_correo_electronico_linux/30.png)
 
-  Realizamos el envío de dos correos, uno con cada una de las cuentas creadas. Comprobamos la recepción de estos correos en el Servidor examinando la carpeta `/var/mail`.
+  Realizamos el envío de dos correos, uno con cada una de las cuentas creadas.
 
   ![imagen31](./instalacion_y_configuracion_servidor_correo_electronico_linux/31.png)
 
@@ -101,6 +107,8 @@ Instalamos el Servicio SMTP en Linux, utilizando el Servidor Postfix.
   ![imagen33](./instalacion_y_configuracion_servidor_correo_electronico_linux/33.png)
 
   ![imagen34](./instalacion_y_configuracion_servidor_correo_electronico_linux/34.png)
+
+  Comprobamos la recepción de estos correos en el Servidor examinando la carpeta `/var/mail`.
 
   ![imagen35](./instalacion_y_configuracion_servidor_correo_electronico_linux/35.png)
 
@@ -120,15 +128,15 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen39](./instalacion_y_configuracion_servidor_correo_electronico_linux/39.png)
 
-  La carpeta de configuración en `/etc/squirrelmail`.
+  La carpeta de configuración la podemos ver en `/etc/squirrelmail`.
 
   ![imagen40](./instalacion_y_configuracion_servidor_correo_electronico_linux/40.png)
 
-  La carpeta de aplicación en `/usr/share/squirrelmail`.
+  La carpeta de aplicación la podemos ver en `/usr/share/squirrelmail`.
 
   ![imagen41](./instalacion_y_configuracion_servidor_correo_electronico_linux/41.png)
 
-  Copiamos las líneas no comentadas `/etc/squirrelmail/apache.conf` en un nuevo fichero .conf de `/etc/apache2/sites-available`, habilitamos el sitio y reiniciamos apache.
+  Copiamos las líneas no comentadas del fichero `/etc/squirrelmail/apache.conf` en un nuevo fichero .conf de `/etc/apache2/sites-available`.
 
   ![imagen42](./instalacion_y_configuracion_servidor_correo_electronico_linux/42.png)
 
@@ -136,7 +144,11 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen44](./instalacion_y_configuracion_servidor_correo_electronico_linux/44.png)
 
+  Habilitamos el sitio.
+
   ![imagen45](./instalacion_y_configuracion_servidor_correo_electronico_linux/45.png)
+
+  Reiniciamos Apache.
 
   ![imagen46](./instalacion_y_configuracion_servidor_correo_electronico_linux/46.png)
 
@@ -158,7 +170,7 @@ Instalamos el Servicio IMAP y Servidor Correo Web SquirrelMail.
 
   ![imagen53](./instalacion_y_configuracion_servidor_correo_electronico_linux/53.png)
 
-  Enviamos y recibimos correos entre las dos cuentas creadas desde el Cliente y utilizando el gestor de correo web SquirrelMail.
+  Enviamos y recibimos correos entre las dos cuentas creadas desde el Cliente utilizando el gestor de correo web SquirrelMail.
 
   ![imagen54](./instalacion_y_configuracion_servidor_correo_electronico_linux/54.png)
 
