@@ -20,13 +20,13 @@ Instalamos el Servicio SMTP en Linux, utilizando el Servidor Postfix.
 
   Utilizamos la siguiente configuración de Postfix.
 
-    Escogemos la instalación como Sitio de Internet.
+  Escogemos la instalación como Sitio de Internet.
 
-    ![imagen02](./images/instalacion_y_configuracion_servidor_correo_electronico_linux/02.png)
+  ![imagen02](./images/instalacion_y_configuracion_servidor_correo_electronico_linux/02.png)
 
-    Creamos el dominio `miempresa.com`.
+  Creamos el dominio `miempresa.com`.
 
-    ![imagen03](./images/instalacion_y_configuracion_servidor_correo_electronico_linux/03.png)
+  ![imagen03](./images/instalacion_y_configuracion_servidor_correo_electronico_linux/03.png)
 
   Comprobamos el Servicio (y puerto) SMTP activo y a la escucha con el comando netstat –utap.
 
