@@ -212,14 +212,70 @@ Instalamos el Servicio POP3.
 
   Configuramos MUA (gestor de correo cliente Evolution) en la máquina Cliente para que acceda a la recepción de correo a través del protocolo POP3 instalado en el Servidor.
 
-  ![imagen68](./instalacion_y_configuracion_servidor_correo_electronico_linux/68.png)
+  Borramos los usuarios creados.
+
+  ![imagen69](./instalacion_y_configuracion_servidor_correo_electronico_linux/69.png)
+
+  Creamos denuevo los usuarios pero esta vez con el Servicio POP3.
+
+  ![imagen70](./instalacion_y_configuracion_servidor_correo_electronico_linux/70.png)
+
+  ![imagen71](./instalacion_y_configuracion_servidor_correo_electronico_linux/71.png)
+
+  ![imagen72](./instalacion_y_configuracion_servidor_correo_electronico_linux/72.png)
+
+  ![imagen73](./instalacion_y_configuracion_servidor_correo_electronico_linux/73.png)
+
+  ![imagen74](./instalacion_y_configuracion_servidor_correo_electronico_linux/74.png)
+
+  ![imagen75](./instalacion_y_configuracion_servidor_correo_electronico_linux/75.png)
+
+  ![imagen76](./instalacion_y_configuracion_servidor_correo_electronico_linux/76.png)
+
+  ![imagen77](./instalacion_y_configuracion_servidor_correo_electronico_linux/77.png)
+
+  ![imagen78](./instalacion_y_configuracion_servidor_correo_electronico_linux/78.png)
+
+  ![imagen79](./instalacion_y_configuracion_servidor_correo_electronico_linux/79.png)
+
+  ![imagen80](./instalacion_y_configuracion_servidor_correo_electronico_linux/80.png)
+
+  ![imagen81](./instalacion_y_configuracion_servidor_correo_electronico_linux/81.png)
+
+  ![imagen82](./instalacion_y_configuracion_servidor_correo_electronico_linux/82.png)
+
+  ![imagen83](./instalacion_y_configuracion_servidor_correo_electronico_linux/83.png)
+
+  ![imagen84](./instalacion_y_configuracion_servidor_correo_electronico_linux/84.png)
+
+  ![imagen85](./instalacion_y_configuracion_servidor_correo_electronico_linux/85.png)
+
+  ![imagen86](./instalacion_y_configuracion_servidor_correo_electronico_linux/86.png)
+
+  Vamos al Servidor. Vamos a la configuración de Dovecot y descomentamos una línea en el fichero `10-auth.conf`.
+
+  ![imagen87](./instalacion_y_configuracion_servidor_correo_electronico_linux/87.png)
+
+  ![imagen88](./instalacion_y_configuracion_servidor_correo_electronico_linux/88.png)
+
+  Reiniciamos el Servicio de Dovecot.
+
+  ![imagen89](./instalacion_y_configuracion_servidor_correo_electronico_linux/89.png)
 
   Enviamos y recibimos correos entre las dos cuentas creadas desde el Cliente y utilizando el gestor de correo del Cliente.
 
-  ![imagen68](./instalacion_y_configuracion_servidor_correo_electronico_linux/68.png)
+  ![imagen90](./instalacion_y_configuracion_servidor_correo_electronico_linux/90.png)
+
+  ![imagen91](./instalacion_y_configuracion_servidor_correo_electronico_linux/91.png)
+
+  ![imagen92](./instalacion_y_configuracion_servidor_correo_electronico_linux/92.png)
+
+  ![imagen93](./instalacion_y_configuracion_servidor_correo_electronico_linux/93.png)
 
   Comprobamos que los correos enviados y recibidos han desaparecido (han sido extraídos por POP3) de los buzones respectivos de los usuarios en `/var/mail`.
 
-  ![imagen68](./instalacion_y_configuracion_servidor_correo_electronico_linux/68.png)
+  ![imagen94](./instalacion_y_configuracion_servidor_correo_electronico_linux/94.png)
+
+  ![imagen95](./instalacion_y_configuracion_servidor_correo_electronico_linux/95.png)
 
 ---
