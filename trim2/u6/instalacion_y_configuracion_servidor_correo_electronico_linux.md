@@ -272,7 +272,7 @@ Instalamos el Servicio POP3.
 
   ![imagen93](./images/instalacion_y_configuracion_servidor_correo_electronico_linux/93.png)
 
-  Comprobamos que los correos enviados y recibidos han desaparecido (han sido extraídos por POP3) de los buzones respectivos de los usuarios en `/var/mail`.
+  Comprobamos que los correos enviados y recibidos no han desaparecido de los buzones respectivos de los usuarios en `/var/mail`.
 
   ![imagen94](./images/instalacion_y_configuracion_servidor_correo_electronico_linux/94.png)
 
