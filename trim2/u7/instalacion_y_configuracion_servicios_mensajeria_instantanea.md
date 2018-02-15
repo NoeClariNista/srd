@@ -12,6 +12,8 @@ Descargamos e instalamos el Servidor de mensajería instantánea OpenFire para W
 
 ![imagen02](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/02.png)
 
+Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
+
 ![imagen03](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/03.png)
 
 ![imagen04](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/04.png)
@@ -60,9 +62,9 @@ En la primera pantalla de “Seteos de Perfil” seleccionamos la opción “Por
 
 ![imagen21](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/21.png)
 
-Una vez completada la instalación, accedemos a la consola de administración de Openfire con el usuario administrador creado. Comprobamos este acceso tanto desde el Servidor como desde una máquina Cliente.
-
 ![imagen22](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/22.png)
+
+Una vez completada la instalación, accedemos a la consola de administración de Openfire con el usuario administrador creado. Comprobamos este acceso tanto desde el Servidor como desde una máquina Cliente.
 
 * Desde el Servidor.
 
@@ -84,6 +86,8 @@ Una vez instalado el Servidor OpenFire, vamos a descargarnos e instalar un Clien
 
   Instalamos Spark en nuestro Servidor Windows Server.
 
+  Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
+
   ![imagen28](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/28.png)
 
   ![imagen29](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/29.png)
@@ -97,6 +101,8 @@ Una vez instalado el Servidor OpenFire, vamos a descargarnos e instalar un Clien
   ![imagen33](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/33.png)
 
   Instalamos también Spark en nuestro Cliente Windows 10.
+
+  Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
 
   ![imagen34](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/34.png)
 
