@@ -110,6 +110,8 @@ Una vez instalado el Servidor OpenFire, vamos a descargarnos e instalar un Clien
 
   ![imagen39](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/39.png)
 
+---
+
 Ahora vamos a crear dos nuevos usuarios en OpenFire (además del Administrador) para poder mantener una conversación entre Cliente y Servidor.
 
 ![imagen00](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/00.png)
