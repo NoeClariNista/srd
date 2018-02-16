@@ -116,13 +116,23 @@ Una vez instalado el Servidor OpenFire, vamos a descargarnos e instalar un Clien
 
   ![imagen39](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/39.png)
 
----
-
 Ahora vamos a crear dos nuevos usuarios en OpenFire (además del Administrador) para poder mantener una conversación entre Cliente y Servidor.
 
 ![imagen00](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/00.png)
 
-Ejecutamos Spark tanto en el Cliente como en el Servidor, validamos en cada uno de ellos con un usuario diferente de los que hemos creado y mantenemos conversaciones entre ambas máquinas usando los Clientes de mensajería. Para ello debemos investigar como invitar usuarios, crear cuartos de conferencia, iniciar conversaciones, iniciar conferencias, transferir archivos y capturas de pantalla, etc. Comprobamos e informamos acerca de estas y otras opciones de configuración tanto desde Sparks como desde OpenFire.
+Ejecutamos Spark tanto en el Cliente como en el Servidor, validamos en cada uno de ellos con un usuario diferente de los que hemos creado.
+
+![imagen00](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/00.png)
+
+Mantenemos conversaciones entre ambas máquinas usando los Clientes de mensajería.
+
+![imagen00](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/00.png)
+
+Para ello debemos investigar como invitar usuarios, crear cuartos de conferencia, iniciar conversaciones, iniciar conferencias, transferir archivos.
+
+![imagen00](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/00.png)
+
+Comprobamos e informamos acerca de estas y otras opciones de configuración tanto desde Sparks como desde OpenFire.
 
 ![imagen00](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/00.png)
 
