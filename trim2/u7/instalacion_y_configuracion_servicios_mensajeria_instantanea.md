@@ -14,13 +14,11 @@ Descargamos e instalamos el Servidor de mensajería instantánea OpenFire para W
 
 Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
 
-![imagen03](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/03.png)
+![imagen03](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/04.png)
 
-![imagen04](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/04.png)
+![imagen04](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/05.png)
 
-![imagen05](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/05.png)
-
-![imagen06](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/06.png)
+![imagen05](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/06.png)
 
 ![imagen07](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/07.png)
 
@@ -113,8 +111,6 @@ Una vez instalado el Servidor OpenFire, vamos a descargarnos e instalar un Clien
   ![imagen37](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/37.png)
 
   ![imagen38](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/38.png)
-
-  ![imagen39](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/39.png)
 
 Ahora vamos a crear dos nuevos usuarios en OpenFire (además del Administrador) para poder mantener una conversación entre Cliente y Servidor.
 
