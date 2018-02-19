@@ -12,7 +12,7 @@ Descargamos e instalamos el Servidor de mensajería instantánea OpenFire para W
 
 ![imagen002](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/002.png)
 
-Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
+Los pasos de la instalación los realizamos como se pueden ver en las siguientes imágenes.
 
 ![imagen003](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/003.png)
 
@@ -58,6 +58,8 @@ En la pantalla de “Configuración de Perfil” seleccionamos la opción “Por
 
 ![imagen019](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/019.png)
 
+Seleccionamos las siguientes opciones de instalación y configuración de Openfire.
+
 ![imagen020](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/020.png)
 
 ![imagen021](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/021.png)
@@ -84,7 +86,7 @@ Una vez instalado el Servidor OpenFire, vamos a descargarnos e instalar un Clien
 
   Instalamos Spark en nuestro Servidor Windows Server.
 
-  Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
+  Los pasos de la instalación los realizamos como se pueden ver en las siguientes imágenes.
 
   ![imagen027](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/027.png)
 
@@ -100,7 +102,7 @@ Una vez instalado el Servidor OpenFire, vamos a descargarnos e instalar un Clien
 
   Instalamos también Spark en nuestro Cliente Windows 10.
 
-  Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
+  Los pasos de la instalación los realizamos como se pueden ver en las siguientes imágenes.
 
   ![imagen033](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/033.png)
 
@@ -122,9 +124,13 @@ Ahora vamos a crear dos nuevos usuarios en OpenFire (además del Administrador) 
 
 ![imagen041](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/041.png)
 
+* Usuario `noe`.
+
 ![imagen042](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/042.png)
 
 ![imagen043](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/043.png)
+
+* Usuario `lia`.
 
 ![imagen044](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/044.png)
 
@@ -132,7 +138,7 @@ Ahora vamos a crear dos nuevos usuarios en OpenFire (además del Administrador) 
 
 Ejecutamos Spark tanto en el Cliente como en el Servidor, validamos en cada uno de ellos con un usuario diferente de los que hemos creado.
 
-* En el Servidor.
+* En el Servidor, con el usuario `noe`.
 
 ![imagen046](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/046.png)
 
@@ -140,7 +146,7 @@ Ejecutamos Spark tanto en el Cliente como en el Servidor, validamos en cada uno 
 
 ![imagen048](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/048.png)
 
-* En el Cliente.
+* En el Cliente, con el usuario `lia`.
 
 ![imagen049](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/049.png)
 
@@ -148,31 +154,51 @@ Ejecutamos Spark tanto en el Cliente como en el Servidor, validamos en cada uno 
 
 ![imagen051](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/051.png)
 
-Lo primero que tenemos que hacer es invitar usuarios. Para ello hacemos lo siguiente.
+Lo primero que tenemos que hacer es invitar usuarios, lo realizamos desde el usuario `noe`.
 
 ![imagen052](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/052.png)
 
+Para ello vamos Contactos, agregar contacto.
+
 ![imagen053](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/053.png)
+
+Agregamos a nuestros contactos al usuario `lia`.
 
 ![imagen054](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/054.png)
 
+En el usuario `lia` aceptamos que nos agreguen a su lista de contactos.
+
 ![imagen055](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/055.png)
+
+En el usuario `noe` aceptamos que nos agreguen a su lista de contactos.
 
 ![imagen056](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/056.png)
 
+Ya tenemos a los dos usuarios agregados entre ellos.
+
+* Usuario `noe`.
+
 ![imagen057](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/057.png)
+
+* Usuario `lia`.
 
 ![imagen058](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/058.png)
 
-Creamos cuartos de conferencia e iniciamos conferencias.
+Creamos un cuarto de conferencia e iniciamos conferencias, para ello lo creara el usuario `noe`.
 
 ![imagen059](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/059.png)
+
+Creamos un cuarto de conferencia.
 
 ![imagen060](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/060.png)
 
 ![imagen061](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/061.png)
 
+Ya estaría el usuario `noe` dentro del cuarto de conferencia.
+
 ![imagen062](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/062.png)
+
+Añadimos al usuario `lia` al cuarto de conferencia.
 
 ![imagen063](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/063.png)
 
@@ -180,21 +206,35 @@ Creamos cuartos de conferencia e iniciamos conferencias.
 
 ![imagen065](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/065.png)
 
+Ya estaría el usuario `lia` dentro del cuarto de conferencia.
+
 ![imagen066](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/066.png)
 
+* Usuario `lia`.
+
 ![imagen067](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/067.png)
+
+* Usuario `noe`.
 
 ![imagen068](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/068.png)
 
 Iniciamos conversaciones entre ambas máquinas usando los Clientes de mensajería.
 
+* Usuario `noe`.
+
 ![imagen069](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/069.png)
+
+* Usuario `lia`.
 
 ![imagen070](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/070.png)
 
 Transferimos archivos entre ambas máquinas usando los Clientes de mensajería.
 
+* Usuario `lia`.
+
 ![imagen071](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/071.png)
+
+* Usuario `noe`.
 
 ![imagen072](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/072.png)
 
@@ -202,21 +242,29 @@ Transferimos archivos entre ambas máquinas usando los Clientes de mensajería.
 
 ![imagen074](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/074.png)
 
+* Usuario `lia`.
+
 ![imagen075](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/075.png)
 
 ![imagen076](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/076.png)
 
 Realizamos una discusión desde Spark entre ambos Clientes de mensajería.
 
+* Usuario `noe`.
+
 ![imagen077](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/077.png)
 
 ![imagen078](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/078.png)
+
+* Usuario `lia`.
 
 ![imagen079](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/079.png)
 
 ![imagen080](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/080.png)
 
 ![imagen081](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/081.png)
+
+* Usuario `noe`.
 
 ![imagen082](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/082.png)
 
@@ -226,17 +274,21 @@ Revisamos las opciones que tenemos desde OpenFire.
 
 ![imagen084](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/084.png)
 
-Realizamos una conferencia desde OpenFire.
+Creamos una sala de conferencia desde OpenFire.
 
 ![imagen085](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/085.png)
 
 ![imagen086](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/086.png)
+
+* Usuario `lia`.
 
 ![imagen087](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/087.png)
 
 ![imagen088](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/088.png)
 
 ![imagen089](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/089.png)
+
+* Usuario `noe`.
 
 ![imagen090](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/090.png)
 
@@ -246,11 +298,15 @@ Realizamos una conferencia desde OpenFire.
 
 ![imagen093](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/093.png)
 
+* Usuario `lia`.
+
 ![imagen094](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/094.png)
 
-Instalamos, probamos e informamos SparkWeb de OpenFire.
+Instalamos y probamos SparkWeb de OpenFire.
 
 ![imagen095](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/095.png)
+
+Vamos a IIS para crear un nuevo sitio web denominado sparkweb asociado a la carpeta sparkweb y con acceso a través de la dirección sparkweb.miempresa.com.
 
 ![imagen096](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/096.png)
 
@@ -260,13 +316,19 @@ Instalamos, probamos e informamos SparkWeb de OpenFire.
 
 ![imagen099](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/099.png)
 
+Añadimos a Documento predeterminado al `SparWeb.html`.
+
 ![imagen100](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/100.png)
+
+Actualizamos el DNS adecuadamente.
 
 ![imagen101](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/101.png)
 
 ![imagen102](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/102.png)
 
 ![imagen103](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/103.png)
+
+Finalmente entramos en un navegador web mediante la URL `http://sparkweb.miempresa.com` y veríamos lo siguiente.
 
 ![imagen104](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/104.png)
 
