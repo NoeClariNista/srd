@@ -6,259 +6,259 @@ ___
 
 Comprobamos que en el Servidor Windows 2012 están instalados y funcionan correctamente el IIS, el PHP, el MySQL y el phpMyAdmin.
 
-![imagen01](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/01.png)
+![imagen001](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/001.png)
 
 Descargamos e instalamos el Servidor de mensajería instantánea OpenFire para Windows.
 
-![imagen02](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/02.png)
+![imagen002](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/002.png)
 
 Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
 
-![imagen03](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/03.png)
+![imagen003](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/003.png)
 
-![imagen04](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/04.png)
+![imagen004](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/004.png)
 
-![imagen05](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/05.png)
+![imagen005](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/005.png)
 
-![imagen06](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/06.png)
+![imagen006](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/006.png)
 
-![imagen07](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/07.png)
+![imagen007](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/007.png)
 
-![imagen08](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/08.png)
+![imagen008](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/008.png)
 
 Iniciamos (Start) el Servidor de mensajería Openfire.
 
-![imagen09](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/09.png)
+![imagen009](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/009.png)
 
 Creamos una base de datos en blanco en MySqQL a través de phpMyAdmin y recordamos el nombre de la BD, así como el usuario y la contraseña con privilegios.
 
-![imagen10](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/10.png)
+![imagen010](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/010.png)
 
-![imagen11](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/11.png)
+![imagen011](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/011.png)
 
-![imagen12](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/12.png)
+![imagen012](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/012.png)
 
-![imagen13](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/13.png)
+![imagen013](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/013.png)
 
 Ejecutamos el script de instalación de Openfire desde un navegador web del Servidor, mediante la URL `http://127.0.0.1:9090`.
 
-![imagen14](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/14.png)
+![imagen014](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/014.png)
 
 Seleccionamos las siguientes opciones de instalación y configuración de Openfire.
 
-![imagen15](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/15.png)
+![imagen015](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/015.png)
 
-![imagen16](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/16.png)
+![imagen016](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/016.png)
 
-![imagen17](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/17.png)
+![imagen017](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/017.png)
 
-![imagen18](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/18.png)
+![imagen018](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/018.png)
 
 En la pantalla de “Configuración de Perfil” seleccionamos la opción “Por Defecto”.
 
-![imagen19](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/19.png)
+![imagen019](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/019.png)
 
-![imagen20](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/20.png)
+![imagen020](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/020.png)
 
-![imagen21](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/21.png)
+![imagen021](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/021.png)
 
 Una vez completada la instalación, accedemos a la consola de administración de Openfire con el usuario administrador creado. Comprobamos este acceso tanto desde el Servidor como desde una máquina Cliente.
 
 * Desde el Servidor.
 
-  ![imagen22](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/22.png)
+  ![imagen022](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/022.png)
 
-  ![imagen23](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/23.png)
+  ![imagen023](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/023.png)
 
 * Desde el Cliente.
 
-  ![imagen24](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/24.png)
+  ![imagen024](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/024.png)
 
-  ![imagen25](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/25.png)
+  ![imagen025](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/025.png)
 
 Una vez instalado el Servidor OpenFire, vamos a descargarnos e instalar un Cliente de Mensajería.
 
   Descargamos el Cliente de mensajería Spark.
 
-  ![imagen26](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/26.png)
+  ![imagen026](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/026.png)
 
   Instalamos Spark en nuestro Servidor Windows Server.
 
   Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
 
-  ![imagen27](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/27.png)
+  ![imagen027](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/027.png)
 
-  ![imagen28](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/28.png)
+  ![imagen028](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/028.png)
 
-  ![imagen29](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/29.png)
+  ![imagen029](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/029.png)
 
-  ![imagen30](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/30.png)
+  ![imagen030](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/030.png)
 
-  ![imagen31](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/31.png)
+  ![imagen031](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/031.png)
 
-  ![imagen32](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/32.png)
+  ![imagen032](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/032.png)
 
   Instalamos también Spark en nuestro Cliente Windows 10.
 
   Los pasos de la instalación los realizamos como se pueden ver en las imágenes.
 
-  ![imagen33](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/33.png)
+  ![imagen033](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/033.png)
 
-  ![imagen34](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/34.png)
+  ![imagen034](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/034.png)
 
-  ![imagen35](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/35.png)
+  ![imagen035](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/035.png)
 
-  ![imagen36](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/36.png)
+  ![imagen036](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/036.png)
 
-  ![imagen37](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/37.png)
+  ![imagen037](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/037.png)
 
-  ![imagen38](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/38.png)
+  ![imagen038](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/038.png)
 
 Ahora vamos a crear dos nuevos usuarios en OpenFire (además del Administrador) para poder mantener una conversación entre Cliente y Servidor.
 
-![imagen39](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/39.png)
+![imagen039](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/039.png)
 
-![imagen40](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/40.png)
+![imagen040](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/040.png)
 
-![imagen41](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/41.png)
+![imagen041](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/041.png)
 
-![imagen42](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/42.png)
+![imagen042](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/042.png)
 
-![imagen43](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/43.png)
+![imagen043](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/043.png)
 
-![imagen44](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/44.png)
+![imagen044](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/044.png)
 
-![imagen45](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/45.png)
+![imagen045](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/045.png)
 
 Ejecutamos Spark tanto en el Cliente como en el Servidor, validamos en cada uno de ellos con un usuario diferente de los que hemos creado.
 
 * En el Servidor.
 
-![imagen46](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/46.png)
+![imagen046](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/046.png)
 
-![imagen47](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/47.png)
+![imagen047](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/047.png)
 
-![imagen48](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/48.png)
+![imagen048](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/048.png)
 
 * En el Cliente.
 
-![imagen49](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/49.png)
+![imagen049](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/049.png)
 
-![imagen50](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/50.png)
+![imagen050](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/050.png)
 
-![imagen51](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/51.png)
+![imagen051](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/051.png)
 
 Lo primero que tenemos que hacer es invitar usuarios. Para ello hacemos lo siguiente.
 
-![imagen52](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/52.png)
+![imagen052](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/052.png)
 
-![imagen53](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/53.png)
+![imagen053](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/053.png)
 
-![imagen54](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/54.png)
+![imagen054](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/054.png)
 
-![imagen55](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/55.png)
+![imagen055](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/055.png)
 
-![imagen56](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/56.png)
+![imagen056](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/056.png)
 
-![imagen57](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/57.png)
+![imagen057](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/057.png)
 
-![imagen58](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/58.png)
+![imagen058](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/058.png)
 
 Creamos cuartos de conferencia e iniciamos conferencias.
 
-![imagen59](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/59.png)
+![imagen059](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/059.png)
 
-![imagen60](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/60.png)
+![imagen060](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/060.png)
 
-![imagen61](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/61.png)
+![imagen061](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/061.png)
 
-![imagen62](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/62.png)
+![imagen062](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/062.png)
 
-![imagen63](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/63.png)
+![imagen063](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/063.png)
 
-![imagen64](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/64.png)
+![imagen064](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/064.png)
 
-![imagen65](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/65.png)
+![imagen065](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/065.png)
 
-![imagen66](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/66.png)
+![imagen066](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/066.png)
 
-![imagen67](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/67.png)
+![imagen067](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/067.png)
 
-![imagen68](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/68.png)
+![imagen068](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/068.png)
 
 Iniciamos conversaciones entre ambas máquinas usando los Clientes de mensajería.
 
-![imagen69](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/69.png)
+![imagen069](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/069.png)
 
-![imagen70](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/70.png)
+![imagen070](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/070.png)
 
 Transferimos archivos entre ambas máquinas usando los Clientes de mensajería.
 
-![imagen71](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/71.png)
+![imagen071](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/071.png)
 
-![imagen72](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/72.png)
+![imagen072](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/072.png)
 
-![imagen73](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/73.png)
+![imagen073](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/073.png)
 
-![imagen74](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/74.png)
+![imagen074](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/074.png)
 
-![imagen75](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/75.png)
+![imagen075](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/075.png)
 
-![imagen76](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/76.png)
+![imagen076](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/076.png)
 
 Realizamos una discusión desde Spark entre ambos Clientes de mensajería.
 
-![imagen77](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/77.png)
+![imagen077](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/077.png)
 
-![imagen78](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/78.png)
+![imagen078](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/078.png)
 
-![imagen79](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/79.png)
+![imagen079](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/079.png)
 
-![imagen80](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/80.png)
+![imagen080](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/080.png)
 
-![imagen81](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/81.png)
+![imagen081](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/081.png)
 
-![imagen82](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/82.png)
+![imagen082](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/082.png)
 
 Revisamos las opciones que tenemos desde OpenFire.
 
-![imagen83](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/83.png)
+![imagen083](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/083.png)
 
-![imagen84](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/84.png)
+![imagen084](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/084.png)
 
 Realizamos una conferencia desde OpenFire.
 
-![imagen85](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/85.png)
+![imagen085](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/085.png)
 
-![imagen86](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/86.png)
+![imagen086](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/086.png)
 
-![imagen87](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/87.png)
+![imagen087](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/087.png)
 
-![imagen88](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/88.png)
+![imagen088](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/088.png)
 
-![imagen89](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/89.png)
+![imagen089](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/089.png)
 
-![imagen90](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/90.png)
+![imagen090](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/090.png)
 
-![imagen91](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/91.png)
+![imagen091](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/091.png)
 
-![imagen92](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/92.png)
+![imagen092](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/092.png)
 
-![imagen93](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/93.png)
+![imagen093](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/093.png)
 
-![imagen94](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/94.png)
+![imagen094](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/094.png)
 
 Instalamos, probamos e informamos SparkWeb de OpenFire.
 
-![imagen95](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/95.png)
+![imagen095](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/095.png)
 
-![imagen96](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/96.png)
+![imagen096](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/096.png)
 
-![imagen97](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/97.png)
+![imagen097](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/097.png)
 
-![imagen98](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/98.png)
+![imagen098](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/098.png)
 
-![imagen99](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/99.png)
+![imagen099](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/099.png)
 
 ![imagen100](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/100.png)
 
