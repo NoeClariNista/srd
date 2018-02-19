@@ -46,4 +46,18 @@ ___
 
 * **Actividad 1. [Instalación Y Configuración De Servicios De Correo Electrónico En Windows 2012 Server.](https://github.com/NoeClariNista/srd/blob/master/trim2/u6/instalacion_y_configuracion_de_servicios_de_correo_electronico_windows.md)**
 
+* **Actividad 2 [Instalación Y Configuración De Un Servidor De Correo Electrónico En Linux.](https://github.com/NoeClariNista/srd/blob/master/trim2/u6/instalacion_y_configuracion_servidor_correo_electronico_linux.md)**
+
+---
+
+## **Tema 7. Instalación Y Administración De Servicios De Mensajería Instantánea Y Listas De Distribución**
+
+* **Actividad 1. [Instalación Y Configuración De Los Servicios De Mensajería Instantánea.](https://github.com/NoeClariNista/srd/blob/master/trim2/u7/instalacion_y_configuracion_servicios_mensajeria_instantanea.md)**
+
+---
+
+## **Tema 8. Instalación Y Administración De Servicios De Streaming De Audio / Video / Multimedia **
+
+* **Actividad 1. [Instalación Y Configuración De Un Servidor Streaming Multimedia -  Windows 2012.](https://github.com/NoeClariNista/srd/blob/master/trim2/u8/instalacion_y_configuracion_servidor_streaming_multimedia.md)**
+
 ---
