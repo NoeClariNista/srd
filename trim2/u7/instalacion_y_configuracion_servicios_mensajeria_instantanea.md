@@ -1,5 +1,14 @@
 ___
 
+>Trabajo Realizado Por:
+>
+>* Noelia Hernández Domínguez.
+>
+>* Omar Hernández Padrón.
+
+---
+
+
 # **Instalación Y Configuración De Un Servidor De Mensajería Instantánea En Windows.**
 
 ---
