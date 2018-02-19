@@ -158,11 +158,11 @@ Lo primero que tenemos que hacer es invitar usuarios, lo realizamos desde el usu
 
 ![imagen052](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/052.png)
 
-Para ello vamos Contactos, agregar contacto.
+Para ello vamos a Contactos, Agregar contacto.
 
 ![imagen053](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/053.png)
 
-Agregamos a nuestros contactos al usuario `lia`.
+Agregamos a nuestros contactos el usuario `lia`.
 
 ![imagen054](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/054.png)
 
@@ -184,7 +184,7 @@ Ya tenemos a los dos usuarios agregados entre ellos.
 
 ![imagen058](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/058.png)
 
-Creamos un cuarto de conferencia e iniciamos conferencias, para ello lo creara el usuario `noe`.
+Creamos un cuarto de conferencia e iniciamos conferencias, para ello lo creará el usuario `noe`.
 
 ![imagen059](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/059.png)
 
@@ -198,7 +198,7 @@ Ya estaría el usuario `noe` dentro del cuarto de conferencia.
 
 ![imagen062](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/062.png)
 
-Añadimos al usuario `lia` al cuarto de conferencia.
+Añadimos el usuario `lia` al cuarto de conferencia.
 
 ![imagen063](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/063.png)
 
@@ -316,7 +316,7 @@ Vamos a IIS para crear un nuevo sitio web denominado sparkweb asociado a la carp
 
 ![imagen099](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/099.png)
 
-Añadimos a Documento predeterminado al `SparWeb.html`.
+Añadimos a Documento predeterminado a `SparWeb.html`.
 
 ![imagen100](./images/instalacion_y_configuracion_servicios_mensajeria_instantanea/100.png)
 
