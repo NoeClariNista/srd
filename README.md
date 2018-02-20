@@ -56,7 +56,7 @@ ___
 
 ---
 
-## **Tema 8. Instalación Y Administración De Servicios De Streaming De Audio / Video / Multimedia **
+## **Tema 8. Instalación Y Administración De Servicios De Streaming De Audio / Video / Multimedia.**
 
 * **Actividad 1. [Instalación Y Configuración De Un Servidor Streaming Multimedia -  Windows 2012.](https://github.com/NoeClariNista/srd/blob/master/trim2/u8/instalacion_y_configuracion_servidor_streaming_multimedia.md)**
 
