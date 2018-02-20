@@ -23,3 +23,37 @@ En las características de los Servicios Multimedia de uno de los sitios, examin
 Examinamos también la característica de Presentaciones de Transmisión por Secuencia Suave (Smooth Streaming) para comprobar el punto de acceso a la presentación y sus contenidos (pistas de audio / video).
 
 ---
+
+# **Instalación y Configuración de un Servidor Multimedia – Codificación de contenidos propios.**
+
+---
+
+Descargar e instalar Microsoft Expression Encoder, para su correcta ejecución debes instalar la Característica de Experiencia de Escritorio en tu servidor Windows 2012.
+
+Vamos a crear un nuevo sitio web en IIS para la emisión de una presentación multimedia en Streaming pero, en este caso, se van a utilizar contenidos propios. Asi que, en primer lugar debes contar con una serie de archivos de audio y/o video (formatos mp3, wma, avi, etc.).
+
+A continuación creamos el sitios IIS (lo podemos llamar Playlist) que estaría asociado a un registro DNS (playlist.tudominio.ext) y a una carpeta física (por ahora vacía) en cualquier lugar de tu disco duro.
+
+En este momento, vamos a realizar la codificación de los archivos multimedia que hemos elegido para que puedan emitirse en streaming (ten en cuenta que no se aceptan todos los formatos). Para ello utilizaremos la aplicación Mircosoft Expression Encoder.
+
+Al Ejecutar el codificador (Encoder) seleccionaremos la opción Proyecto de Silverlight. Luego añadiremos   los   archivos   que   nos   interesen   y   procederemos   a   codificarlos. Antes ajustaremos el directorio de salida de la codificación a la carpeta donde alojamos el sitio web Playlist.
+
+Ahora estableceremos como archivo predeterminado la página html que se ha creado en la carpeta Playlist como punto de acceso a la presentación en streaming y reiniciaremos el sitio web.
+
+Sólo nos queda comprobar en el servidor y en un cliente la correcta reproducción de nuestro Playlist.
+
+Como segunda parte de la práctica vamos a crear una segunda lista de reproducción de audio/video (Playlist2) haciendo uso de la característica Listas de Reproducción de IIS y sin utilizar Microsoft Expression Encoder.
+
+Para ello debemos crear un nuevo sitio web en IIS, lógicamente asociado a un registro DNS (URL del sitio) y a una carpeta física en disco.
+
+Antes de comenzar a crear la lista se debe modificar la configuración de Listas de Reproducción permitiendo rutas de acceso absolutas o UNC.
+
+Ahora crearemos nuestra lsita de reproducción con el nombre de archivo Playlist2 y agregando archivos multimedia con ubicación de Ruta de acceso física. Nótese que en este punto se puede decidir la capacidad que tendrá el usuario de controlar la reproducción mediante salto y búsquedas. Se debe configurar la playlist para que, en este caso, el usuario no pueda controlar la reproducción de ningún elemento.
+
+Abrir con un editor la lista de reproducción creada (archivo .isx) y examinar características y parámetros de la lista y sus elementos.
+
+Investigación en grupo → Buscar en Internet como reproducir (desde web o aplicación de
+escritorio) Listas de Reproducción isx. Si se localiza un reproductor adecuado, comprobar
+reproducción y control de la lista desde el servidor y el cliente.
+
+---
