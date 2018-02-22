@@ -6,9 +6,15 @@ ___
 
 Descargamos e instalamos IIS Media Services, soporte de Streaming para el Servidor Web IIS. Comprobamos que aparecen, tanto a nivel de Servidor como en los sitios web, las nuevas opciones de Servicios Multimedia.
 
+![imagen00](./images/instalacion_y_configuracion_servidor_streaming_multimedia/00.png)
+
 Descargamos ejemplos de emisiones multimedia codificadas para su emisión en Streaming Windows Media Samples. Descomprimimos sus contenidos en dos carpetas independientes que nos servirán para su publicación en Streaming.
 
+![imagen00](./images/instalacion_y_configuracion_servidor_streaming_multimedia/00.png)
+
 Creamos dos nuevos sitios web asociados a los contenidos multimedia descargados: `bunny.tudominio.ext` y `elephants.tudominio.ext`. Creamos previamente los registros DNS asociados. Los sitios web deben ofrecerse a través de los enlaces descritos y apuntar a las carpetas físicas donde alojamos los contenidos multimedia respectivos.
+
+![imagen00](./images/instalacion_y_configuracion_servidor_streaming_multimedia/00.png)
 
 Descargamos y descomprimimos el Cliente de reproducción SmoothMediaPlayer. Copiamos los ficheros extraídos en las carpetas de los sitios web – Streaming y editamos el fichero SmoothStreamingPlayer.html para adaptarlo a la emisión en Streaming de los contenidos de cada sitio.
 
