@@ -1,6 +1,15 @@
+
 ___
 
-# **Instalación Y Configuración De Un Servidor Multimedia – Smooth Streaming.**
+>Trabajo Realizado Por:
+>
+>* Noelia Hernández Domínguez.
+>
+>* Omar Hernández Padrón.
+
+---
+
+# **Instalación Y Configuración De Un Servidor Multimedia – Smooth Streaming En Windows 2012 Server.**
 
 ---
 
@@ -30,7 +39,7 @@ Examinamos también la característica de Presentaciones de Transmisión por Sec
 
 ---
 
-# **Instalación y Configuración de un Servidor Multimedia – Codificación de contenidos propios.**
+# **Instalación Y Configuración De Un Servidor Multimedia – Codificación De Contenidos Propios En Windows 2012 Server.**
 
 ---
 
