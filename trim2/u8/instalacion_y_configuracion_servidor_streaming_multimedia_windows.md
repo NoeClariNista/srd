@@ -8,7 +8,7 @@ ___
 
 ---
 
-# **Instalación Y Configuración De Un Servidor Multimedia – Smooth Streaming En Windows 2012 Server.**
+# **Instalación Y Configuración De Un Servidor Multimedia - Smooth Streaming En Windows 2012 Server.**
 
 ---
 
@@ -30,29 +30,41 @@ Los pasos de la instalación los realizamos como se pueden ver en las siguientes
 
 ![imagen007](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/007.png)
 
-Comprobamos que aparecen, tanto a nivel de Servidor como en los sitios web, las nuevas opciones de Servicios Multimedia.
+Vamos a Administrador del Servidor.
 
 ![imagen008](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/008.png)
 
+Ahora debemos ir Administrador de Internet Information Services (IIS).
+
 ![imagen009](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/009.png)
+
+Comprobamos que aparecen, tanto a nivel de Servidor como en los sitios web, las nuevas opciones de Servicios Multimedia.
 
 ![imagen010](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/010.png)
 
 ![imagen011](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/011.png)
 
-Descargamos ejemplos de emisiones multimedia codificadas para su emisión en Streaming Windows Media Samples. Descomprimimos sus contenidos en dos carpetas independientes que nos servirán para su publicación en Streaming.
+Descargamos ejemplos de emisiones multimedia codificadas para su emisión en Streaming Windows Media Samples.
 
 ![imagen012](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/012.png)
 
+Descomprimimos sus contenidos en dos carpetas independientes que nos servirán para su publicación en Streaming.
+
 ![imagen013](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/013.png)
 
-Creamos dos nuevos sitios web asociados a los contenidos multimedia descargados: `bunny.miempresa.com` y `elephants.miempresa.com`. Los sitios web deben ofrecerse a través de los enlaces descritos y apuntar a las carpetas físicas donde alojamos los contenidos multimedia respectivos.
+Vamos a Administrador del Servidor.
 
 ![imagen014](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/014.png)
 
+Ahora debemos ir Administrador de Internet Information Services (IIS).
+
 ![imagen015](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/015.png)
 
+Creamos dos nuevos sitios web asociados a los contenidos multimedia descargados: `bunny.miempresa.com` y `elephants.miempresa.com`. Los sitios web deben ofrecerse a través de los enlaces descritos y apuntar a las carpetas físicas donde alojamos los contenidos multimedia respectivos.
+
 ![imagen016](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/016.png)
+
+* `elephants.miempresa.com`.
 
 ![imagen017](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/017.png)
 
@@ -60,19 +72,27 @@ Creamos dos nuevos sitios web asociados a los contenidos multimedia descargados:
 
 ![imagen019](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/019.png)
 
+* `bunny.miempresa.com`.
+
 ![imagen020](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/020.png)
 
 ![imagen021](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/021.png)
 
 ![imagen022](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/022.png)
 
-Creamos previamente los registros DNS asociados.
+Vamos a Administrador del Servidor.
 
 ![imagen023](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/023.png)
 
+Ahora debemos ir a DNS.
+
 ![imagen024](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/024.png)
 
+Creamos los registros DNS asociados a los sitios web `bunny.miempresa.com` y `elephants.miempresa.com`.
+
 ![imagen025](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/025.png)
+
+* `bunny.miempresa.com`.
 
 ![imagen026](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/026.png)
 
@@ -80,13 +100,17 @@ Creamos previamente los registros DNS asociados.
 
 ![imagen028](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/028.png)
 
+* `elephants.miempresa.com`.
+
 ![imagen029](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/029.png)
 
 ![imagen030](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/030.png)
 
 ![imagen031](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/031.png)
 
-Descargamos y descomprimimos el Cliente de reproducción SmoothMediaPlayer. Copiamos los ficheros extraídos en las carpetas de los sitios web – Streaming y editamos el fichero SmoothStreamingPlayer.html para adaptarlo a la emisión en Streaming de los contenidos de cada sitio.
+Descargamos y descomprimimos el Cliente de reproducción SmoothMediaPlayer. Copiamos los ficheros extraídos en las carpetas de los sitios web – Streaming.
+
+* `bunny.miempresa.com`.
 
 ![imagen032](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/032.png)
 
@@ -98,6 +122,8 @@ Descargamos y descomprimimos el Cliente de reproducción SmoothMediaPlayer. Copi
 
 ![imagen036](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/036.png)
 
+* `elephants.miempresa.com`.
+
 ![imagen037](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/037.png)
 
 ![imagen038](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/038.png)
@@ -108,21 +134,31 @@ Descargamos y descomprimimos el Cliente de reproducción SmoothMediaPlayer. Copi
 
 ![imagen041](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/041.png)
 
-Cambiamos el navegador URL de nuestros sitios html.
+Editamos el fichero `SmoothStreamingPlayer.html` para adaptarlo a la emisión en Streaming de los contenidos de cada sitio web.
+
+* `elephants.miempresa.com`.
 
 ![imagen042](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/042.png)
+
+* `bunny.miempresa.com`.
 
 ![imagen043](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/043.png)
 
 Configuramos ambos sitios web para que accedan de forma predeterminada al archivo html anterior.
 
+* `bunny.miempresa.com`.
+
 ![imagen044](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/044.png)
+
+* `elephants.miempresa.com`.
 
 ![imagen045](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/045.png)
 
-Antes de comprobar desde un navegador tenemos que instalar Silverlight.
+Antes de comprobar desde un navegador la reproducción tenemos que instalar Silverlight.
 
 ![imagen046](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/046.png)
+
+Los pasos de la instalación los realizamos como se pueden ver en las siguientes imágenes.
 
 ![imagen047](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/047.png)
 
@@ -134,13 +170,19 @@ Antes de comprobar desde un navegador tenemos que instalar Silverlight.
 
 Comprobamos desde un navegador en el Servidor la reproducción de ambos sitios.
 
+* `elephants.miempresa.com`.
+
 ![imagen051](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/051.png)
+
+* `bunny.miempresa.com`.
 
 ![imagen052](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/052.png)
 
-antes navegador Silverlight.
+Antes de comprobar desde un navegador la reproducción tenemos que instalar Silverlight.
 
 ![imagen053](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/053.png)
+
+Los pasos de la instalación los realizamos como se pueden ver en las siguientes imágenes.
 
 ![imagen054](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/054.png)
 
@@ -152,11 +194,15 @@ antes navegador Silverlight.
 
 Comprobamos desde un navegador en una máquina Cliente la reproducción de ambos sitios.
 
+* `bunny.miempresa.com`.
+
 ![imagen058](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/058.png)
+
+* `elephants.miempresa.com`.
 
 ![imagen059](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/059.png)
 
-En las características de los Servicios Multimedia de uno de los sitios, examinamos la Limitación de Velocidad de Bits. Incluimos un comentario sobre su significado en el informe.
+En las características de los Servicios Multimedia de uno de los sitios, examinamos la Limitación de Velocidad de Bits.
 
 ![imagen060](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/060.png)
 
@@ -170,13 +216,15 @@ Examinamos también la característica de Presentaciones de Transmisión por Sec
 
 ---
 
-# **Instalación Y Configuración De Un Servidor Multimedia – Codificación De Contenidos Propios En Windows 2012 Server.**
+# **Instalación Y Configuración De Un Servidor Multimedia - Codificación De Contenidos Propios En Windows 2012 Server.**
 
 ---
 
 Descargamos e instalamos Microsoft Expression Encoder.
 
 ![imagen064](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/064.png)
+
+Los pasos de la instalación los realizamos como se pueden ver en las siguientes imágenes.
 
 ![imagen065](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/065.png)
 
@@ -190,11 +238,17 @@ Descargamos e instalamos Microsoft Expression Encoder.
 
 ![imagen070](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/070.png)
 
-Para su correcta ejecución debes instalar la Característica de Experiencia de Escritorio en tu servidor Windows 2012.
+Para su correcta ejecución debemos instalar la Característica de Experiencia de Escritorio en mi Servidor Windows 2012.
+
+Lo primero que tenemos que hacer es ir a Administrador del Servidor.
 
 ![imagen071](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/071.png)
 
+Luego tenemos que ir a Administrar y vamos a Agregar roles y características.
+
 ![imagen072](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/072.png)
+
+El resto de pasos los realizamos como se pueden ver en las imágenes.
 
 ![imagen073](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/073.png)
 
@@ -212,17 +266,25 @@ Para su correcta ejecución debes instalar la Característica de Experiencia de 
 
 ![imagen080](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/080.png)
 
+Finalmente terminamos la instalación de la Característica de Experiencia de Escritorio en mi Servidor Windows 2012.
+
 ![imagen081](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/081.png)
+
+Reiniciamos la máquina virtual para completar la instalación de la característica anteriormente instalada.
 
 ![imagen082](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/082.png)
 
-Vamos a crear un nuevo sitio web en IIS para la emisión de una presentación multimedia en Streaming pero, en este caso, se van a utilizar contenidos propios. Asi que, en primer lugar debes contar con una serie de archivos de audio y/o video (formatos mp3, wma, avi, etc.).
+Vamos a crear un nuevo sitio web en IIS para la emisión de una presentación multimedia en Streaming pero, en este caso, se van a utilizar contenidos propios. Así que, en primer lugar debemos contar con una serie de archivos de audio y/o video (formatos mp3, wma, avi).
+
+A continuación creamos el sitios IIS (lo podemos llamar Playlist) que estaría asociado a un registro DNS (playlist.tudominio.ext) y a una carpeta física (por ahora vacía) en cualquier lugar de nuestro disco duro.
+
+* Carpeta física.
 
 ![imagen083](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/083.png)
 
 ![imagen084](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/084.png)
 
-A continuación creamos el sitios IIS (lo podemos llamar Playlist) que estaría asociado a un registro DNS (playlist.tudominio.ext) y a una carpeta física (por ahora vacía) en cualquier lugar de tu disco duro.
+* Sitios IIS.
 
 ![imagen085](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/085.png)
 
@@ -235,6 +297,8 @@ A continuación creamos el sitios IIS (lo podemos llamar Playlist) que estaría 
 ![imagen089](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/089.png)
 
 ![imagen090](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/090.png)
+
+* DNS.
 
 ![imagen091](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/091.png)
 
