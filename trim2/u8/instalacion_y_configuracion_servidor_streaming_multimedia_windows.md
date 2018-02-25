@@ -108,7 +108,7 @@ Creamos los registros DNS asociados a los sitios web `bunny.miempresa.com` y `el
 
 ![imagen031](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/031.png)
 
-Descargamos y descomprimimos el Cliente de reproducción SmoothMediaPlayer. Copiamos los ficheros extraídos en las carpetas de los sitios web – Streaming.
+Descargamos y descomprimimos el Cliente de reproducción SmoothMediaPlayer. Copiamos los ficheros extraídos en las carpetas de los sitios web - Streaming.
 
 * `bunny.miempresa.com`.
 
@@ -238,7 +238,7 @@ Los pasos de la instalación los realizamos como se pueden ver en las siguientes
 
 ![imagen070](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/070.png)
 
-Para su correcta ejecución debemos instalar la Característica de Experiencia de Escritorio en mi Servidor Windows 2012.
+Para su correcta ejecución debemos instalar la Característica de Experiencia de Escritorio en nuestro Servidor Windows 2012.
 
 Lo primero que tenemos que hacer es ir a Administrador del Servidor.
 
@@ -266,7 +266,7 @@ El resto de pasos los realizamos como se pueden ver en las imágenes.
 
 ![imagen080](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/080.png)
 
-Finalmente terminamos la instalación de la Característica de Experiencia de Escritorio en mi Servidor Windows 2012.
+Finalmente terminamos la instalación de la Característica de Experiencia de Escritorio en nuestro Servidor Windows 2012.
 
 ![imagen081](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/081.png)
 
@@ -276,7 +276,7 @@ Reiniciamos la máquina virtual para completar la instalación de la caracterís
 
 Vamos a crear un nuevo sitio web en IIS para la emisión de una presentación multimedia en Streaming pero, en este caso, se van a utilizar contenidos propios. Así que, en primer lugar debemos contar con una serie de archivos de audio y/o video (formatos mp3, wma, avi).
 
-A continuación creamos el sitios IIS (lo podemos llamar Playlist) que estaría asociado a un registro DNS (playlist.tudominio.ext) y a una carpeta física (por ahora vacía) en cualquier lugar de nuestro disco duro.
+A continuación creamos el sitios IIS, lo podemos llamar Playlist, que estaría asociado a un registro DNS `playlist.miempresa.com` y a una carpeta física, por ahora vacía, en cualquier lugar de nuestro disco duro.
 
 * Carpeta física.
 
@@ -286,9 +286,15 @@ A continuación creamos el sitios IIS (lo podemos llamar Playlist) que estaría 
 
 * Sitios IIS.
 
+Vamos a Administrador del Servidor.
+
 ![imagen085](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/085.png)
 
+Ahora debemos ir Administrador de Internet Information Services (IIS).
+
 ![imagen086](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/086.png)
+
+Creamos un nuevo sitio web asociado a `playlist.miempresa.com`.
 
 ![imagen087](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/087.png)
 
@@ -300,9 +306,15 @@ A continuación creamos el sitios IIS (lo podemos llamar Playlist) que estaría 
 
 * DNS.
 
+Vamos a Administrador del Servidor.
+
 ![imagen091](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/091.png)
 
+Ahora debemos ir a DNS.
+
 ![imagen092](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/092.png)
+
+Creamos el registro DNS asociados al sitio web `playlist.miempresa.com`.
 
 ![imagen093](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/093.png)
 
@@ -312,11 +324,13 @@ A continuación creamos el sitios IIS (lo podemos llamar Playlist) que estaría 
 
 ![imagen096](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/096.png)
 
-En este momento, vamos a realizar la codificación de los archivos multimedia que hemos elegido para que puedan emitirse en streaming. Para ello utilizaremos la aplicación Mircosoft Expression Encoder.
+En este momento, vamos a realizar la codificación de los archivos multimedia que hemos elegido para que puedan emitirse en Streaming. Para ello utilizaremos la aplicación Microsoft Expression Encoder.
 
-Al Ejecutar el codificador (Encoder) seleccionaremos la opción Proyecto de Silverlight. Luego añadiremos los archivos que nos interesen y procederemos a codificarlos. Antes ajustaremos el directorio de salida de la codificación a la carpeta donde alojamos el sitio web Playlist.
+Al Ejecutar el codificador (Encoder) seleccionaremos la opción Proyecto de Silverlight.
 
 ![imagen097](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/097.png)
+
+Luego añadiremos los archivos que nos interesen y procederemos a codificarlos. Antes ajustaremos el directorio de salida de la codificación a la carpeta donde alojamos el sitio web Playlist.
 
 ![imagen098](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/098.png)
 
@@ -324,15 +338,19 @@ Al Ejecutar el codificador (Encoder) seleccionaremos la opción Proyecto de Silv
 
 ![imagen100](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/100.png)
 
-Ahora estableceremos como archivo predeterminado la página html que se ha creado en la carpeta Playlist como punto de acceso a la presentación en streaming y reiniciaremos el sitio web.
+Ahora estableceremos como archivo predeterminado la página html que se ha creado en la carpeta Playlist como punto de acceso a la presentación en Streaming y reiniciaremos el sitio web.
 
 ![imagen101](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/101.png)
 
-Sólo nos queda comprobar en el servidor y en un cliente la correcta reproducción de nuestro Playlist.
+Sólo nos queda comprobar en el Servidor y en un Cliente la correcta reproducción de nuestro Playlist.
+
+* Servidor.
 
 ![imagen102](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/102.png)
 
 ![imagen103](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/103.png)
+
+* Cliente.
 
 ![imagen104](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/104.png)
 
