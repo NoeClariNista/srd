@@ -46,7 +46,7 @@ Descargamos ejemplos de emisiones multimedia codificadas para su emisión en Str
 
 ![imagen013](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/013.png)
 
-Creamos dos nuevos sitios web asociados a los contenidos multimedia descargados: `bunny.tudominio.ext` y `elephants.tudominio.ext`. Los sitios web deben ofrecerse a través de los enlaces descritos y apuntar a las carpetas físicas donde alojamos los contenidos multimedia respectivos.
+Creamos dos nuevos sitios web asociados a los contenidos multimedia descargados: `bunny.miempresa.com` y `elephants.miempresa.com`. Los sitios web deben ofrecerse a través de los enlaces descritos y apuntar a las carpetas físicas donde alojamos los contenidos multimedia respectivos.
 
 ![imagen014](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/014.png)
 
@@ -262,11 +262,13 @@ Al Ejecutar el codificador (Encoder) seleccionaremos la opción Proyecto de Silv
 
 Ahora estableceremos como archivo predeterminado la página html que se ha creado en la carpeta Playlist como punto de acceso a la presentación en streaming y reiniciaremos el sitio web.
 
+![imagen101](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/101.png)
+
+Sólo nos queda comprobar en el servidor y en un cliente la correcta reproducción de nuestro Playlist.
+
 ![imagen102](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/102.png)
 
 ![imagen103](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/103.png)
-
-Sólo nos queda comprobar en el servidor y en un cliente la correcta reproducción de nuestro Playlist.
 
 ![imagen104](./images/instalacion_y_configuracion_servidor_streaming_multimedia_windows/104.png)
 
