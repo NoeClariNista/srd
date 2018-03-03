@@ -1,55 +1,21 @@
 ___
 
-# **Instalación Y Configuración Del Servicio VoIP En Windows 2012 Server.**
+# **Instalación Y Configuración Del Servicio VoIP En Linux.**
 
 ---
 
-Instalar y configurar un servidor y un cliente para establecer comunicaciones de voz mediante el servicio VoIP (Voice Over Internet Protocol) sobre sistemas Windows.
+Instalar y configurar un servidor y un cliente para establecer comunicaciones de voz mediante el servicio VoIP sobre sistemas Linux:
 
-* Servidor (W2012): Registrarse, descargar e instalar el software para central PBX 3CX Phone System (http://www.3cx.es/) y el SIP softphone 3CX Phone.
+• Servidor: Descargar e instalar el PBX open source Asterisk
+(http://www.asterisk.org/) y el gestor de mantenimiento web para Asterisk
+FreePBX (http://www.freepbx.org/).
 
-* Para la instalación del servidor PBX se necesita .NET Framework 4.5 y seguir los pasos seleccionando la opción de servidor que consideres adecuada e IIS como servidor web asociado al panel de control de 3CX.
+• Cliente: Descargar e instalar software SIP softphone adecuado para realizar llamadas utilizando la central PBX Asterisk instalada. Utilizar 3CX Phone para sistemas Windows e investigar sobre software adecuado para sistemas Linux (por ejemplo: Ekiga, http://ekiga.org/).
 
-* Comprobar  en  IIS  el  sitio  web  asociado  al  panel  de  control  de  3CX  Phone  System.  Iniciar  dicho  panel  de  control  y  realizar  las  siguientes  acciones   de configuración:
+• Servidor: Siguiendo las prácticas propuestas en las fotocopias, realizar la instalación y configuración completa del servidor PBX Asterisk y crear, al menos, dos extensiones correspondientes a dos usuarios con toda su información. Configurar los datos de la central PBX y de los usuarios a través de FreePBX.
 
+• Servidor y Cliente: Realizar la instalación y configuración completa del Softphone y de la app Stmartphone siguiendo los enlaces y manuales tanto en el servidor como en el cliente con el fin de establecer una comunicación interna de voz entre los usuarios. Crear las cuentas correspondientes a los usuarios en cada terminal.
 
-o
-Seleccionar extensiones de 3 dígitos y configuración regional adecuada.
-o
-Configurar los datos del usuario operador.
-o
-Seleccionar países con los que se podrá establecer comunicación.
-o
-Comprobar funcionamiento correcto entrada DNS.
-o
-Crear,   al   menos,
-tres
-   extensiones   correspondientes   a   diferentes
-usuarios con toda su información.
-o
-Investigar
- acceso desde Smartphone apps a través de
- PUSH.
-•
-Cliente
-PC
-(W7  o  similar):  Descargar  e  instalar  el  software  SIP  softphone  3CX  
-Phone
- for Windows
-.
-•
-Cliente Smartphone
-: Descargar e instalar app 3CX Phone o similar.
-•
-Servidor  y  Clientes:  Realizar  la  instalación  y  configuración  completa  del  3CX  
-Phone
-  siguiendo  las  los  enlaces  y  manuales  tanto  en  el  servidor  como  en  
-los
-cliente
-s  con  el  fin  de  establecer  una  comunicación  interna  de  voz  entre  los  
-usuarios.  Crear las cuentas correspondientes a los usuarios en cada terminal.
-•
-Efectuar   llamadas   entre   los   usuarios   correspondientes   a   las   extensiones   
-creadas en el servidor. Efectuar pruebas con las diferentes opciones existentes:
-dejar   mensajes   en   contestador,   escuchar   los   mensajes,   contactar   con   el   
-operador, etc.
+• Efectuar llamadas entre los usuarios correspondientes a las extensiones creadas en el servidor. Efectuar pruebas con las diferentes opciones existentes.
+
+---
