@@ -66,40 +66,34 @@ Reiniciamos el Servicio de Icecast2.
 
 ![imagen17](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/17.png)
 
-Procedemos a acceder al entorno web de información y administración de nuestro Servidor de audio Icecast, a través del `localhost` del Servidor y el puerto configurado anteriormente (8000). Accedemos con el nombre de usuario y contraseña que establecimos en la configuración.
+Procedemos a acceder al entorno web de información y administración de nuestro Servidor de audio Icecast, a través del `localhost` del Servidor y el puerto configurado anteriormente (8000).
 
 ![imagen18](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/18.png)
 
+Accedemos con el nombre de usuario y contraseña que establecimos en la configuración.
+
 ![imagen19](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/19.png)
 
-Comprobamos estado del servicio, configuración y propiedades.
+Comprobamos estado del Servicio, configuración y propiedades.
 
 ![imagen20](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/20.png)
 
-Accedemos vía web a la lista de montaje desde el propio Servidor.
+Accedemos vía web a la lista del punto de montaje desde el propio Servidor.
 
 ![imagen21](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/21.png)
 
-Ejecutamos el codificador en background con el comando $ ices2 `/etc/ices2/ices-playlist.xml` &.
+Ejecutamos el codificador en background con el comando ices2 `/etc/ices2/ices-playlist.xml` &.
 
 ![imagen22](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/22.png)
 
-Comprobamos asimismo el punto de montaje asociado a la lista de reproducción creada y propiedades.
+Comprobamos el punto de montaje asociado a la lista de reproducción creada y propiedades.
 
 ![imagen23](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/23.png)
 
 ![imagen24](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/24.png)
 
-Accedemos desde un posible Cliente Linux, a través de un navegador, tanto al entorno de administración como a la reproducción de la lista.
+Accedemos desde un posible Cliente Linux, a través de un navegador, a la reproducción de la lista.
 
 ![imagen25](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/25.png)
-
-![imagen26](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/26.png)
-
-Tratamos de realizar una reproducción del Streaming de audio creado utilizando un software reproductor multimedia desde el Cliente.
-
-![imagen27](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/27.png)
-
-![imagen28](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/28.png)
 
 ---
