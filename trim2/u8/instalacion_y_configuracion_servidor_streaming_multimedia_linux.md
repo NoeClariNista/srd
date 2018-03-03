@@ -74,7 +74,7 @@ Accedemos con el nombre de usuario y contraseña que establecimos en la configur
 
 ![imagen19](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/19.png)
 
-Comprobamos estado del Servicio, configuración y propiedades.
+Comprobamos el estado del Servicio, la configuración y las propiedades.
 
 ![imagen20](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/20.png)
 
@@ -86,13 +86,13 @@ Ejecutamos el codificador en background con el comando ices2 `/etc/ices2/ices-pl
 
 ![imagen22](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/22.png)
 
-Comprobamos el punto de montaje asociado a la lista de reproducción creada y propiedades.
+Comprobamos el punto de montaje asociado a la lista de reproducción creada y sus propiedades.
 
 ![imagen23](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/23.png)
 
 ![imagen24](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/24.png)
 
-Accedemos desde un posible Cliente Linux, a través de un navegador, a la reproducción de la lista.
+Accedemos desde un Cliente Linux, a través de un navegador, a la reproducción de la lista.
 
 ![imagen25](./images/instalacion_y_configuracion_servidor_streaming_multimedia_linux/25.png)
 
