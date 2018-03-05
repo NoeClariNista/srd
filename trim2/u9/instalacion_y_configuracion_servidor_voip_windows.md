@@ -12,11 +12,11 @@ ___
 
 ---
 
-Instalamos y configuramos un Servidor y un Cliente para establecer comunicaciones de voz mediante el Servicio VoIP (Voice Over Internet Protocol) sobre sistemas Windows.
+Instalamos y configuramos un Servidor y un Cliente para establecer comunicaciones de Voz mediante el Servicio VoIP (Voice Over Internet Protocol) sobre sistemas Windows.
 
 En el Servidor nos registramos, descargamos e instalamos el software para central PBX 3CX Phone System.
 
-Vamos a la página oficial de [3xc](http://www.3cx.es
+Vamos a la página oficial de [3xc](http://www.3cx.es)
 
 ![imagen01](./images/instalacion_y_configuracion_servidor_voip_windows/01.png)
 
