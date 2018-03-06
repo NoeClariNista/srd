@@ -16,7 +16,7 @@ Instalamos y configuramos un Servidor y un Cliente para establecer comunicacione
 
 En el Servidor nos registramos, descargamos e instalamos el software para central PBX 3CX Phone System.
 
-Vamos a la página oficial de [3xc](http://www.3cx.es)
+Vamos a la página oficial de [3xc](http://www.3cx.es).
 
 ![imagen01](./images/instalacion_y_configuracion_servidor_voip_windows/01.png)
 
@@ -50,7 +50,7 @@ Los pasos de la instalación los realizamos como se pueden ver en las siguientes
 
 ![imagen11](./images/instalacion_y_configuracion_servidor_voip_windows/11.png)
 
-Reiniciamos la máquina virtual para poder completar la instalación de .NET Framework.
+Reiniciamos la máquina virtual para poder completar la instalación de .NET Framework 4.6.1.
 
 ![imagen12](./images/instalacion_y_configuracion_servidor_voip_windows/12.png)
 
@@ -248,8 +248,7 @@ Los pasos de la instalación los realizamos como se pueden ver en las siguientes
 
 ![imagen76](./images/instalacion_y_configuracion_servidor_voip_windows/76.png)
 
-* Servidor  y  Clientes:  Realizar  la  instalación  y  configuración  completa  del  3CX Phone   siguiendo  las  los  enlaces  y  manuales  tanto  en  el  servidor  como  en   los clientes  con  el  fin  de  establecer  una  comunicación  interna  de  voz  entre  los  
-usuarios.  Crear las cuentas correspondientes a los usuarios en cada terminal.
+En el Servidor creamos un nuevo perfil y lo configuramos adecuadamente con los datos de un usuario que creamos en el panel de control, en este caso, lia.
 
 ![imagen77](./images/instalacion_y_configuracion_servidor_voip_windows/77.png)
 
@@ -261,7 +260,11 @@ usuarios.  Crear las cuentas correspondientes a los usuarios en cada terminal.
 
 ![imagen81](./images/instalacion_y_configuracion_servidor_voip_windows/81.png)
 
+Vemos que se conecta adecuadamente.
+
 ![imagen82](./images/instalacion_y_configuracion_servidor_voip_windows/82.png)
+
+En el Cliente creamos un nuevo perfil y lo configuramos adecuadamente con los datos de un usuario que creamos en el panel de control, en este caso, noe.
 
 ![imagen83](./images/instalacion_y_configuracion_servidor_voip_windows/83.png)
 
@@ -272,6 +275,8 @@ usuarios.  Crear las cuentas correspondientes a los usuarios en cada terminal.
 ![imagen86](./images/instalacion_y_configuracion_servidor_voip_windows/86.png)
 
 ![imagen87](./images/instalacion_y_configuracion_servidor_voip_windows/87.png)
+
+Vemos que se conecta adecuadamente.
 
 ![imagen88](./images/instalacion_y_configuracion_servidor_voip_windows/88.png)
 
